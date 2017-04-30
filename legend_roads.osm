@@ -110,7 +110,7 @@
     <nd ref='9100000064' />
     <nd ref='9100000063' />
     <tag k='highway' v='unclassified' />
-    <tag k='name' v='Unclassified, gravel' />
+    <tag k='name' v='Unclassified, unpaved' />
     <tag k='surface' v='gravel' />
   </way>
   <way id='9200000071' timestamp='2017-04-30T10:50:38Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101464'>
@@ -209,7 +209,7 @@
   <way id='9200005002' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100005002' />
     <nd ref='9100005003' />
-    <tag k='designation' v='public_footpath' />
+    <tag k='designation' v='public_bridleway' />
     <tag k='highway' v='bridleway' />
     <tag k='name' v='Public Bridleway' />
   </way>

@@ -27,6 +27,9 @@
   <node id='9100000082' timestamp='2017-04-30T10:53:10Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101464' lat='-24.9931' lon='135.016' />
   <node id='9100000083' timestamp='2017-04-30T10:53:10Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101464' lat='-24.9931' lon='135.021' />
   <node id='9100000084' timestamp='2017-04-30T10:53:10Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101464' lat='-24.9931' lon='135.025' />
+  <node id='9100000091' timestamp='2017-04-30T10:53:10Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101464' lat='-24.9940' lon='135.011' />
+  <node id='9100000092' timestamp='2017-04-30T10:53:10Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101464' lat='-24.9940' lon='135.016' />
+  <node id='9100000093' timestamp='2017-04-30T10:53:10Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101464' lat='-24.9940' lon='135.025' />
   <node id='9100001001' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9868' lon='135.026' />
   <node id='9100001002' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9868' lon='135.035' />
   <node id='9100002001' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9877' lon='135.026' />
@@ -130,7 +133,7 @@
     <nd ref='9100000073' />
     <nd ref='9100000074' />
     <tag k='highway' v='residential' />
-    <tag k='name' v='Residential, gravel' />
+    <tag k='name' v='Residential, unpaved' />
     <tag k='surface' v='gravel' />
   </way>
   <way id='9200000081' timestamp='2017-04-30T10:53:10Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101464'>
@@ -152,6 +155,20 @@
     <tag k='highway' v='living_street' />
     <tag k='name' v='Living Street' />
     <tag k='surface' v='gravel' />
+  </way>
+  <way id='9200000091' timestamp='2017-04-30T10:53:10Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101464'>
+    <nd ref='9100000091' />
+    <nd ref='9100000092' />
+    <tag k='highway' v='service' />
+    <tag k='name' v='Service Road' />
+    <tag k='sidewalk' v='both' />
+  </way>
+  <way id='9200000092' timestamp='2017-04-30T10:53:10Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101464'>
+    <nd ref='9100000092' />
+    <nd ref='9100000093' />
+    <tag k='highway' v='service' />
+    <tag k='name' v='Service Road' />
+    <tag k='sidewalk' v='none' />
   </way>
   <way id='9200001001' timestamp='2017-04-30T10:29:40Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101463'>
     <nd ref='9100001001' />

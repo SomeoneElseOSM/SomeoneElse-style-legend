@@ -58,6 +58,10 @@
   <node id='9100006002' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9950' lon='135.055' />
   <node id='9100006003' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9950' lon='135.065' />
   <node id='9100006004' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9950' lon='135.075' />
+  <node id='9100007001' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9970' lon='135.045' />
+  <node id='9100007002' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9970' lon='135.055' />
+  <node id='9100007003' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9970' lon='135.065' />
+  <node id='9100007004' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9970' lon='135.075' />
   <way id='9200000011' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100000011' />
     <nd ref='9100000015' />
@@ -318,4 +322,32 @@
     <tag k='highway' v='steps' />
     <tag k='name' v='Public Footpath up steps' />
   </way>
+  <way id='9200007001' timestamp='2017-04-30T10:43:54Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101464'>
+    <nd ref='9100007001' />
+    <nd ref='9100007002' />
+    <tag k='designation' v='public_footpath' />
+    <tag k='highway' v='footway' />
+    <tag k='name' v='footpath' />
+  </way>
+  <way id='9200007002' timestamp='2017-04-30T10:43:54Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101464'>
+    <nd ref='9100007002' />
+    <nd ref='9100007003' />
+    <tag k='highway' v='service' />
+    <tag k='name' v='service' />
+  </way>
+  <way id='9200007003' timestamp='2017-04-30T10:43:54Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101464'>
+    <nd ref='9100007003' />
+    <nd ref='9100007004' />
+    <tag k='designation' v='public_bridleway' />
+    <tag k='highway' v='track' />
+    <tag k='name' v='bridleway' />
+  </way>
+  <relation id='9300007001' timestamp='2017-04-30T10:43:54Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101464'>
+    <member type="way" ref='9200007001' />
+    <member type="way" ref='9200007002' />
+    <member type="way" ref='9200007003' />
+    <tag k='name' v='Walking Route' />
+    <tag k='network' v='nwn' />
+    <tag k='type' v='route' />
+  </relation>
 </osm>

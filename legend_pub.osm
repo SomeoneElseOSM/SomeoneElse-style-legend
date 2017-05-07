@@ -34,4 +34,158 @@
   </node>
   <node id="9110000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9850" lon="135.092">
   </node>
+  <node id="9120000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9870" lon="135.080">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="name" v="Generic Fast Food"/>
+  </node>
+  <node id="9120000002" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9870" lon="135.082">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="fish_and_chips"/>
+    <tag k="name" v="Fish and Chips"/>
+  </node>
+  <node id="9120000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9870" lon="135.084">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="name" v="Pizza"/>
+  </node>
+  <node id="9120000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9870" lon="135.086">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="chinese"/>
+    <tag k="name" v="Chinese"/>
+  </node>
+  <node id="9120000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9870" lon="135.088">
+  </node>
+  <node id="9130000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9890" lon="135.080">
+    <tag k="shop" v="yes"/>
+    <tag k="name" v="Generic Shop"/>
+  </node>
+  <node id="9130000002" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9890" lon="135.082">
+    <tag k="shop" v="convenience"/>
+    <tag k="name" v="Convenience, Kiosk, Newsagent, Food"/>
+  </node>
+  <node id="9130000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9890" lon="135.084">
+    <tag k="shop" v="supermarket"/>
+    <tag k="name" v="Supermarket, Variety"/>
+  </node>
+  <node id="9130000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9890" lon="135.086">
+    <tag k="shop" v="clothes"/>
+    <tag k="name" v="Clothes, Shoes, Boutique, Tailor, Fashion, Baby Goods"/>
+  </node>
+  <node id="9130000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9890" lon="135.088">
+    <tag k="shop" v="hairdresser"/>
+    <tag k="name" v="Hairdresser"/>
+  </node>
+  <node id="9130000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9890" lon="135.090">
+    <tag k="shop" v="bakery"/>
+    <tag k="name" v="Bakery"/>
+  </node>
+  <node id="9130000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9890" lon="135.092">
+    <tag k="shop" v="car_repair"/>
+    <tag k="name" v="Car Repair"/>
+  </node>
+  <node id="9130000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9890" lon="135.094">
+    <tag k="shop" v="car"/>
+    <tag k="name" v="Car"/>
+  </node>
+  <node id="9130000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9890" lon="135.096">
+    <tag k="shop" v="butcher"/>
+    <tag k="name" v="Butcher"/>
+  </node>
+  <node id="9130000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9890" lon="135.098">
+    <tag k="shop" v="florist"/>
+    <tag k="name" v="Florist"/>
+  </node>
+  <node id="9130000011" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9890" lon="135.100">
+    <tag k="shop" v="doityourself"/>
+    <tag k="name" v="Do-It-Yourself, Hardware"/>
+  </node>
+  <node id="9130000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9890" lon="135.102">
+    <tag k="shop" v="electrical"/>
+    <tag k="name" v="Electronics, Electrical"/>
+  </node>
+  <node id="9130000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9890" lon="135.104">
+    <tag k="shop" v="bicycle"/>
+    <tag k="name" v="Bicycle"/>
+  </node>
+  <node id="9130000014" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9890" lon="135.106">
+    <tag k="shop" v="jewellery"/>
+    <tag k="name" v="Jewellery, Watches"/>
+  </node>
+  <node id="9130000015" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9890" lon="135.108">
+    <tag k="shop" v="department_store"/>
+    <tag k="name" v="Department Store"/>
+  </node>
+  <node id="9130000016" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9890" lon="135.110">
+    <tag k="shop" v="greengrocer"/>
+    <tag k="name" v="Greengrocer"/>
+  </node>
+  <node id="9130000017" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9890" lon="135.112">
+    <tag k="shop" v="sports"/>
+    <tag k="name" v="Sports, Fishing, Scuba Diving"/>
+  </node>
+  <node id="9130000018" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9890" lon="135.114">
+    <tag k="shop" v="garden_centre"/>
+    <tag k="name" v="Garden Centre"/>
+  </node>
+  <node id="9130000019" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9890" lon="135.116">
+    <tag k="shop" v="outdoor"/>
+    <tag k="name" v="Outdoor"/>
+  </node>
+  <node id="9130000020" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9890" lon="135.118">
+    <tag k="shop" v="pawnbroker"/>
+    <tag k="name" v="Pawnbroker, Money Lender"/>
+  </node>
+  <node id="9130000021" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9890" lon="135.120">
+    <tag k="shop" v="estate_agent"/>
+    <tag k="name" v="Estate Agent"/>
+  </node>
+  <node id="9130000022" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9890" lon="135.122">
+    <tag k="shop" v="charity"/>
+    <tag k="name" v="Charity"/>
+  </node>
+  <node id="9130000023" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9890" lon="135.124">
+    <tag k="shop" v="antiques"/>
+    <tag k="name" v="Antiques"/>
+  </node>
+  <node id="9130000024" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9890" lon="135.126">
+    <tag k="shop" v="e-cigarette"/>
+    <tag k="name" v="E-Cigarette"/>
+  </node>
+  <node id="9130000025" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9890" lon="135.128">
+  </node>
+  <node id="9140000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9910" lon="135.080">
+    <tag k="shop" v="vacant"/>
+  </node>
+  <node id="9140000002" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9910" lon="135.082">
+    <tag k="shop" v="optician"/>
+    <tag k="name" v="Optician, Medical Supply, Hearing Aids"/>
+  </node>
+  <node id="9140000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9910" lon="135.084">
+    <tag k="office" v="yes"/>
+    <tag k="name" v="Office"/>
+  </node>
+  <node id="9140000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9910" lon="135.086">
+    <tag k="leisure" v="fitness_centre"/>
+    <tag k="name" v="Various Leisure"/>
+  </node>
+  <node id="9150000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9930" lon="135.080">
+    <tag k="amenity" v="doctors"/>
+    <tag k="name" v="Doctors"/>
+  </node>
+  <node id="9150000002" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9930" lon="135.082">
+    <tag k="amenity" v="dentist"/>
+    <tag k="name" v="Dentist"/>
+  </node>
+  <node id="9150000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9930" lon="135.084">
+    <tag k="amenity" v="hospital"/>
+    <tag k="name" v="Hospital"/>
+  </node>
+  <node id="9150000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9930" lon="135.086">
+    <tag k="amenity" v="pharmacy"/>
+    <tag k="name" v="pharmacy"/>
+  </node>
+  <node id="9160000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9950" lon="135.080">
+    <tag k="amenity" v="bank"/>
+    <tag k="name" v="Bank"/>
+  </node>
 </osm>

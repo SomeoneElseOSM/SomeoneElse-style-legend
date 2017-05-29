@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <osm version='0.6' generator='JOSM'>
   <bounds minlat='-24.9924206' minlon='135.0099529' maxlat='-24.985501' maxlon='135.0229846' origin='CGImap 0.6.0 (17096 thorn-02.openstreetmap.org)' />
-  <bounds minlat='-24.9924206' minlon='135.0099529' maxlat='-24.985501' maxlon='135.0229846' origin='OpenStreetMap server' />
-  <bounds minlat='-24.9932085' minlon='135.0098533' maxlat='-24.9847226' maxlon='135.0230947' origin='OpenStreetMap server' />
   <node id='9100000011' timestamp='2017-04-30T10:29:40Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101463' lat='-24.9850' lon='135.000' />
   <node id='9100000015' timestamp='2017-04-30T10:29:40Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101463' lat='-24.9850' lon='135.040' />
   <node id='9100000021' timestamp='2017-04-30T10:43:54Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101464' lat='-24.9870' lon='135.000' />
@@ -572,9 +570,9 @@
     <tag k='highway' v='unclassified' />
   </way>
   <relation id='9300007001' timestamp='2017-04-30T10:43:54Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101464'>
-    <member type="way" ref='9200007001' />
-    <member type="way" ref='9200007002' />
-    <member type="way" ref='9200007003' />
+    <member type="way" ref='9200007001' role='' />
+    <member type="way" ref='9200007002' role='' />
+    <member type="way" ref='9200007003' role='' />
     <tag k='name' v='Walking Route' />
     <tag k='network' v='nwn' />
     <tag k='type' v='route' />

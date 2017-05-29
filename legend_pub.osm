@@ -182,6 +182,10 @@
     <tag k="amenity" v="fuel"/>
     <tag k="name" v="Fuel"/>
   </node>
+  <node id="9130000027" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9870" lon="135.106">
+    <tag k="shop" v="funeral_directors"/>
+    <tag k="name" v="Funerals, Stonemasons, etc."/>
+  </node>
   <node id="9140000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9880" lon="135.080">
     <tag k="shop" v="vacant"/>
   </node>

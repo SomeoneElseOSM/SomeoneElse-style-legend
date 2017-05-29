@@ -69,7 +69,7 @@
   </node>
   <node id='9100000124' timestamp='2017-04-30T10:53:10Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101464' lat='-25.0048' lon='135.035'>
     <tag k='place' v='locality' />
-    <tag k='name' v='Light Rail' />
+    <tag k='name' v='Monorail' />
   </node>
   <node id='9100000131' timestamp='2017-04-30T10:53:10Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101464' lat='-25.0050' lon='135.000' />
   <node id='9100000132' timestamp='2017-04-30T10:53:10Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101464' lat='-25.0050' lon='135.010' />
@@ -378,8 +378,8 @@
     <tag k='name' v='Abandoned' />
   </way>
   <way id='9200000153' timestamp='2017-04-30T10:53:10Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101464'>
-    <nd ref='9100000133' />
-    <nd ref='9100000134' />
+    <nd ref='9100000153' />
+    <nd ref='9100000154' />
     <tag k='railway' v='construction' />
     <tag k='name' v='Construction' />
   </way>

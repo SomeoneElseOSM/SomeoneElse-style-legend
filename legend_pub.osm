@@ -27,12 +27,16 @@
   </node>
   <node id="9110000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9850" lon="135.085">
     <tag k="amenity" v="pub"/>
+    <tag k="name" v="Microbrewery"/>
+    <tag k="microbrewery" v="yes"/>
+  </node>
+  <node id="9110000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9850" lon="135.086">
+    <tag k="amenity" v="pub"/>
     <tag k="name" v="Combination"/>
     <tag k="real_ale" v="An interesting selection"/>
     <tag k="food" v="Some sort of description"/>
+    <tag k="microbrewery" v="yes"/>
     <tag k="description:floor" v="Tiles or stone"/>
-  </node>
-  <node id="9110000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9850" lon="135.086">
   </node>
   <node id="9120000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9860" lon="135.080">
     <tag k="amenity" v="fast_food"/>

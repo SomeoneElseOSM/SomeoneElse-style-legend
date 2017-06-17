@@ -44,43 +44,58 @@
   </node>
   <node id="9120000002" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9860" lon="135.081">
     <tag k="amenity" v="fast_food"/>
-    <tag k="cuisine" v="fish_and_chips"/>
-    <tag k="name" v="Fish and Chips"/>
+    <tag k="cuisine" v="burger"/>
+    <tag k="name" v="American, Burger"/>
   </node>
   <node id="9120000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9860" lon="135.082">
-    <tag k="amenity" v="fast_food"/>
-    <tag k="cuisine" v="pizza"/>
-    <tag k="name" v="Pizza, Italian"/>
-  </node>
-  <node id="9120000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9860" lon="135.083">
-    <tag k="amenity" v="fast_food"/>
-    <tag k="cuisine" v="chinese"/>
-    <tag k="name" v="Chinese"/>
-  </node>
-  <node id="9120000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9860" lon="135.084">
-    <tag k="amenity" v="fast_food"/>
-    <tag k="cuisine" v="indian"/>
-    <tag k="name" v="Indian"/>
-  </node>
-  <node id="9120000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9860" lon="135.085">
     <tag k="amenity" v="fast_food"/>
     <tag k="cuisine" v="chicken"/>
     <tag k="name" v="Chicken"/>
   </node>
-  <node id="9120000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9860" lon="135.086">
+  <node id="9120000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9860" lon="135.083">
     <tag k="amenity" v="fast_food"/>
-    <tag k="cuisine" v="sandwich"/>
-    <tag k="name" v="Sandwich"/>
+    <tag k="cuisine" v="chinese"/>
+    <tag k="name" v="Chinese, Japanese etc."/>
   </node>
-  <node id="9120000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9860" lon="135.087">
+  <node id="9120000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9860" lon="135.084">
     <tag k="amenity" v="fast_food"/>
     <tag k="cuisine" v="coffee"/>
     <tag k="name" v="Coffee"/>
   </node>
+  <node id="9120000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9860" lon="135.085">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="fish_and_chips"/>
+    <tag k="name" v="Fish and Chips"/>
+  </node>
+  <node id="9120000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9860" lon="135.086">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="ice_cream"/>
+    <tag k="name" v="Ice Cream"/>
+  </node>
+  <node id="9120000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9860" lon="135.087">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="indian"/>
+    <tag k="name" v="Indian"/>
+  </node>
   <node id="9120000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9860" lon="135.088">
     <tag k="amenity" v="fast_food"/>
-    <tag k="cuisine" v="burger"/>
-    <tag k="name" v="Burger"/>
+    <tag k="cuisine" v="kebab"/>
+    <tag k="name" v="Kebab, Turkish"/>
+  </node>
+  <node id="9120000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9860" lon="135.089">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="pie"/>
+    <tag k="name" v="Pies, Pasties"/>
+  </node>
+  <node id="9120000011" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9860" lon="135.090">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="name" v="Pizza, Italian"/>
+  </node>
+  <node id="9120000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9860" lon="135.091">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="sandwich"/>
+    <tag k="name" v="Sandwich"/>
   </node>
   <node id="9130000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9870" lon="135.080">
     <tag k="amenity" v="bar"/>

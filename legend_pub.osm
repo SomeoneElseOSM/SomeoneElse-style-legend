@@ -157,6 +157,14 @@
     <tag k="amenity" v="waste_basket"/>
     <tag k="name" v="Wastebasket"/>
   </node>
+  <node id="9140000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9880" lon="135.121">
+    <tag k="man_made" v="survey_point"/>
+    <tag k="name" v="Survey Point"/>
+  </node>
+  <node id="9140000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9880" lon="135.122">
+    <tag k="amenity" v="left_luggage"/>
+    <tag k="name" v="Left Luggage"/>
+  </node>
   <node id="9150000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9890" lon="135.110">
     <tag k="tourism" v="information"/>
     <tag k="name" v="Generic Information"/>

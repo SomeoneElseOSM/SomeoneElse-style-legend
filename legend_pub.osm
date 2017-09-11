@@ -353,6 +353,6 @@
   </node>
   <node id="9200000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9940" lon="135.110">
     <tag k="amenity" v="bank"/>
-    <tag k="name" v="Bank"/>
+    <tag k="name" v="Bank or Building Society"/>
   </node>
 </osm>

@@ -214,6 +214,12 @@ public class generate_legend_01
 	myOutputOsmStream = new PrintStream( osmLegendFile01 );
 	myOutputOsmStream.println( osmHeader );
 
+	// Row 0 - a descriptive label
+	final int row_description = 0;
+	writeNodeRowCol( myOutputOsmStream, startNode, row_description, 5, 
+			 "place", "village", 
+			 "name", "Zoom in to see items rendered at each zoom level:" );
+
 	// Row 1 - pubs
 	final int row_pub = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_pub, 1, "Pubs", 

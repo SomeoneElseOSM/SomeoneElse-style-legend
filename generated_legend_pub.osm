@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
 <bounds minlat="-24.98769" minlon="135.03282" maxlat="-24.98601" maxlon="135.03509"/>
+  <node id="9100000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.985" lon="135.115">
+    <tag k="place" v="village"/>
+    <tag k="name" v="Zoom in to see items rendered at each zoom level:"/>
+  </node>
   <node id="9110000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.986" lon="135.11100000000002">
     <tag k="amenity" v="pub"/>
     <tag k="name" v="Generic Pub"/>

@@ -495,7 +495,6 @@
   <node id="9221000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9968" lon="135.11100000000002">
     <tag k="place" v="locality"/>
     <tag k="name" v="Places of Worship"/>
-    <tag k="name" v="Christian"/>
   </node>
   <node id="9220000002" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.997" lon="135.11200000000002">
     <tag k="amenity" v="place_of_worship"/>
@@ -884,7 +883,7 @@
     <tag k="name" v="Water Tower"/>
   </node>
   <node id="9280000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.003" lon="135.114">
-    <tag k="man_made" v="lighhouse"/>
+    <tag k="man_made" v="lighthouse"/>
     <tag k="name" v="Lighthouse"/>
   </node>
   <node id="9281000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0028" lon="135.114">
@@ -907,11 +906,11 @@
     <tag k="place" v="locality"/>
     <tag k="name" v="Windmill"/>
   </node>
-  <node id="9280000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.003" lon="135.116">
+  <node id="9280000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.003" lon="135.11700000000002">
     <tag k="man_made" v="ventilation_shaft"/>
     <tag k="name" v="Name"/>
   </node>
-  <node id="9281000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0028" lon="135.116">
+  <node id="9281000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0028" lon="135.11700000000002">
     <tag k="place" v="locality"/>
     <tag k="name" v="Vent Shaft"/>
   </node>

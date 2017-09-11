@@ -155,7 +155,7 @@ public class generate_legend_01
 	currentLat  = startLat  + ( incLat * passedRow ) + 0.0002;
 	currentLon  = startLon  + ( incLon * passedCol );
 
-	writeNodeLatLon( myOutputOsmStream, currentNode, currentLat, currentLon, "place", "locality", "name", labelName, tag03, value03, tag04, value04, tag05, value05, tag06, value06, tag07, value07 );
+	writeNodeLatLon( myOutputOsmStream, currentNode, currentLat, currentLon, "place", "locality", "name", labelName, "", "", "", "", "", "", "", "", "", "" );
     }
 
     // 2 pairs of tags
@@ -886,7 +886,7 @@ public class generate_legend_01
 				 "name", "Water Tower" );
 
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_towers, 4, "Lighthouse", 
-				 "man_made", "lighhouse", 
+				 "man_made", "lighthouse", 
 				 "name", "Lighthouse" );
 
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_towers, 5, "Wind Turbine", 
@@ -897,7 +897,7 @@ public class generate_legend_01
 				 "man_made", "windmill", 
 				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_towers, 6, "Vent Shaft", 
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_towers, 7, "Vent Shaft", 
 				 "man_made", "ventilation_shaft", 
 				 "name", "Name" );
 

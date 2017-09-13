@@ -215,43 +215,51 @@ public class generate_legend_01
 	myOutputOsmStream.println( osmHeader );
 
 	// Row 0 - a descriptive label
-	final int row_description = 0;
-	writeNodeRowCol( myOutputOsmStream, startNode, row_description, 5, 
+	int currentRow = 0;
+	int currentCol = 5; // Displayed at col 5 to shift to right
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "place", "village", 
 			 "name", "Zoom in to see items rendered at each zoom level:" );
 
 	// Row 1 - pubs
-	final int row_pub = 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_pub, 1, "Pubs", 
+	currentRow += 1;
+	currentCol = 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Pubs", 
 				 "amenity", "pub", 
 				 "name", "Generic Pub" );
 	
-	writeNodeRowCol( myOutputOsmStream, startNode, row_pub, 2, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "pub", 
 			 "name", "Real Ale", 
 			 "real_ale", "An interesting selection" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_pub, 3, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "pub", 
 			 "name", "No Real Ale", 
 			 "real_ale", "no" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_pub, 4, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "pub", 
 			 "name", "Food", 
 			 "food", "Some sort of description" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_pub, 5, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "pub", 
 			 "name", "Non-carpeted area", 
 			 "description:floor", "Tiles or Stone" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_pub, 6, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "pub", 
 			 "name", "Pub with Microbrewery", 
 			 "microbrewery", "yes" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_pub, 7, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "pub", 
 			 "name", "Combination", 
 			 "real_ale", "An interesting selection", 
@@ -261,386 +269,483 @@ public class generate_legend_01
 			 "", "" );
 
 	// Row 2 - fast food
-	final int row_fast_food = 2;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_fast_food, 1, "Fast Food", 
+	currentRow += 1;
+	currentCol = 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Fast Food", 
 				 "amenity", "fast_food", 
 				 "name", "Generic Fast Food" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_fast_food, 2, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "fast_food", 
 			 "name", "American, Burger", 
 			 "cuisine", "burger" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_fast_food, 3, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "fast_food", 
 			 "name", "Chicken", 
 			 "cuisine", "chicken" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_fast_food, 4, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "fast_food", 
 			 "name", "Chinese, Japanese, etc.", 
 			 "cuisine", "chinese" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_fast_food, 5, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "fast_food", 
 			 "name", "Coffee", 
 			 "cuisine", "coffee" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_fast_food, 6, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "fast_food", 
 			 "name", "Fish and Chips", 
 			 "cuisine", "fish_and_chips" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_fast_food, 7, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "fast_food", 
 			 "name", "Ice Cream", 
 			 "cuisine", "ice_cream" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_fast_food, 8, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "fast_food", 
 			 "name", "Indian", 
 			 "cuisine", "indian" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_fast_food, 9, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "fast_food", 
 			 "name", "Kebab, Turkish", 
 			 "cuisine", "kebab" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_fast_food, 10, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "fast_food", 
 			 "name", "Pies, Pasties", 
 			 "cuisine", "pie" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_fast_food, 11, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "fast_food", 
 			 "name", "Pizza, Italian", 
 			 "cuisine", "pizza" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_fast_food, 12, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "fast_food", 
 			 "name", "Sandwich", 
 			 "cuisine", "sandwich" );
 
 	// Row 3 - other eating and drinking
-	final int row_other_eating = 3;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_other_eating, 1, "Other Eating and Drinking", 
+	currentRow += 1;
+	currentCol = 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Other Eating and Drinking", 
 				 "amenity", "bar", 
 				 "name", "Bar" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_other_eating, 2, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "cafe", 
 			 "name", "Cafe" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_other_eating, 3, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "restaurant", 
 			 "name", "Restaurant" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_other_eating, 4, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "biergarten", 
 			 "name", "Biergarten" );
 
 	// Row 4 - shops
-	final int row_shops = 4;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_shops, 1, "Shops", 
+	currentRow += 1;
+	currentCol = 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentCol, currentCol, "Shops", 
 				 "shop", "yes", 
 				 "name", "Generic Shop" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_shops, 2, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentCol, currentCol, 
 			 "shop", "convenience",
 			 "name", "Convenience, Kiosk, Newsagent, Food" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_shops, 3, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentCol, currentCol, 
 			 "shop", "supermarket", 
 			 "name", "Supermarket" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_shops, 4, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentCol, currentCol, 
 			 "shop", "clothes", 
 			 "name", "Clothes, Shoes, Boutique, Tailor, Fashion, Baby Goods" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_shops, 5, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentCol, currentCol, 
 			 "shop", "hairdresser", 
 			 "name", "Hairdresser" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_shops, 6, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentCol, currentCol, 
 			 "shop", "bakery", 
 			 "name", "Bakery" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_shops, 7, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentCol, currentCol, 
 			 "shop", "butcher", 
 			 "name", "Butcher" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_shops, 8, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentCol, currentCol, 
 			 "shop", "florist", 
 			 "name", "Florist" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_shops, 9, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentCol, currentCol, 
 			 "shop", "doityourself", 
 			 "name", "Do-It-Yourself, Hardware" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_shops, 10, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentCol, currentCol, 
 			 "shop", "electrical", 
 			 "name", "Electronics, Electrical" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_shops, 11, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentCol, currentCol, 
 			 "shop", "bicycle", 
 			 "name", "Bike Shop" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_shops, 12, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentCol, currentCol, 
 			 "shop", "jewellery", 
 			 "name", "Jewellery, Watches" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_shops, 13, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentCol, currentCol, 
 			 "shop", "department_store", 
 			 "name", "Department Store" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_shops, 14, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentCol, currentCol, 
 			 "shop", "greengrocer", 
 			 "name", "Greengrocer" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_shops, 15, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentCol, currentCol, 
 			 "shop", "sports", 
 			 "name", "Sports, Fishing, Scuba Diving" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_shops, 16, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentCol, currentCol, 
 			 "shop", "garden_centre", 
 			 "name", "Garden Centre" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_shops, 17, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentCol, currentCol, 
 			 "shop", "outdoor", 
 			 "name", "Outdoor" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_shops, 18, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentCol, currentCol, 
 			 "shop", "pawnbroker", 
 			 "name", "Pawnbroker, Money Lender" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_shops, 19, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentCol, currentCol, 
 			 "shop", "estate_agent", 
 			 "name", "Estate Agent" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_shops, 20, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentCol, currentCol, 
 			 "shop", "charity", 
 			 "name", "Charity" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_shops, 21, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentCol, currentCol, 
 			 "shop", "antiques", 
 			 "name", "Antiques" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_shops, 22, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentCol, currentCol, 
 			 "shop", "e-cigarette", 
 			 "name", "E-Cigarette" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_shops, 23, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentCol, currentCol, 
 			 "shop", "variety_store", 
 			 "name", "Variety, Discount" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_shops, 24, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentCol, currentCol, 
 			 "shop", "funeral_directors", 
 			 "name", "Funerals, Stonemasons, etc." );
 
 	// Row 5 - cars
-	final int row_cars = 5;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_cars, 1, "Cars", 
+	currentRow += 1;
+	currentCol = 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Cars", 
 			 "amenity", "fuel", 
 			 "name", "Petrol / Diesel" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_cars, 2, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "shop", "car", 
 			 "name", "Car Sales" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_cars, 3, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "shop", "car_repair", 
 			 "name", "Car Repair" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_cars, 4, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "shop", "car_parts", 
 			 "name", "Car Parts" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_cars, 5, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "shop", "car_wash", 
 			 "name", "Car Wash" );
 
 	// Row 6 - generic
-	final int row_generic = 6;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_generic, 1, "Vacant", 
+	currentRow += 1;
+	currentCol = 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Vacant", 
 				 "shop", "vacant", 
 				 "", "" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_generic, 2, "Various Offices", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Various Offices", 
 				 "office", "yes", 
 				 "name", "Office Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_generic, 3, "Various Leisure", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Various Leisure", 
 				 "leisure", "fitness_centre", 
 				 "name", "Leisure Name" );
 
 	// Row 7 - medical
-	final int row_medical = 7;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_medical, 1, "Healthcare", 
+	currentRow += 1;
+	currentCol = 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Healthcare", 
 				 "amenity", "hospital", 
 				 "name", "Hospital" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_medical, 2, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "doctors", 
 			 "name", "Doctors" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_medical, 3, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "dentist", 
 			 "name", "Dentist" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_medical, 4, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "shop", "optician", 
 			 "name", "Optician, Medical Supply, Hearing Aids" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_medical, 5, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "pharmacy", 
 			 "name", "Pharmacy" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_medical, 6, "Defibrillator", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Defibrillator", 
 				 "emergency", "defibrillator", 
 				 "name", "Defibrillator" );
 
 	// Row 8 - accomodation
-	final int row_accomodation = 8;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_accomodation, 1, "Accomodation", 
+	currentRow += 1;
+	currentCol = 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Accomodation", 
 				 "tourism", "hotel", 
 				 "name", "Hotel" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_accomodation, 2, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "tourism", "hotel", 
 			 "name", "Motel" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_accomodation, 3, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "tourism", "guest_house", 
 			 "name", "Guest House" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_accomodation, 4, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "tourism", "bed_and_breakfast", 
 			 "name", "Bed And Breakfast" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_accomodation, 5, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "tourism", "chalet", 
 			 "name", "Chalet" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_accomodation, 6, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "tourism", "alpine_hut", 
 			 "name", "Alpine Hut" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_accomodation, 7, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "tourism", "hostel", 
 			 "name", "Hostel" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_accomodation, 8, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "tourism", "caravan_site", 
 			 "name", "Caravan site" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_accomodation, 9, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "tourism", "camp_site", 
 			 "name", "Camp site" );
 
 	// Row 9 - big places you might want to visit
-	final int row_visit = 9;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_visit, 1, "Other Tourism", 
+	currentRow += 1;
+	currentCol = 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Other Tourism", 
 				 "amenity", "cinema", 
 				 "name", "Cinema" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_visit, 2, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "concert_hall", 
 			 "name", "Concert Hall" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_visit, 3, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "library", 
 			 "name", "Library" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_visit, 4, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "theatre", 
 			 "name", "Theatre" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_visit, 5, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "tourism", "museum", 
 			 "name", "Museum" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_visit, 6, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "tourism", "aquarium", 
 			 "name", "Aquarium" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_visit, 7, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "tourism", "zoo", 
 			 "name", "Zoo" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_visit, 8, "Toilets", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Toilets", 
 				 "amenity", "toilets", 
 				 "name", "Toilets" );
 
 	// Row 10 - places you might want to visit outside
-	final int row_outside = 10;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_outside, 1, "Picnic Site", 
+	currentRow += 1;
+	currentCol = 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Picnic Site", 
 				 "tourism", "picnic_site", 
-				 "name", "Picnic Site" );
+				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_outside, 2, "Playground", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Shelter", 
+				 "amenity", "shelter", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Picnic Table", 
+				 "leisure", "picnic_table", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Playground", 
 				 "leisure", "playground", 
-				 "name", "Playground" );
+				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_outside, 3, "Slipway", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Slipway", 
 				 "leisure", "slipway", 
-				 "name", "Slipway" );
+				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_outside, 4, "Bird Hide", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Bird Hide", 
 				 "leisure", "bird_hide", 
-				 "name", "Bird Hide" );
+				 "name", "Name" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_outside, 5, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "leisure", "swimming_pool", 
 			 "name", "Swimming Pool" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_outside, 6, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "leisure", "sports_centre", 
 			 "name", "Sports Centre" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_outside, 7, "Trig Point", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Trig Point", 
 				 "man_made", "survey_point", 
 				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_outside, 8, "Cairn", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Cairn", 
 				 "man_made", "cairn", 
 				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_outside, 9, "Well", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Well", 
 				 "man_made", "water_well", 
 				 "name", "Name" );
 
 	// Row 11 - Tourist Information
-	final int row_tourist_info = 11;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_tourist_info, 1, "Tourist Information", 
+	currentRow += 1;
+	currentCol = 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Tourist Information", 
 				 "tourism", "information", 
 				 "name", "Generic Information" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_tourist_info, 2, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "tourism", "information", 
 			 "information", "board", 
 			 "name", "Board" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_tourist_info, 3, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "tourism", "information", 
 			 "information", "board", 
 			 "name", "Marker" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_tourist_info, 4, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "tourism", "information", 
 			 "information", "office", 
 			 "name", "Office" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_tourist_info, 5, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "tourism", "information", 
 			 "information", "plaque", 
 			 "name", "Plaque" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_tourist_info, 6, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "tourism", "information", 
 			 "information", "audioguide", 
 			 "name", "Audioguide" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_tourist_info, 7, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "tourism", "information", 
 			 "operator", "Peak and Northern Footpaths Society",
 			 "ref", "Ref",
@@ -650,282 +755,346 @@ public class generate_legend_01
 			 "", "" );
 
 	// Row 12 - religious
-	final int row_religious = 12;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_religious, 1, "Places of Worship", 
+	currentRow += 1;
+	currentCol = 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Places of Worship", 
 				 "amenity", "place_of_worship", 
 				 "religion", "christian", 
 				 "name", "Christian" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_religious, 2, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "place_of_worship", 
 			 "religion", "muslim", 
 			 "name", "Muslim" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_religious, 3, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "place_of_worship", 
 			 "religion", "hindu", 
 			 "name", "Hindu" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_religious, 4, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "place_of_worship", 
 			 "religion", "sikh", 
 			 "name", "Sikh" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_religious, 5, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "place_of_worship", 
 			 "religion", "jewish", 
 			 "name", "Jewish" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_religious, 6, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "place_of_worship", 
 			 "religion", "buddhist", 
 			 "name", "Buddhist" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_religious, 7, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "place_of_worship", 
 			 "religion", "shinto", 
 			 "name", "Shinto" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_religious, 8, 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "place_of_worship", 
 			 "religion", "taoist", 
 			 "name", "Taoist" );
 
 	// Row 13 - government
-	final int row_government = 13;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_government, 1, "Post Office", 
+	currentRow += 1;
+	currentCol = 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Post Office", 
 				 "amenity", "post_office", 
-				 "name", "Post Office" );
+				 "name", "Name" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_government, 2, 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Fire", 
 			 "amenity", "fire_station", 
-			 "name", "Fire Station" );
+			 "name", "Name" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_government, 3, 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Police", 
 			 "amenity", "police", 
-			 "name", "Police Station" );
+			 "name", "Name" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_government, 4, 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Ambulance", 
+			 "amenity", "ambulance_station", 
+			 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Embassy", 
 			 "amenity", "embassy", 
-			 "name", "Embassy" );
+			 "name", "Name" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_government, 5, 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Courthouse", 
 			 "amenity", "courthouse", 
-			 "name", "Courthouse" );
+			 "name", "Name" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_government, 6, 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Prison", 
 			 "amenity", "prison", 
-			 "name", "Prison" );
+			 "name", "Name" );
 
-	writeNodeRowCol( myOutputOsmStream, startNode, row_government, 7, 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Other", 
 			 "office", "government", 
-			 "name", "Other Government Office" );
+			 "name", "Name" );
 
 	// Row 14 - financial
-	final int row_financial = 14;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_financial, 1, "Bank", 
+	currentRow += 1;
+	currentCol = 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Bank / Building Society", 
 				 "amenity", "bank", 
 				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_financial, 2, "ATM", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "ATM", 
 				 "amenity", "atm", 
-				 "name", "ATM" );
+				 "name", "Name" );
 
 	// Row 15 - smaller amenities
-	final int row_small_amenities = 15;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_small_amenities, 1, "Viewpoint", 
+	currentRow += 1;
+	currentCol = 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Viewpoint", 
 				 "tourism", "viewpoint", 
-				 "name", "Viewpoint" );
+				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_small_amenities, 2, "Artwork", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Artwork", 
 				 "tourism", "artwork", 
 				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_small_amenities, 3, "Postbox", 
-				 "amenity", "post_box", 
-				 "name", "Post Box" );
-
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_small_amenities, 4, "Telephone", 
-				 "amenity", "telephone", 
-				 "name", "Telephone" );
-
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_small_amenities, 5, "Left Luggage", 
-				 "amenity", "left_luggage", 
-				 "name", "Left Luggage" );
-
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_small_amenities, 6, "Recycling", 
-				 "amenity", "recycling", 
-				 "name", "Recycling" );
-
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_small_amenities, 7, "Wastebasket", 
-				 "amenity", "waste_basket", 
-				 "name", "Wastebasket" );
-
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_small_amenities, 8, "Bench", 
-				 "amenity", "bench", 
-				 "name", "Name" );
-
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_small_amenities, 9, "Picnic Table", 
-				 "leisure", "picnic_table", 
-				 "name", "Picnic Table" );
-
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_small_amenities, 10, "Water", 
-				 "amenity", "drinking_water", 
-				 "name", "Drinking Water" );
-
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_small_amenities, 11, "Vending Machine", 
-				 "amenity", "vending_machine", 
-				 "name", "Vending Machine" );
-
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_small_amenities, 12, "Sundial", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Sundial", 
 				 "amenity", "sundial", 
 				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_small_amenities, 13, "Shelter", 
-				 "amenity", "shelter", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Postbox", 
+				 "amenity", "post_box", 
 				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_small_amenities, 14, "Memorial", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Telephone", 
+				 "amenity", "telephone", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Left Luggage", 
+				 "amenity", "left_luggage", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Parcel Locker", 
+				 "amenity", "parcel_locker", 
+				 "name", "Operator" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Vending Machine", 
+				 "amenity", "vending_machine", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Recycling", 
+				 "amenity", "recycling", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Wastebasket", 
+				 "amenity", "waste_basket", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Bench", 
+				 "amenity", "bench", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Water", 
+				 "amenity", "drinking_water", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Memorial", 
 				 "historic", "memorial", 
 				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_small_amenities, 15, "Ruins", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Ruins", 
 				 "historic", "ruins", 
 				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_small_amenities, 16, "Archaeology", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Archaeology", 
 				 "historic", "archaeological_site", 
 				 "name", "Name" );
 
 	// Row 16 - Travel infrastructure
-	final int row_travel = 16;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_travel, 1, "Travel", 
+	currentRow += 1;
+	currentCol = 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Car Park", 
 				 "amenity", "parking", 
-				 "name", "Car Park" );
+				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_travel, 2, "Car Sharing", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Car Sharing", 
 				 "amenity", "car_sharing", 
-				 "name", "Car Sharing" );
+				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_travel, 3, "Ferry Terminal", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Ferry Terminal", 
 				 "amenity", "ferry_terminal", 
-				 "name", "Ferry Terminal" );
+				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_travel, 4, "Bus Station", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Bus Station", 
 				 "amenity", "bus_station", 
-				 "name", "Bus Station" );
+				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_travel, 5, "Bus Stop", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Bus Stop", 
 				 "amenity", "bus_stop", 
-				 "name", "Bus Stop" );
+				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_travel, 6, "Bike Rental", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Bike Rental", 
 				 "amenity", "bicycle_rental", 
-				 "name", "Bike Rental" );
+				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_travel, 7, "Bike Parking", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Bike Parking", 
 				 "amenity", "bicycle_parking", 
-				 "name", "Bike Parking" );
+				 "name", "Name" );
 
 	// Row 17 - Travel infrastructure
-	final int row_trav_inf = 17;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_trav_inf, 1, "Traf. Lights", 
+	currentRow += 1;
+	currentCol = 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Traf. Lights", 
 				 "highway", "traffic_signals", 
-				 "name", "Traffic Signals" );
+				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_trav_inf, 2, "Crossing", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Crossing", 
 				 "highway", "crossing", 
 				 "", "" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_trav_inf, 3, "Milestone", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Milestone", 
 				 "highway", "milestone", 
 				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_trav_inf, 4, "Mini Rndbt", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Mini Rndbt", 
 				 "highway", "mini_roundabout", 
 				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_trav_inf, 5, "Gate", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Gate", 
 				 "barrier", "gate", 
 				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_trav_inf, 6, "Kissing Gate", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Kissing Gate", 
 				 "barrier", "kissing_gate", 
 				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_trav_inf, 7, "Stile", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Stile", 
 				 "barrier", "stile", 
 				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_trav_inf, 8, "Horse Stile", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Horse Stile", 
 				 "barrier", "horse_stile", 
 				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_trav_inf, 9, "Cycle Barrier", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Cycle Barrier", 
 				 "barrier", "cycle_barrier", 
 				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_trav_inf, 10, "Cattle Grid", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Cattle Grid", 
 				 "barrier", "cattle_grid", 
 				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_trav_inf, 11, "Lift Gate", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Lift Gate", 
 				 "barrier", "lift_gate", 
 				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_trav_inf, 12, "Bollard", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Bollard", 
 				 "barrier", "bollard", 
 				 "name", "Name" );
 
 	// Row 18 - Towers etc.
-	final int row_towers = 18;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_towers, 1, "Mast", 
+	currentRow += 1;
+	currentCol = 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Mast", 
 				 "man_made", "mast", 
-				 "name", "Mast" );
+				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_towers, 2, "Chimney", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Chimney", 
 				 "man_made", "chimney", 
-				 "name", "Chimney" );
+				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_towers, 3, "Water Tower", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Water Tower", 
 				 "man_made", "water_tower", 
-				 "name", "Water Tower" );
+				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_towers, 4, "Lighthouse", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Lighthouse", 
 				 "man_made", "lighthouse", 
-				 "name", "Lighthouse" );
+				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_towers, 5, "Wind Turbine", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Wind Turbine", 
 				 "man_made", "power_wind", 
 				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_towers, 6, "Windmill", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Windmill", 
 				 "man_made", "windmill", 
 				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_towers, 7, "Vent Shaft", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Vent Shaft", 
 				 "man_made", "ventilation_shaft", 
 				 "name", "Name" );
 
 	// Row 19 - Natural
-	final int row_natural = 19;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_natural, 1, "Peak", 
+	currentRow += 1;
+	currentCol = 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Peak", 
 				 "natural", "peak", 
-				 "name", "Name" );
+				 "name", "Name / ele" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_natural, 2, "Volcano", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Volcano", 
 				 "natural", "volcano", 
 				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_natural, 3, "Cave", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Cave", 
 				 "natural", "cave_entrance", 
 				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_natural, 4, "Spring", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Spring", 
 				 "natural", "spring", 
 				 "name", "Name" );
 
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, row_natural, 5, "Tree", 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Tree", 
 				 "natural", "tree", 
 				 "name", "Name" );
 

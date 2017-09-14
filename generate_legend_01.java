@@ -648,7 +648,7 @@ public class generate_legend_01
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Toilets", 
 				 "amenity", "toilets", 
-				 "name", "Toilets" );
+				 "name", "Name" );
 
 	// Row 10 - places you might want to visit outside
 	currentRow += 1;

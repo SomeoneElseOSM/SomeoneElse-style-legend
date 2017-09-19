@@ -625,7 +625,7 @@
   </node>
   <node id="9240000002" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.999" lon="135.11200000000002">
     <tag k="amenity" v="atm"/>
-    <tag k="name" v="Name"/>
+    <tag k="operator" v="Operator"/>
   </node>
   <node id="9241000002" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9988" lon="135.11200000000002">
     <tag k="place" v="locality"/>
@@ -705,7 +705,6 @@
   </node>
   <node id="9250000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0" lon="135.12">
     <tag k="amenity" v="waste_basket"/>
-    <tag k="name" v="Name"/>
   </node>
   <node id="9251000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9998" lon="135.12">
     <tag k="place" v="locality"/>
@@ -784,7 +783,7 @@
     <tag k="name" v="Bus Station"/>
   </node>
   <node id="9260000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.000999999999998" lon="135.115">
-    <tag k="amenity" v="bus_stop"/>
+    <tag k="highway" v="bus_stop"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9261000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.000799999999998" lon="135.115">

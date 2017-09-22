@@ -646,6 +646,16 @@ public class generate_legend_01
 			 "name", "Zoo" );
 
 	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "tourism", "theme_park", 
+			 "name", "Theme Park" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "tourism", "attraction", 
+			 "name", "Attraction" );
+
+	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Toilets", 
 				 "amenity", "toilets", 
 				 "name", "Name" );
@@ -948,8 +958,13 @@ public class generate_legend_01
 				 "name", "Name" );
 
 	currentCol += 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Ferry Terminal", 
-				 "amenity", "ferry_terminal", 
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Rail Station", 
+				 "railway", "station", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Rail Halt", 
+				 "railway", "halt", 
 				 "name", "Name" );
 
 	currentCol += 1;
@@ -963,13 +978,18 @@ public class generate_legend_01
 				 "name", "Name" );
 
 	currentCol += 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Bike Rental", 
-				 "amenity", "bicycle_rental", 
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Ferry Terminal", 
+				 "amenity", "ferry_terminal", 
 				 "name", "Name" );
 
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Bike Parking", 
 				 "amenity", "bicycle_parking", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Bike Rental", 
+				 "amenity", "bicycle_rental", 
 				 "name", "Name" );
 
 	// Row 17 - Travel infrastructure
@@ -1032,6 +1052,11 @@ public class generate_legend_01
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Bollard", 
 				 "barrier", "bollard", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Phone", 
+				 "emergency", "phone", 
 				 "name", "Name" );
 
 	// Row 18 - Towers etc.

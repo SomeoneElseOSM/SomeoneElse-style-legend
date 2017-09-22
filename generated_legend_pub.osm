@@ -381,10 +381,18 @@
     <tag k="name" v="Zoo"/>
   </node>
   <node id="9190000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.994" lon="135.11800000000002">
+    <tag k="tourism" v="theme_park"/>
+    <tag k="name" v="Theme Park"/>
+  </node>
+  <node id="9190000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.994" lon="135.119">
+    <tag k="tourism" v="attraction"/>
+    <tag k="name" v="Attraction"/>
+  </node>
+  <node id="9190000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.994" lon="135.12">
     <tag k="amenity" v="toilets"/>
     <tag k="name" v="Name"/>
   </node>
-  <node id="9191000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9938" lon="135.11800000000002">
+  <node id="9191000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9938" lon="135.12">
     <tag k="place" v="locality"/>
     <tag k="name" v="Toilets"/>
   </node>
@@ -767,44 +775,60 @@
     <tag k="name" v="Car Sharing"/>
   </node>
   <node id="9260000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.000999999999998" lon="135.113">
-    <tag k="amenity" v="ferry_terminal"/>
+    <tag k="railway" v="station"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9261000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.000799999999998" lon="135.113">
     <tag k="place" v="locality"/>
-    <tag k="name" v="Ferry Terminal"/>
+    <tag k="name" v="Rail Station"/>
   </node>
   <node id="9260000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.000999999999998" lon="135.114">
-    <tag k="amenity" v="bus_station"/>
+    <tag k="railway" v="halt"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9261000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.000799999999998" lon="135.114">
     <tag k="place" v="locality"/>
-    <tag k="name" v="Bus Station"/>
+    <tag k="name" v="Rail Halt"/>
   </node>
   <node id="9260000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.000999999999998" lon="135.115">
-    <tag k="highway" v="bus_stop"/>
+    <tag k="amenity" v="bus_station"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9261000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.000799999999998" lon="135.115">
     <tag k="place" v="locality"/>
-    <tag k="name" v="Bus Stop"/>
+    <tag k="name" v="Bus Station"/>
   </node>
   <node id="9260000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.000999999999998" lon="135.116">
-    <tag k="amenity" v="bicycle_rental"/>
+    <tag k="highway" v="bus_stop"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9261000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.000799999999998" lon="135.116">
     <tag k="place" v="locality"/>
-    <tag k="name" v="Bike Rental"/>
+    <tag k="name" v="Bus Stop"/>
   </node>
   <node id="9260000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.000999999999998" lon="135.11700000000002">
-    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="amenity" v="ferry_terminal"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9261000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.000799999999998" lon="135.11700000000002">
     <tag k="place" v="locality"/>
+    <tag k="name" v="Ferry Terminal"/>
+  </node>
+  <node id="9260000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.000999999999998" lon="135.11800000000002">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="9261000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.000799999999998" lon="135.11800000000002">
+    <tag k="place" v="locality"/>
     <tag k="name" v="Bike Parking"/>
+  </node>
+  <node id="9260000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.000999999999998" lon="135.119">
+    <tag k="amenity" v="bicycle_rental"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="9261000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.000799999999998" lon="135.119">
+    <tag k="place" v="locality"/>
+    <tag k="name" v="Bike Rental"/>
   </node>
   <node id="9270000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.002" lon="135.11100000000002">
     <tag k="highway" v="traffic_signals"/>
@@ -900,6 +924,14 @@
   <node id="9271000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0018" lon="135.122">
     <tag k="place" v="locality"/>
     <tag k="name" v="Bollard"/>
+  </node>
+  <node id="9270000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.002" lon="135.12300000000002">
+    <tag k="emergency" v="phone"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="9271000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0018" lon="135.12300000000002">
+    <tag k="place" v="locality"/>
+    <tag k="name" v="Phone"/>
   </node>
   <node id="9280000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.003" lon="135.11100000000002">
     <tag k="man_made" v="mast"/>

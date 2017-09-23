@@ -868,6 +868,23 @@ public class generate_legend_01
 				 "amenity", "atm", 
 				 "operator", "Operator" );
 
+	// Row 15 - education
+	currentRow += 1;
+	currentCol = 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "University", 
+				 "amenity", "university", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "School / College", 
+				 "amenity", "school", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Kindergarten", 
+				 "amenity", "kindergarten", 
+				 "name", "Name" );
+
 	// Row 15 - smaller amenities
 	currentRow += 1;
 	currentCol = 1;

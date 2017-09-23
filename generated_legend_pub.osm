@@ -278,26 +278,42 @@
   </node>
   <node id="9170000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.992" lon="135.11100000000002">
     <tag k="amenity" v="hospital"/>
-    <tag k="name" v="Hospital"/>
+    <tag k="name" v="Name"/>
   </node>
   <node id="9171000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9918" lon="135.11100000000002">
     <tag k="place" v="locality"/>
-    <tag k="name" v="Healthcare"/>
+    <tag k="name" v="Hospital"/>
   </node>
   <node id="9170000002" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.992" lon="135.11200000000002">
     <tag k="amenity" v="doctors"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="9171000002" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9918" lon="135.11200000000002">
+    <tag k="place" v="locality"/>
     <tag k="name" v="Doctors"/>
   </node>
   <node id="9170000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.992" lon="135.113">
     <tag k="amenity" v="dentist"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="9171000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9918" lon="135.113">
+    <tag k="place" v="locality"/>
     <tag k="name" v="Dentist"/>
   </node>
   <node id="9170000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.992" lon="135.114">
     <tag k="shop" v="optician"/>
-    <tag k="name" v="Optician, Medical Supply, Hearing Aids"/>
+    <tag k="name" v="name"/>
+  </node>
+  <node id="9171000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9918" lon="135.114">
+    <tag k="place" v="locality"/>
+    <tag k="name" v="Other Healthcare"/>
   </node>
   <node id="9170000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.992" lon="135.115">
     <tag k="amenity" v="pharmacy"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="9171000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9918" lon="135.115">
+    <tag k="place" v="locality"/>
     <tag k="name" v="Pharmacy"/>
   </node>
   <node id="9170000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.992" lon="135.116">

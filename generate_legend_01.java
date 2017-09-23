@@ -532,29 +532,29 @@ public class generate_legend_01
 	// Row 7 - medical
 	currentRow += 1;
 	currentCol = 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Healthcare", 
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Hospital", 
 				 "amenity", "hospital", 
-				 "name", "Hospital" );
+				 "name", "Name" );
 
 	currentCol += 1;
-	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
-			 "amenity", "doctors", 
-			 "name", "Doctors" );
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Doctors",
+				 "amenity", "doctors", 
+				 "name", "Name" );
 
 	currentCol += 1;
-	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
-			 "amenity", "dentist", 
-			 "name", "Dentist" );
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Dentist",
+				 "amenity", "dentist", 
+				 "name", "Name" );
 
 	currentCol += 1;
-	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
-			 "shop", "optician", 
-			 "name", "Optician, Medical Supply, Hearing Aids" );
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Other Healthcare",
+				 "shop", "optician", 
+				 "name", "Name" );
 
 	currentCol += 1;
-	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
-			 "amenity", "pharmacy", 
-			 "name", "Pharmacy" );
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Pharmacy",
+				 "amenity", "pharmacy", 
+				 "name", "Name" );
 
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Defibrillator", 

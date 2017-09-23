@@ -870,6 +870,39 @@
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Bike Rental"/>
   </node>
+  <node id="9270000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.002" lon="135.12">
+    <tag k="aeroway" v="aerodrome"/>
+    <tag k="iata" v="IATA"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="9271000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0018" lon="135.12">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Airport"/>
+  </node>
+  <node id="9270000011" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.002" lon="135.121">
+    <tag k="aeroway" v="heliport"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="9271000011" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0018" lon="135.121">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Heliport"/>
+  </node>
+  <node id="9270000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.002" lon="135.122">
+    <tag k="aeroway" v="helipad"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="9271000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0018" lon="135.122">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Helipad"/>
+  </node>
+  <node id="9270000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.002" lon="135.12300000000002">
+    <tag k="aeroway" v="gate"/>
+    <tag k="ref" v="Ref"/>
+  </node>
+  <node id="9271000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0018" lon="135.12300000000002">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Gate"/>
+  </node>
   <node id="9280000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.003" lon="135.11100000000002">
     <tag k="highway" v="traffic_signals"/>
     <tag k="name" v="Name"/>

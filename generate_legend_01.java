@@ -1009,6 +1009,27 @@ public class generate_legend_01
 				 "amenity", "bicycle_rental", 
 				 "name", "Name" );
 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Airport", 
+				 "aeroway", "aerodrome", 
+				 "iata", "IATA", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Heliport", 
+				 "aeroway", "heliport", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Helipad", 
+				 "aeroway", "helipad", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Gate", 
+				 "aeroway", "gate", 
+				 "ref", "Ref" );
+
 	// Row 17 - Travel infrastructure
 	currentRow += 1;
 	currentCol = 1;

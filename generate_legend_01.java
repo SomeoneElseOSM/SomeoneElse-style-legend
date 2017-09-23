@@ -155,7 +155,7 @@ public class generate_legend_01
 	currentLat  = startLat  + ( incLat * passedRow ) + 0.0002;
 	currentLon  = startLon  + ( incLon * passedCol );
 
-	writeNodeLatLon( myOutputOsmStream, currentNode, currentLat, currentLon, "place", "locality", "name", labelName, "", "", "", "", "", "", "", "", "", "" );
+	writeNodeLatLon( myOutputOsmStream, currentNode, currentLat, currentLon, "place", "legend_text", "name", labelName, "", "", "", "", "", "", "", "", "", "" );
     }
 
     // 2 pairs of tags

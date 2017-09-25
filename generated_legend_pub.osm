@@ -231,27 +231,51 @@
   </node>
   <node id="9150000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.99" lon="135.11100000000002">
     <tag k="amenity" v="fuel"/>
-    <tag k="name" v="Petrol / Diesel"/>
+    <tag k="name" v="Name"/>
   </node>
   <node id="9151000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9898" lon="135.11100000000002">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Cars"/>
+    <tag k="name" v="Petrol / Diesel"/>
   </node>
   <node id="9150000002" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.99" lon="135.11200000000002">
     <tag k="shop" v="car"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="9151000002" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9898" lon="135.11200000000002">
+    <tag k="place" v="legend_text"/>
     <tag k="name" v="Car Sales"/>
   </node>
   <node id="9150000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.99" lon="135.113">
     <tag k="shop" v="car_repair"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="9151000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9898" lon="135.113">
+    <tag k="place" v="legend_text"/>
     <tag k="name" v="Car Repair"/>
   </node>
   <node id="9150000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.99" lon="135.114">
     <tag k="shop" v="car_parts"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="9151000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9898" lon="135.114">
+    <tag k="place" v="legend_text"/>
     <tag k="name" v="Car Parts"/>
   </node>
   <node id="9150000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.99" lon="135.115">
-    <tag k="shop" v="car_wash"/>
+    <tag k="amenity" v="car_wash"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="9151000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9898" lon="135.115">
+    <tag k="place" v="legend_text"/>
     <tag k="name" v="Car Wash"/>
+  </node>
+  <node id="9150000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.99" lon="135.116">
+    <tag k="amenity" v="car_rental"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="9151000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9898" lon="135.116">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Other Car (rental etc.)"/>
   </node>
   <node id="9160000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.991" lon="135.11100000000002">
     <tag k="shop" v="vacant"/>

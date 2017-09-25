@@ -488,29 +488,34 @@ public class generate_legend_01
 	// Row 5 - cars
 	currentRow += 1;
 	currentCol = 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Cars", 
-			 "amenity", "fuel", 
-			 "name", "Petrol / Diesel" );
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Petrol / Diesel", 
+				 "amenity", "fuel", 
+				 "name", "Name" );
 
 	currentCol += 1;
-	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
-			 "shop", "car", 
-			 "name", "Car Sales" );
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Car Sales",
+				 "shop", "car", 
+				 "name", "Name" );
 
 	currentCol += 1;
-	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
-			 "shop", "car_repair", 
-			 "name", "Car Repair" );
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Car Repair",
+				 "shop", "car_repair", 
+				 "name", "Name" );
 
 	currentCol += 1;
-	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
-			 "shop", "car_parts", 
-			 "name", "Car Parts" );
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Car Parts",
+				 "shop", "car_parts", 
+				 "name", "Name" );
 
 	currentCol += 1;
-	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
-			 "shop", "car_wash", 
-			 "name", "Car Wash" );
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Car Wash",
+				 "amenity", "car_wash", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Other Car (rental etc.)",
+				 "amenity", "car_rental", 
+				 "name", "Name" );
 
 	// Row 6 - generic
 	currentRow += 1;

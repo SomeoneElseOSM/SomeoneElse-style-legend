@@ -118,14 +118,18 @@
     <tag k="name" v="Other Eating and Drinking"/>
   </node>
   <node id="9130000002" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.11200000000002">
+    <tag k="amenity" v="social_club"/>
+    <tag k="name" v="Social Club"/>
+  </node>
+  <node id="9130000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.113">
     <tag k="amenity" v="cafe"/>
     <tag k="name" v="Cafe"/>
   </node>
-  <node id="9130000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.113">
+  <node id="9130000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.114">
     <tag k="amenity" v="restaurant"/>
     <tag k="name" v="Restaurant"/>
   </node>
-  <node id="9130000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.114">
+  <node id="9130000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.115">
     <tag k="amenity" v="biergarten"/>
     <tag k="name" v="Biergarten"/>
   </node>
@@ -357,66 +361,74 @@
     <tag k="name" v="Motel"/>
   </node>
   <node id="9180000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.993" lon="135.113">
-    <tag k="tourism" v="guest_house"/>
+    <tag k="leisure" v="resort"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9181000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9928" lon="135.113">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Guest House"/>
+    <tag k="name" v="Resort"/>
   </node>
   <node id="9180000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.993" lon="135.114">
-    <tag k="tourism" v="bed_and_breakfast"/>
+    <tag k="tourism" v="guest_house"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9181000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9928" lon="135.114">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Bed and Breakfast"/>
+    <tag k="name" v="Guest House"/>
   </node>
   <node id="9180000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.993" lon="135.115">
-    <tag k="tourism" v="chalet"/>
+    <tag k="tourism" v="bed_and_breakfast"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9181000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9928" lon="135.115">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Chalet"/>
+    <tag k="name" v="Bed and Breakfast"/>
   </node>
   <node id="9180000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.993" lon="135.116">
-    <tag k="tourism" v="alpine_hut"/>
+    <tag k="tourism" v="chalet"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9181000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9928" lon="135.116">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Alpine Hut"/>
+    <tag k="name" v="Chalet"/>
   </node>
   <node id="9180000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.993" lon="135.11700000000002">
-    <tag k="tourism" v="hostel"/>
+    <tag k="tourism" v="alpine_hut"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9181000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9928" lon="135.11700000000002">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Hostel"/>
+    <tag k="name" v="Alpine Hut"/>
   </node>
   <node id="9180000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.993" lon="135.11800000000002">
-    <tag k="tourism" v="caravan_site"/>
+    <tag k="tourism" v="hostel"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9181000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9928" lon="135.11800000000002">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Caravan Site"/>
+    <tag k="name" v="Hostel"/>
   </node>
   <node id="9180000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.993" lon="135.119">
-    <tag k="tourism" v="camp_site"/>
+    <tag k="tourism" v="caravan_site"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9181000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9928" lon="135.119">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Camp Site"/>
+    <tag k="name" v="Caravan Site"/>
   </node>
   <node id="9180000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.993" lon="135.12">
-    <tag k="leisure" v="firepit"/>
+    <tag k="tourism" v="camp_site"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9181000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9928" lon="135.12">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Camp Site"/>
+  </node>
+  <node id="9180000011" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.993" lon="135.121">
+    <tag k="leisure" v="firepit"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="9181000011" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9928" lon="135.121">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Firepit"/>
   </node>
@@ -565,98 +577,130 @@
     <tag k="name" v="Swimming Pool"/>
   </node>
   <node id="9210000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.113">
-    <tag k="leisure" v="water_park"/>
+    <tag k="leisure" v="swimming_area"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9211000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9958" lon="135.113">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Water Park"/>
+    <tag k="name" v="Swimming Area"/>
   </node>
   <node id="9210000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.114">
-    <tag k="leisure" v="ice_rink"/>
+    <tag k="leisure" v="water_park"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9211000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9958" lon="135.114">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Ice Rink"/>
+    <tag k="name" v="Water Park"/>
   </node>
   <node id="9210000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.115">
-    <tag k="leisure" v="stadium"/>
+    <tag k="leisure" v="ice_rink"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9211000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9958" lon="135.115">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Stadium"/>
+    <tag k="name" v="Ice Rink"/>
   </node>
   <node id="9210000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.116">
-    <tag k="leisure" v="golf_course"/>
+    <tag k="leisure" v="stadium"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9211000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9958" lon="135.116">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Golf Course"/>
+    <tag k="name" v="Stadium"/>
   </node>
   <node id="9210000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.11700000000002">
-    <tag k="leisure" v="recreation_ground"/>
+    <tag k="leisure" v="golf_course"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9211000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9958" lon="135.11700000000002">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Rec. Ground"/>
+    <tag k="name" v="Golf Course"/>
   </node>
   <node id="9210000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.11800000000002">
-    <tag k="leisure" v="fitness_centre"/>
+    <tag k="leisure" v="bowling_alley"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9211000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9958" lon="135.11800000000002">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Fitness Centre"/>
+    <tag k="name" v="Bowling Alley"/>
   </node>
   <node id="9210000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.119">
-    <tag k="leisure" v="fitness_station"/>
+    <tag k="leisure" v="recreation_ground"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9211000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9958" lon="135.119">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Fitness Station"/>
+    <tag k="name" v="Rec. Ground"/>
   </node>
   <node id="9210000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.12">
-    <tag k="leisure" v="dog_park"/>
+    <tag k="leisure" v="dance"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9211000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9958" lon="135.12">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Dog Park"/>
+    <tag k="name" v="Dancing"/>
   </node>
   <node id="9210000011" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.121">
-    <tag k="leisure" v="sauna"/>
+    <tag k="leisure" v="club"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9211000011" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9958" lon="135.121">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Sauna"/>
+    <tag k="name" v="Club"/>
   </node>
   <node id="9210000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.122">
-    <tag k="leisure" v="horse_riding"/>
+    <tag k="leisure" v="fitness_centre"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9211000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9958" lon="135.122">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Horse Riding"/>
+    <tag k="name" v="Fitness Centre"/>
   </node>
   <node id="9210000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.12300000000002">
-    <tag k="leisure" v="miniature_golf"/>
+    <tag k="leisure" v="fitness_station"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9211000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9958" lon="135.12300000000002">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Mini Golf"/>
+    <tag k="name" v="Fitness Station"/>
   </node>
   <node id="9210000014" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.12400000000002">
-    <tag k="leisure" v="fishing"/>
+    <tag k="leisure" v="dog_park"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9211000014" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9958" lon="135.12400000000002">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Dog Park"/>
+  </node>
+  <node id="9210000015" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.125">
+    <tag k="leisure" v="sauna"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="9211000015" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9958" lon="135.125">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Sauna"/>
+  </node>
+  <node id="9210000016" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.126">
+    <tag k="leisure" v="horse_riding"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="9211000016" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9958" lon="135.126">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Horse Riding"/>
+  </node>
+  <node id="9210000017" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.127">
+    <tag k="leisure" v="miniature_golf"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="9211000017" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9958" lon="135.127">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Mini Golf"/>
+  </node>
+  <node id="9210000018" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.12800000000001">
+    <tag k="leisure" v="fishing"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="9211000018" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9958" lon="135.12800000000001">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Fishing"/>
   </node>

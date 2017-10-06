@@ -719,25 +719,30 @@
   </node>
   <node id="9220000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.997" lon="135.113">
     <tag k="tourism" v="information"/>
-    <tag k="information" v="board"/>
-    <tag k="name" v="Marker"/>
+    <tag k="information" v="guidepost"/>
+    <tag k="name" v="Guidepost"/>
   </node>
   <node id="9220000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.997" lon="135.114">
+    <tag k="tourism" v="information"/>
+    <tag k="information" v="route_marker"/>
+    <tag k="name" v="Route marker"/>
+  </node>
+  <node id="9220000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.997" lon="135.115">
     <tag k="tourism" v="information"/>
     <tag k="information" v="office"/>
     <tag k="name" v="Office"/>
   </node>
-  <node id="9220000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.997" lon="135.115">
+  <node id="9220000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.997" lon="135.116">
     <tag k="tourism" v="information"/>
     <tag k="information" v="plaque"/>
     <tag k="name" v="Plaque"/>
   </node>
-  <node id="9220000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.997" lon="135.116">
+  <node id="9220000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.997" lon="135.11700000000002">
     <tag k="tourism" v="information"/>
     <tag k="information" v="audioguide"/>
     <tag k="name" v="Audioguide"/>
   </node>
-  <node id="9220000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.997" lon="135.11700000000002">
+  <node id="9220000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.997" lon="135.11800000000002">
     <tag k="tourism" v="information"/>
     <tag k="operator" v="Peak and Northern Footpaths Society"/>
     <tag k="ref" v="Ref"/>

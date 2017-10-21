@@ -1270,6 +1270,16 @@ public class generate_legend_01
 				 "name", "Name" );
 
 	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Sluice", 
+				 "waterway", "sluice_gate", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Lock Gate", 
+				 "waterway", "lock_gate", 
+				 "name", "Name" );
+
+	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Tree", 
 				 "natural", "tree", 
 				 "name", "Name" );

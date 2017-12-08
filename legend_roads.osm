@@ -129,11 +129,11 @@
     <tag k='place' v='locality' />
     <tag k='name' v='Tunnel' />
   </node>
-  <node id='9100000125' timestamp='2017-04-30T10:53:10Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101464' lat='-25.0048' lon='135.055'>
+  <node id='9100000126' timestamp='2017-04-30T10:53:10Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101464' lat='-25.0048' lon='135.055'>
     <tag k='place' v='locality' />
     <tag k='name' v='Bridge' />
   </node>
-  <node id='9100000125' timestamp='2017-04-30T10:53:10Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101464' lat='-25.0048' lon='135.065'>
+  <node id='9100000127' timestamp='2017-04-30T10:53:10Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101464' lat='-25.0048' lon='135.065'>
     <tag k='place' v='locality' />
     <tag k='name' v='Bus Guideway' />
   </node>

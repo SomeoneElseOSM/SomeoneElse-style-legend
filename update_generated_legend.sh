@@ -40,6 +40,11 @@ df
 #
 # When was the target file last modified?
 #
+cd /home/${local_user}/src/SomeoneElse-style-legend
+rm generated_legend_pub.osm
+javac generate_legend_01.java
+java generate_legend_01
+#
 cd /home/${local_user}/data
 #
 # Run osm2pgsql
@@ -52,6 +57,11 @@ sudo -u ${local_user} osm2pgsql --append --slim -d gis -C 250 --number-processes
 #
 /etc/init.d/renderd restart
 /etc/init.d/apache2 restart
+#
+# Remove already generated tiles
+#
+#rm -rf /var/lib/mod_tile/ajt/??
+#rm -rf /var/lib/mod_tile/ajt/?
 # 
 # And final tidying up
 #

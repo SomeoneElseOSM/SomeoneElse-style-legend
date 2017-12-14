@@ -844,7 +844,74 @@ public class generate_legend_01
 				 "leisure", "fishing", 
 				 "name", "Name" );
 
-	// Row 12 - Tourist Information
+	// Row 12 - Barriers
+	currentRow += 1;
+	currentCol = 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Barriers", 
+				 "barrier", "gate", 
+				 "name", "Gate" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "barrier", "stile", 
+			 "name", "Stile" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "barrier", "bollard", 
+			 "name", "Bollard" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "barrier", "kissing_gate", 
+			 "name", "Kissing Gate" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "barrier", "cycle_barrier", 
+			 "name", "Cycle Barrier" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "barrier", "cattle_grid", 
+			 "name", "Cattle Grid" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "barrier", "lift_gate", 
+			 "name", "Lift Gate" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "barrier", "door", 
+			 "name", "Door" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "barrier", "toll_booth", 
+			 "name", "Toll Booth" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "barrier", "horse_stile", 
+			 "name", "Horse Stile" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "barrier", "border_control", 
+			 "name", "Border Control" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "barrier", "bus_trap", 
+			 "name", "Bus Trap" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "barrier", "ticket_barrier", 
+			 "name", "Ticket Barrier" );
+
+	// Row 13 - Tourist Information
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Tourist Information", 
@@ -897,7 +964,7 @@ public class generate_legend_01
 			 "", "",
 			 "", "" );
 
-	// Row 13 - religious
+	// Row 14 - religious
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Places of Worship", 
@@ -947,7 +1014,7 @@ public class generate_legend_01
 			 "religion", "taoist", 
 			 "name", "Taoist" );
 
-	// Row 14 - government
+	// Row 15 - government
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Post Office", 
@@ -989,7 +1056,7 @@ public class generate_legend_01
 			 "office", "government", 
 			 "name", "Name" );
 
-	// Row 15 - financial
+	// Row 16 - financial
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Bank / Building Society", 
@@ -1001,7 +1068,7 @@ public class generate_legend_01
 				 "amenity", "atm", 
 				 "operator", "Operator" );
 
-	// Row 16 - education
+	// Row 17 - education
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "University", 
@@ -1018,7 +1085,7 @@ public class generate_legend_01
 				 "amenity", "kindergarten", 
 				 "name", "Name" );
 
-	// Row 15 - smaller amenities
+	// Row 18 - smaller amenities
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Viewpoint", 
@@ -1100,7 +1167,7 @@ public class generate_legend_01
 				 "historic", "archaeological_site", 
 				 "name", "Name" );
 
-	// Row 17 - Travel infrastructure
+	// Row 19 - Travel infrastructure
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Car Park", 
@@ -1180,7 +1247,7 @@ public class generate_legend_01
 				 "aeroway", "gate", 
 				 "ref", "Ref" );
 
-	// Row 18 - Travel infrastructure
+	// Row 20 - Travel infrastructure
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Traf. Lights", 
@@ -1247,7 +1314,7 @@ public class generate_legend_01
 				 "emergency", "phone", 
 				 "name", "Name" );
 
-	// Row 19 - Towers etc.
+	// Row 21 - Towers etc.
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Mast", 

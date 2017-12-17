@@ -1002,10 +1002,20 @@
   </way>
   <relation id='9300007001' timestamp='2017-04-30T10:43:54Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101464'>
     <member type="way" ref='9200007001' role='' />
-    <member type="way" ref='9200007002' role='' />
-    <member type="way" ref='9200007003' role='' />
     <tag k='name' v='Walking Route' />
     <tag k='network' v='nwn' />
+    <tag k='type' v='route' />
+  </relation>
+  <relation id='9300007002' timestamp='2017-04-30T10:43:54Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101464'>
+    <member type="way" ref='9200007002' role='' />
+    <tag k='ref' v='National Cycling Route' />
+    <tag k='network' v='ncn' />
+    <tag k='type' v='route' />
+  </relation>
+  <relation id='9300007003' timestamp='2017-04-30T10:43:54Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101464'>
+    <member type="way" ref='9200007003' role='' />
+    <tag k='name' v='Horse Riding Route' />
+    <tag k='network' v='nhn' />
     <tag k='type' v='route' />
   </relation>
 </osm>

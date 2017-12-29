@@ -16,7 +16,7 @@ public class generate_legend_01
 
     static long   startNode = 9100000000L;
     static double startLat  = -24.9850;
-    static double startLon  = 135.110;
+    static double startLon  = 135.170;
     static double incLat   = -00.0010;
     static double incLon   = 000.001;
 

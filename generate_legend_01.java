@@ -964,6 +964,31 @@ public class generate_legend_01
 			 "", "",
 			 "", "" );
 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Sustrans markers", 
+			 "ncn_milepost", "dudgeon", 
+			 "sustrans_ref", "Dudgeon" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "ncn_milepost", "mccoll", 
+			 "sustrans_ref", "McColl" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "ncn_milepost", "mills", 
+			 "sustrans_ref", "Mills" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "ncn_milepost", "rowe", 
+			 "sustrans_ref", "Rowe" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "ncn_milepost", "yes", 
+			 "sustrans_ref", "Unknown" );
+
 	// Row 14 - religious
 	currentRow += 1;
 	currentCol = 1;

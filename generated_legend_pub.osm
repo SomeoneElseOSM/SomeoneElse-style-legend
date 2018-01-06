@@ -828,6 +828,30 @@
     <tag k="ref" v="Ref"/>
     <tag k="name" v="PNFS Signpost"/>
   </node>
+  <node id="9230000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.998" lon="135.17899999999997">
+    <tag k="ncn_milepost" v="dudgeon"/>
+    <tag k="sustrans_ref" v="Dudgeon"/>
+  </node>
+  <node id="9231000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9978" lon="135.17899999999997">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Sustrans markers"/>
+  </node>
+  <node id="9230000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.998" lon="135.17999999999998">
+    <tag k="ncn_milepost" v="mccoll"/>
+    <tag k="sustrans_ref" v="McColl"/>
+  </node>
+  <node id="9230000011" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.998" lon="135.18099999999998">
+    <tag k="ncn_milepost" v="mills"/>
+    <tag k="sustrans_ref" v="Mills"/>
+  </node>
+  <node id="9230000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.998" lon="135.182">
+    <tag k="ncn_milepost" v="rowe"/>
+    <tag k="sustrans_ref" v="Rowe"/>
+  </node>
+  <node id="9230000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.998" lon="135.183">
+    <tag k="ncn_milepost" v="yes"/>
+    <tag k="sustrans_ref" v="Unknown"/>
+  </node>
   <node id="9240000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.999" lon="135.171">
     <tag k="amenity" v="place_of_worship"/>
     <tag k="religion" v="christian"/>

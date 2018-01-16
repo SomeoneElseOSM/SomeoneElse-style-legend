@@ -1192,7 +1192,51 @@ public class generate_legend_01
 				 "historic", "archaeological_site", 
 				 "name", "Name" );
 
-	// Row 19 - Travel infrastructure
+	// Row 19 - Former phoneboxes
+	currentRow += 1;
+	currentCol = 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Telephone box containing:", 
+				 "amenity", "telephone", 
+				 "booth", "K6", 
+				 "name", "Telephone" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "booth", "K6", 
+			 "emergency", "defibrillator", 
+			 "name", "Defibrillator" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "booth", "K6", 
+			 "amenity", "library", 
+			 "name", "Library" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "booth", "K6", 
+			 "amenity", "bicycle_repair_station", 
+			 "name", "Bike Repair" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "booth", "K6", 
+			 "amenity", "atm", 
+			 "name", "ATM" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "booth", "K6", 
+			 "tourism", "information", 
+			 "name", "Tourist Info" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "booth", "K6", 
+			 "disused:amenity", "telephone", 
+			 "name", "Disused" );
+
+	// Row 20 - Travel infrastructure
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Car Park", 

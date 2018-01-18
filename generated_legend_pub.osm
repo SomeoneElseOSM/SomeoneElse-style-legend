@@ -592,6 +592,14 @@
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Well"/>
   </node>
+  <node id="9200000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.995" lon="135.182">
+    <tag k="man_made" v="mounting_block"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="9201000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9948" lon="135.182">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Mounting Block"/>
+  </node>
   <node id="9210000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.171">
     <tag k="leisure" v="sports_centre"/>
     <tag k="name" v="Name"/>

@@ -258,42 +258,50 @@
     <tag k="name" v="Petrol / Diesel"/>
   </node>
   <node id="9150000002" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.99" lon="135.172">
-    <tag k="shop" v="car"/>
-    <tag k="name" v="Name"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="name" v="Operator"/>
   </node>
   <node id="9151000002" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9898" lon="135.172">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Car Sales"/>
+    <tag k="name" v="Charging Station"/>
   </node>
   <node id="9150000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.99" lon="135.17299999999997">
-    <tag k="shop" v="car_repair"/>
+    <tag k="shop" v="car"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9151000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9898" lon="135.17299999999997">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Car Repair"/>
+    <tag k="name" v="Car Sales"/>
   </node>
   <node id="9150000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.99" lon="135.17399999999998">
-    <tag k="shop" v="car_parts"/>
+    <tag k="shop" v="car_repair"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9151000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9898" lon="135.17399999999998">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Car Parts"/>
+    <tag k="name" v="Car Repair"/>
   </node>
   <node id="9150000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.99" lon="135.17499999999998">
-    <tag k="amenity" v="car_wash"/>
+    <tag k="shop" v="car_parts"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9151000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9898" lon="135.17499999999998">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Car Wash"/>
+    <tag k="name" v="Car Parts"/>
   </node>
   <node id="9150000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.99" lon="135.176">
-    <tag k="amenity" v="car_rental"/>
+    <tag k="amenity" v="car_wash"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9151000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9898" lon="135.176">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Car Wash"/>
+  </node>
+  <node id="9150000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.99" lon="135.177">
+    <tag k="amenity" v="car_rental"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="9151000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9898" lon="135.177">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Other Car (rental etc.)"/>
   </node>

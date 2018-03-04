@@ -1421,18 +1421,33 @@ public class generate_legend_01
 				 "name", "Name" );
 
 	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Clock Tower", 
+				 "man_made", "tower", 
+				 "tower:type", "clock", 
+				 "name", "Name" );
+
+	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Illumination", 
-				 "man_made", "illuminationtower", 
+				 "man_made", "tower", 
+				 "tower:type", "lighting", 
 				 "name", "Name" );
 
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Defensive", 
-				 "man_made", "defensivetower", 
+				 "man_made", "tower", 
+				 "tower:type", "defensive", 
 				 "name", "Name" );
 
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Observation", 
-				 "man_made", "observationtower", 
+				 "man_made", "tower", 
+				 "tower:type", "observation", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Aircraft Control", 
+				 "man_made", "tower", 
+				 "tower:type", "aircraft_control", 
 				 "name", "Name" );
 
 	currentCol += 1;

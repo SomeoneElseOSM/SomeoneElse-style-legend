@@ -1495,42 +1495,51 @@
     <tag k="name" v="Aircraft Control"/>
   </node>
   <node id="9320000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.006999999999998" lon="135.178">
-    <tag k="man_made" v="water_tower"/>
+    <tag k="man_made" v="tower"/>
+    <tag k="tower:type" v="radar"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9321000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0068" lon="135.178">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Water Tower"/>
+    <tag k="name" v="Radar"/>
   </node>
   <node id="9320000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.006999999999998" lon="135.17899999999997">
-    <tag k="man_made" v="lighthouse"/>
+    <tag k="man_made" v="water_tower"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9321000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0068" lon="135.17899999999997">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Lighthouse"/>
+    <tag k="name" v="Water Tower"/>
   </node>
   <node id="9320000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.006999999999998" lon="135.17999999999998">
-    <tag k="man_made" v="power_wind"/>
+    <tag k="man_made" v="lighthouse"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9321000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0068" lon="135.17999999999998">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Wind Turbine"/>
+    <tag k="name" v="Lighthouse"/>
   </node>
   <node id="9320000011" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.006999999999998" lon="135.18099999999998">
-    <tag k="man_made" v="windmill"/>
+    <tag k="man_made" v="power_wind"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9321000011" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0068" lon="135.18099999999998">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Windmill"/>
+    <tag k="name" v="Wind Turbine"/>
   </node>
   <node id="9320000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.006999999999998" lon="135.182">
-    <tag k="man_made" v="ventilation_shaft"/>
+    <tag k="man_made" v="windmill"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9321000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0068" lon="135.182">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Windmill"/>
+  </node>
+  <node id="9320000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.006999999999998" lon="135.183">
+    <tag k="man_made" v="ventilation_shaft"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="9321000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0068" lon="135.183">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Vent Shaft"/>
   </node>

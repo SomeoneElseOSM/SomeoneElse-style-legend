@@ -1188,14 +1188,20 @@ public class generate_legend_01
 				 "name", "Name" );
 
 	currentCol += 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Recycling", 
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Recycling Centre", 
+				 "amenity", "recycling", 
+				 "recycling_type", "centre", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Recycling bin", 
 				 "amenity", "recycling", 
 				 "name", "Name" );
 
 	currentCol += 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Wastebasket", 
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Waste bin", 
 				 "amenity", "waste_basket", 
-				 "", "" );
+				 "name", "Name" );
 
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Bench", 

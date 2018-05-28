@@ -715,6 +715,18 @@ public class generate_legend_01
 				 "amenity", "toilets", 
 				 "name", "Name" );
 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "(customers)", 
+				 "amenity", "toilets", 
+				 "access", "customers", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "(pay)", 
+				 "amenity", "toilets", 
+				 "fee", "yes", 
+				 "name", "Name" );
+
 	// Row 10 - places you might want to visit outside
 	currentRow += 1;
 	currentCol = 1;
@@ -1190,6 +1202,11 @@ public class generate_legend_01
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Vending Machine", 
 				 "amenity", "vending_machine", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Musical Instrument", 
+				 "amenity", "musical_instrument", 
 				 "name", "Name" );
 
 	currentCol += 1;

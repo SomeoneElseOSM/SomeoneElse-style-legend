@@ -118,18 +118,22 @@
     <tag k="name" v="Other Eating and Drinking"/>
   </node>
   <node id="9130000002" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.172">
+    <tag k="amenity" v="nightclub"/>
+    <tag k="name" v="Nightclub"/>
+  </node>
+  <node id="9130000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.17299999999997">
     <tag k="amenity" v="social_club"/>
     <tag k="name" v="Social Club"/>
   </node>
-  <node id="9130000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.17299999999997">
+  <node id="9130000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.17399999999998">
     <tag k="amenity" v="cafe"/>
     <tag k="name" v="Cafe"/>
   </node>
-  <node id="9130000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.17399999999998">
+  <node id="9130000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.17499999999998">
     <tag k="amenity" v="restaurant"/>
     <tag k="name" v="Restaurant"/>
   </node>
-  <node id="9130000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.17499999999998">
+  <node id="9130000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.176">
     <tag k="amenity" v="biergarten"/>
     <tag k="name" v="Biergarten"/>
   </node>

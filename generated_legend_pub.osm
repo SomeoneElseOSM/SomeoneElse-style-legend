@@ -257,6 +257,10 @@
     <tag k="shop" v="funeral_directors"/>
     <tag k="name" v="Funerals, Stonemasons, etc."/>
   </node>
+  <node id="9140000030" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.989" lon="135.2">
+    <tag k="shop" v="laundry"/>
+    <tag k="name" v="Laundry, Dry Cleaning"/>
+  </node>
   <node id="9150000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.99" lon="135.171">
     <tag k="amenity" v="fuel"/>
     <tag k="name" v="Name"/>

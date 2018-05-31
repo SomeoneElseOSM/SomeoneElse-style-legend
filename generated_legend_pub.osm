@@ -261,6 +261,10 @@
     <tag k="shop" v="laundry"/>
     <tag k="name" v="Laundry, Dry Cleaning"/>
   </node>
+  <node id="9140000031" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.989" lon="135.201">
+    <tag k="shop" v="pet"/>
+    <tag k="name" v="Pet and pet related"/>
+  </node>
   <node id="9150000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.99" lon="135.171">
     <tag k="amenity" v="fuel"/>
     <tag k="name" v="Name"/>

@@ -525,6 +525,11 @@ public class generate_legend_01
 			 "shop", "laundry", 
 			 "name", "Laundry, Dry Cleaning" );
 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "shop", "pet", 
+			 "name", "Pet and pet related" );
+
 	// Row 5 - cars
 	currentRow += 1;
 	currentCol = 1;

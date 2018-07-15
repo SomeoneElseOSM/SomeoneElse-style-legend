@@ -1515,43 +1515,14 @@ public class generate_legend_01
 				 "name", "Name" );
 
 	currentCol += 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Gate", 
-				 "barrier", "gate", 
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Streetlamp", 
+				 "highway", "street_lamp", 
 				 "name", "Name" );
 
 	currentCol += 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Kissing Gate", 
-				 "barrier", "kissing_gate", 
-				 "name", "Name" );
-
-	currentCol += 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Stile", 
-				 "barrier", "stile", 
-				 "name", "Name" );
-
-	currentCol += 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Horse Stile", 
-				 "barrier", "horse_stile", 
-				 "name", "Name" );
-
-	currentCol += 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Cycle Barrier", 
-				 "barrier", "cycle_barrier", 
-				 "name", "Name" );
-
-	currentCol += 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Cattle Grid", 
-				 "barrier", "cattle_grid", 
-				 "name", "Name" );
-
-	currentCol += 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Lift Gate", 
-				 "barrier", "lift_gate", 
-				 "name", "Name" );
-
-	currentCol += 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Bollard", 
-				 "barrier", "bollard", 
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Gaslight", 
+				 "highway", "street_lamp", 
+				 "lamp_type", "gaslight", 
 				 "name", "Name" );
 
 	currentCol += 1;

@@ -644,12 +644,17 @@ public class generate_legend_01
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Defibrillator", 
 				 "emergency", "defibrillator", 
-				 "name", "Defibrillator" );
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Life Ring", 
+				 "emergency", "life_ring", 
+				 "name", "Name" );
 
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Fire Extinguisher", 
 				 "emergency", "fire_extinguisher", 
-				 "name", "Fire Extinguisher" );
+				 "name", "Name" );
 
 	// Row 8 - accomodation
 	currentRow += 1;

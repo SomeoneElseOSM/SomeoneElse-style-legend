@@ -293,6 +293,10 @@
     <tag k="shop" v="books"/>
     <tag k="name" v="Books"/>
   </node>
+  <node id="9140000039" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.989" lon="135.20899999999997">
+    <tag k="shop" v="music"/>
+    <tag k="name" v="Music"/>
+  </node>
   <node id="9150000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.99" lon="135.171">
     <tag k="amenity" v="fuel"/>
     <tag k="name" v="Name"/>

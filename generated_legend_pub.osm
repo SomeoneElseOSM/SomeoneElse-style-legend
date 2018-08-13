@@ -366,10 +366,18 @@
     <tag k="name" v="Car Wash"/>
   </node>
   <node id="9150000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.99" lon="135.177">
-    <tag k="amenity" v="car_rental"/>
+    <tag k="amenity" v="compressed_air"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9151000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9898" lon="135.177">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Compressed Air"/>
+  </node>
+  <node id="9150000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.99" lon="135.178">
+    <tag k="amenity" v="car_rental"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="9151000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9898" lon="135.178">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Other Car (rental etc.)"/>
   </node>

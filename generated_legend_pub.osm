@@ -710,6 +710,15 @@
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Mounting Block"/>
   </node>
+  <node id="9200000014" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.995" lon="135.184">
+    <tag k="man_made" v="monitoring_station"/>
+    <tag k="monitoring:water_level" v="yes"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="9201000014" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9948" lon="135.184">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Water Monitoring Station"/>
+  </node>
   <node id="9210000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.171">
     <tag k="leisure" v="sports_centre"/>
     <tag k="name" v="Name"/>

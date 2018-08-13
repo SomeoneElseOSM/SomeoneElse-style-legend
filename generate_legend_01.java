@@ -874,6 +874,12 @@ public class generate_legend_01
 				 "man_made", "mounting_block", 
 				 "name", "Name" );
 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Water Monitoring Station", 
+				 "man_made", "monitoring_station", 
+				 "monitoring:water_level", "yes", 
+				 "name", "Name" );
+
 	// Row 11 - Leisure
 	currentRow += 1;
 	currentCol = 1;

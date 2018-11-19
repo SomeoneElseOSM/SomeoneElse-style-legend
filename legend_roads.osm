@@ -1296,12 +1296,13 @@
     <tag k='designation' v='byway_open_to_all_traffic' />
     <tag k='highway' v='track' />
     <tag k='name' v='BOAT' />
+    <tag k='prow_ref' v='PROW REF' />
   </way>
   <way id='9200003002' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100003003' />
     <nd ref='9100003005' />
     <tag k='designation' v='byway_open_to_all_traffic' />
-    <tag k='highway' v='footpath' />
+    <tag k='highway' v='footway' />
     <tag k='name' v='Narrow BOAT' />
     <tag k='prow_ref' v='PROW REF' />
   </way>
@@ -1309,7 +1310,7 @@
     <nd ref='9100003005' />
     <nd ref='9100003007' />
     <tag k='designation' v='byway_open_to_all_traffic' />
-    <tag k='highway' v='footpath' />
+    <tag k='highway' v='footway' />
     <tag k='name' v='Narrow BOAT tunnel' />
     <tag k='prow_ref' v='PROW REF' />
     <tag k='tunnel' v='yes' />
@@ -1318,7 +1319,7 @@
     <nd ref='9100003007' />
     <nd ref='9100003009' />
     <tag k='designation' v='byway_open_to_all_traffic' />
-    <tag k='highway' v='footpath' />
+    <tag k='highway' v='footway' />
     <tag k='name' v='Narrow BOAT ford' />
     <tag k='prow_ref' v='PROW REF' />
     <tag k='ford' v='yes' />
@@ -1327,7 +1328,7 @@
     <nd ref='9100003009' />
     <nd ref='9100003011' />
     <tag k='designation' v='byway_open_to_all_traffic' />
-    <tag k='highway' v='footpath' />
+    <tag k='highway' v='footway' />
     <tag k='name' v='Narrow BOAT bridge' />
     <tag k='prow_ref' v='PROW REF' />
     <tag k='bridge' v='yes' />
@@ -1336,7 +1337,7 @@
     <nd ref='9100003011' />
     <nd ref='9100003013' />
     <tag k='designation' v='byway_open_to_all_traffic' />
-    <tag k='highway' v='footpath' />
+    <tag k='highway' v='footway' />
     <tag k='name' v='Narrow BOAT embankment' />
     <tag k='prow_ref' v='PROW REF' />
     <tag k='embankment' v='yes' />
@@ -1345,7 +1346,7 @@
     <nd ref='9100003013' />
     <nd ref='9100003015' />
     <tag k='designation' v='byway_open_to_all_traffic' />
-    <tag k='highway' v='footpath' />
+    <tag k='highway' v='footway' />
     <tag k='name' v='Narrow BOAT' />
     <tag k='prow_ref' v='PROW REF' />
   </way>

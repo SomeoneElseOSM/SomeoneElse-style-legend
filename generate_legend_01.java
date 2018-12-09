@@ -677,6 +677,16 @@ public class generate_legend_01
 				 "name", "Name" );
 
 	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Ambulance Station",
+				 "amenity", "ambulance_station", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Mountain Rescue",
+				 "amenity", "mountain_rescue", 
+				 "name", "Name" );
+
+	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Defibrillator", 
 				 "emergency", "defibrillator", 
 				 "name", "Name" );
@@ -689,6 +699,11 @@ public class generate_legend_01
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Fire Extinguisher", 
 				 "emergency", "fire_extinguisher", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Mountain Rescue Supplies", 
+				 "emergency", "mountain_rescue_box", 
 				 "name", "Name" );
 
 	// Row 8 - accomodation

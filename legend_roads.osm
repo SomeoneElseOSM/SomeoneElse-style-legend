@@ -1320,7 +1320,7 @@
     <tag k='surface' v='unpaved' />
     <tag k='highway' v='unclassified' />
     <tag k='width' v='1' />
-    <tag k='name' v='Narrow unclassified unpaved' />
+    <tag k='name' v='Unclassified unpaved' />
     <tag k='prow_ref' v='PROW REF' />
   </way>
   <way id='9200003003' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
@@ -1329,7 +1329,7 @@
     <tag k='surface' v='unpaved' />
     <tag k='highway' v='unclassified' />
     <tag k='width' v='1' />
-    <tag k='name' v='Narrow unclassified unpaved tunnel' />
+    <tag k='name' v='Unclassified unpaved tunnel' />
     <tag k='prow_ref' v='PROW REF' />
     <tag k='tunnel' v='yes' />
   </way>
@@ -1339,7 +1339,7 @@
     <tag k='surface' v='unpaved' />
     <tag k='highway' v='unclassified' />
     <tag k='width' v='1' />
-    <tag k='name' v='Narrow unclassified unpaved ford' />
+    <tag k='name' v='Unclassified unpaved ford' />
     <tag k='prow_ref' v='PROW REF' />
     <tag k='ford' v='yes' />
   </way>
@@ -1349,7 +1349,7 @@
     <tag k='surface' v='unpaved' />
     <tag k='highway' v='unclassified' />
     <tag k='width' v='1' />
-    <tag k='name' v='Narrow unclassified unpaved bridge' />
+    <tag k='name' v='Unclassified unpaved bridge' />
     <tag k='prow_ref' v='PROW REF' />
     <tag k='bridge' v='yes' />
   </way>
@@ -1359,7 +1359,7 @@
     <tag k='surface' v='unpaved' />
     <tag k='highway' v='unclassified' />
     <tag k='width' v='1' />
-    <tag k='name' v='Narrow unclassified unpaved embankment' />
+    <tag k='name' v='Unclassified unpaved embankment' />
     <tag k='prow_ref' v='PROW REF' />
     <tag k='embankment' v='yes' />
   </way>
@@ -1369,7 +1369,7 @@
     <tag k='surface' v='unpaved' />
     <tag k='highway' v='unclassified' />
     <tag k='width' v='1' />
-    <tag k='name' v='Narrow unclassified unpaved' />
+    <tag k='name' v='Unclassified unpaved' />
     <tag k='prow_ref' v='PROW REF' />
   </way>
   <way id='9200004001' timestamp='2017-04-30T10:33:52Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101463'>
@@ -1377,7 +1377,7 @@
     <nd ref='9100004003' />
     <tag k='designation' v='unclassified_county_road' />
     <tag k='highway' v='track' />
-    <tag k='name' v='UCR' />
+    <tag k='name' v='Unclassified County Road' />
     <tag k='prow_ref' v='PROW REF' />
   </way>
   <way id='9200004002' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
@@ -1385,7 +1385,7 @@
     <nd ref='9100004005' />
     <tag k='designation' v='unclassified_county_road' />
     <tag k='highway' v='footway' />
-    <tag k='name' v='Narrow UCR' />
+    <tag k='name' v='Narrow Unclassified County Road' />
     <tag k='prow_ref' v='PROW REF' />
   </way>
   <way id='9200004003' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
@@ -1429,7 +1429,7 @@
     <nd ref='9100004015' />
     <tag k='designation' v='unclassified_county_road' />
     <tag k='highway' v='footway' />
-    <tag k='name' v='Narrow UCR' />
+    <tag k='name' v='Narrow Unclassified County Road' />
     <tag k='prow_ref' v='PROW REF' />
   </way>
   <way id='9200005001' timestamp='2017-04-30T10:33:52Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101463'>

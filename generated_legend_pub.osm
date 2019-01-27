@@ -396,6 +396,14 @@
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Various Offices"/>
   </node>
+  <node id="9160000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.991" lon="135.17299999999997">
+    <tag k="craft" v="brewery"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="9161000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9908" lon="135.17299999999997">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Craft Brewery"/>
+  </node>
   <node id="9170000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.992" lon="135.171">
     <tag k="amenity" v="hospital"/>
     <tag k="name" v="Name"/>

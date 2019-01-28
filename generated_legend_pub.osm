@@ -40,6 +40,11 @@
   </node>
   <node id="9110000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.986" lon="135.177">
     <tag k="amenity" v="pub"/>
+    <tag k="name" v="Micropub"/>
+    <tag k="micropub" v="yes"/>
+  </node>
+  <node id="9110000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.986" lon="135.178">
+    <tag k="amenity" v="pub"/>
     <tag k="name" v="Combination"/>
     <tag k="real_ale" v="An interesting selection"/>
     <tag k="food" v="Some sort of description"/>

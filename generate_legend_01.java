@@ -267,11 +267,17 @@ public class generate_legend_01
 	currentCol += 1;
 	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "pub", 
+			 "name", "Accommodation", 
+			 "accommodation", "yes" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "amenity", "pub", 
 			 "name", "Combination", 
 			 "real_ale", "An interesting selection", 
 			 "food", "Some sort of description", 
 			 "microbrewery", "yes", 
-			 "description:floor", "Tiles or stone",
+			 "floor:material", "tiles",
 			 "", "" );
 
 	// Row 2 - fast food

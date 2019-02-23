@@ -144,6 +144,10 @@
     <tag k="name" v="Restaurant"/>
   </node>
   <node id="9130000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.176">
+    <tag k="amenity" v="restaccomm"/>
+    <tag k="name" v="with rooms"/>
+  </node>
+  <node id="9130000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.177">
     <tag k="amenity" v="biergarten"/>
     <tag k="name" v="Biergarten"/>
   </node>

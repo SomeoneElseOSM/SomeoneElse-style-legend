@@ -1663,6 +1663,12 @@ public class generate_legend_01
 				 "name", "Name" );
 
 	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Pedestal Clock", 
+				 "amenity", "clock", 
+				 "support", "pedestal", 
+				 "name", "Name" );
+
+	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Illumination", 
 				 "man_made", "tower", 
 				 "tower:type", "lighting", 
@@ -1760,6 +1766,11 @@ public class generate_legend_01
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Mine", 
 				 "man_made", "mineshaft", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Fountain", 
+				 "amenity", "fountain", 
 				 "name", "Name" );
 
 	currentCol += 1;

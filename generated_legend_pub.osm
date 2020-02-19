@@ -50,11 +50,27 @@
   </node>
   <node id="9110000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.986" lon="135.17899999999997">
     <tag k="amenity" v="pub"/>
+    <tag k="name" v="Wheelchair accessible"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="9110000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.986" lon="135.17999999999998">
+    <tag k="amenity" v="pub"/>
+    <tag k="name" v="Limited wheelchair access"/>
+    <tag k="wheelchair" v="limited"/>
+  </node>
+  <node id="9110000011" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.986" lon="135.18099999999998">
+    <tag k="amenity" v="pub"/>
+    <tag k="name" v="No wheelchair access"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="9110000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.986" lon="135.182">
+    <tag k="amenity" v="pub"/>
     <tag k="name" v="Combination"/>
     <tag k="real_ale" v="An interesting selection"/>
     <tag k="food" v="Some sort of description"/>
     <tag k="microbrewery" v="yes"/>
     <tag k="floor:material" v="tiles"/>
+    <tag k="wheelchair" v="yes"/>
   </node>
   <node id="9120000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.987" lon="135.171">
     <tag k="amenity" v="fast_food"/>

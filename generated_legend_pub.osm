@@ -144,7 +144,8 @@
     <tag k="name" v="Other Eating and Drinking"/>
   </node>
   <node id="9130000002" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.172">
-    <tag k="amenity" v="baraccomm"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="accommodation" v="yes"/>
     <tag k="name" v="Bar with rooms"/>
   </node>
   <node id="9130000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.17299999999997">
@@ -160,7 +161,8 @@
     <tag k="name" v="Cafe"/>
   </node>
   <node id="9130000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.176">
-    <tag k="amenity" v="cafeaccomm"/>
+    <tag k="amenity" v="cafe"/>
+    <tag k="accommodation" v="yes"/>
     <tag k="name" v="Cafe with rooms"/>
   </node>
   <node id="9130000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.177">

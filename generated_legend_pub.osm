@@ -65,6 +65,16 @@
   </node>
   <node id="9110000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.986" lon="135.182">
     <tag k="amenity" v="pub"/>
+    <tag k="name" v="Beer Garden"/>
+    <tag k="beer_garden" v="yes"/>
+  </node>
+  <node id="9110000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.986" lon="135.183">
+    <tag k="amenity" v="pub"/>
+    <tag k="name" v="Outdoor Seating"/>
+    <tag k="outdoor_seating" v="yes"/>
+  </node>
+  <node id="9110000014" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.986" lon="135.184">
+    <tag k="amenity" v="pub"/>
     <tag k="name" v="Combination"/>
     <tag k="real_ale" v="An interesting selection"/>
     <tag k="food" v="Some sort of description"/>

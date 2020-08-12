@@ -82,6 +82,15 @@
     <tag k="floor:material" v="tiles"/>
     <tag k="wheelchair" v="yes"/>
   </node>
+  <node id="9110000015" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.986" lon="135.18499999999997">
+    <tag k="disused:amenity" v="pub"/>
+    <tag k="name" v="Shut"/>
+  </node>
+  <node id="9110000016" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.986" lon="135.18599999999998">
+    <tag k="amenity" v="pub"/>
+    <tag k="name" v="... due to Covid 19"/>
+    <tag k="opening_hours:covid19" v="off"/>
+  </node>
   <node id="9120000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.987" lon="135.171">
     <tag k="amenity" v="fast_food"/>
     <tag k="name" v="Generic Fast Food"/>

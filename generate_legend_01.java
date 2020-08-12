@@ -310,6 +310,17 @@ public class generate_legend_01
 			 "floor:material", "tiles",
 			 "wheelchair", "yes" );
 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "disused:amenity", "pub", 
+			 "name", "Shut");
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "amenity", "pub", 
+			 "name", "... due to Covid 19", 
+			 "opening_hours:covid19", "off" );
+
 	// Row 2 - fast food
 	currentRow += 1;
 	currentCol = 1;

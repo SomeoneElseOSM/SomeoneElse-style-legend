@@ -256,7 +256,9 @@
   <node id='9100001011' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9850' lon='135.145' />
   <node id='9100001015' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9850' lon='135.165' />
   <node id='9100002001' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9870' lon='135.095' />
+  <node id='9100002002' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9870' lon='135.103' />
   <node id='9100002003' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9870' lon='135.105' />
+  <node id='9100002004' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9870' lon='135.113' />
   <node id='9100002005' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9870' lon='135.115' />
   <node id='9100002007' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9870' lon='135.125' />
   <node id='9100002009' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9870' lon='135.135' />
@@ -264,7 +266,9 @@
   <node id='9100002013' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9870' lon='135.155' />
   <node id='9100002015' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9870' lon='135.165' />
   <node id='9100003001' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9890' lon='135.095' />
+  <node id='9100003002' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9890' lon='135.103' />
   <node id='9100003003' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9890' lon='135.105' />
+  <node id='9100003004' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9890' lon='135.113' />
   <node id='9100003005' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9890' lon='135.115' />
   <node id='9100003007' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9890' lon='135.125' />
   <node id='9100003009' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9890' lon='135.135' />
@@ -272,7 +276,9 @@
   <node id='9100003013' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9890' lon='135.155' />
   <node id='9100003015' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9890' lon='135.165' />
   <node id='9100004001' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9910' lon='135.095' />
+  <node id='9100004002' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9910' lon='135.103' />
   <node id='9100004003' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9910' lon='135.105' />
+  <node id='9100004004' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9910' lon='135.113' />
   <node id='9100004005' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9910' lon='135.115' />
   <node id='9100004007' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9910' lon='135.125' />
   <node id='9100004009' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9910' lon='135.135' />
@@ -280,7 +286,9 @@
   <node id='9100004013' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9910' lon='135.155' />
   <node id='9100004015' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9910' lon='135.165' />
   <node id='9100005001' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9930' lon='135.095' />
+  <node id='9100005002' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9930' lon='135.103' />
   <node id='9100005003' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9930' lon='135.105' />
+  <node id='9100005004' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9930' lon='135.113' />
   <node id='9100005005' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9930' lon='135.115' />
   <node id='9100005007' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9930' lon='135.125' />
   <node id='9100005009' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9930' lon='135.135' />
@@ -288,7 +296,9 @@
   <node id='9100005013' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9930' lon='135.155' />
   <node id='9100005015' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9930' lon='135.165' />
   <node id='9100006001' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9950' lon='135.095' />
+  <node id='9100006002' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9950' lon='135.103' />
   <node id='9100006003' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9950' lon='135.105' />
+  <node id='9100006004' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9950' lon='135.113' />
   <node id='9100006005' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9950' lon='135.115' />
   <node id='9100006007' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9950' lon='135.125' />
   <node id='9100006009' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9950' lon='135.135' />
@@ -296,7 +306,9 @@
   <node id='9100006013' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9950' lon='135.155' />
   <node id='9100006015' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9950' lon='135.165' />
   <node id='9100007001' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9970' lon='135.095' />
+  <node id='9100007002' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9970' lon='135.103' />
   <node id='9100007003' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9970' lon='135.105' />
+  <node id='9100007004' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9970' lon='135.113' />
   <node id='9100007005' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9970' lon='135.115' />
   <node id='9100007007' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9970' lon='135.125' />
   <node id='9100007009' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9970' lon='135.135' />
@@ -304,7 +316,9 @@
   <node id='9100007013' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9970' lon='135.155' />
   <node id='9100007015' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9970' lon='135.165' />
   <node id='9100008001' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9990' lon='135.095' />
+  <node id='9100008002' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9990' lon='135.103' />
   <node id='9100008003' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9990' lon='135.105' />
+  <node id='9100008004' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9990' lon='135.113' />
   <node id='9100008005' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9990' lon='135.115' />
   <node id='9100008007' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9990' lon='135.125' />
   <node id='9100008009' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9990' lon='135.135' />
@@ -312,7 +326,9 @@
   <node id='9100008013' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9990' lon='135.155' />
   <node id='9100008015' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9990' lon='135.165' />
   <node id='9100009001' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-25.0010' lon='135.095' />
+  <node id='9100009002' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-25.0010' lon='135.103' />
   <node id='9100009003' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-25.0010' lon='135.105' />
+  <node id='9100009004' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-25.0010' lon='135.113' />
   <node id='9100009005' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-25.0010' lon='135.115' />
   <node id='9100009007' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-25.0010' lon='135.125' />
   <node id='9100009009' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-25.0010' lon='135.135' />
@@ -1283,45 +1299,59 @@
   </way>
   <way id='9200002001' timestamp='2017-04-30T10:33:53Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101463'>
     <nd ref='9100002001' />
-    <nd ref='9100002003' />
+    <nd ref='9100002002' />
     <tag k='highway' v='track' />
     <tag k='name' v='Undesignated wide path' />
   </way>
-  <way id='9200002002' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200002002' timestamp='2017-04-30T10:33:53Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101463'>
+    <nd ref='9100002002' />
     <nd ref='9100002003' />
-    <nd ref='9100002005' />
+    <tag k='highway' v='track' />
+    <tag k='name' v='Less visible' />
+    <tag k='trail_visibility' v='intermediate' />
+  </way>
+  <way id='9200002003' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+    <nd ref='9100002003' />
+    <nd ref='9100002004' />
     <tag k='highway' v='path' />
     <tag k='name' v='Undesignated narrow path' />
   </way>
-  <way id='9200002003' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200002004' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+    <nd ref='9100002004' />
+    <nd ref='9100002005' />
+    <tag k='highway' v='path' />
+    <tag k='name' v='Less visible' />
+    <tag k='trail_visibility' v='intermediate' />
+  </way>
+  <way id='9200002005' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100002005' />
     <nd ref='9100002007' />
     <tag k='highway' v='path' />
     <tag k='name' v='Undesignated narrow tunnel' />
     <tag k='tunnel' v='yes' />
   </way>
-  <way id='9200002004' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200002007' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100002007' />
     <nd ref='9100002009' />
     <tag k='highway' v='path' />
     <tag k='name' v='Undesignated narrow ford' />
     <tag k='ford' v='yes' />
   </way>
-  <way id='9200002005' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200002009' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100002009' />
     <nd ref='9100002011' />
     <tag k='highway' v='path' />
     <tag k='name' v='Undesignated narrow bridge' />
     <tag k='bridge' v='yes' />
   </way>
-  <way id='9200002006' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200002011' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100002011' />
     <nd ref='9100002013' />
     <tag k='highway' v='path' />
     <tag k='name' v='Undesignated narrow embankment' />
     <tag k='embankment' v='yes' />
   </way>
-  <way id='9200002007' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200002013' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100002013' />
     <nd ref='9100002015' />
     <tag k='highway' v='steps' />
@@ -1335,7 +1365,7 @@
     <tag k='name' v='Unclassified unpaved' />
     <tag k='prow_ref' v='PROW REF' />
   </way>
-  <way id='9200003002' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200003003' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100003003' />
     <nd ref='9100003005' />
     <tag k='surface' v='unpaved' />
@@ -1344,7 +1374,7 @@
     <tag k='name' v='Unclassified unpaved' />
     <tag k='prow_ref' v='PROW REF' />
   </way>
-  <way id='9200003003' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200003005' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100003005' />
     <nd ref='9100003007' />
     <tag k='surface' v='unpaved' />
@@ -1354,7 +1384,7 @@
     <tag k='prow_ref' v='PROW REF' />
     <tag k='tunnel' v='yes' />
   </way>
-  <way id='9200003004' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200003007' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100003007' />
     <nd ref='9100003009' />
     <tag k='surface' v='unpaved' />
@@ -1364,7 +1394,7 @@
     <tag k='prow_ref' v='PROW REF' />
     <tag k='ford' v='yes' />
   </way>
-  <way id='9200003005' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200003009' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100003009' />
     <nd ref='9100003011' />
     <tag k='surface' v='unpaved' />
@@ -1374,7 +1404,7 @@
     <tag k='prow_ref' v='PROW REF' />
     <tag k='bridge' v='yes' />
   </way>
-  <way id='9200003006' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200003011' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100003011' />
     <nd ref='9100003013' />
     <tag k='surface' v='unpaved' />
@@ -1384,7 +1414,7 @@
     <tag k='prow_ref' v='PROW REF' />
     <tag k='embankment' v='yes' />
   </way>
-  <way id='9200003007' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200003013' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100003013' />
     <nd ref='9100003015' />
     <tag k='surface' v='unpaved' />
@@ -1401,7 +1431,7 @@
     <tag k='name' v='Unclassified County Road' />
     <tag k='prow_ref' v='PROW REF' />
   </way>
-  <way id='9200004002' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200004003' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100004003' />
     <nd ref='9100004005' />
     <tag k='designation' v='unclassified_county_road' />
@@ -1409,7 +1439,7 @@
     <tag k='name' v='Narrow Unclassified County Road' />
     <tag k='prow_ref' v='PROW REF' />
   </way>
-  <way id='9200004003' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200004005' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100004005' />
     <nd ref='9100004007' />
     <tag k='designation' v='unclassified_county_road' />
@@ -1418,7 +1448,7 @@
     <tag k='prow_ref' v='PROW REF' />
     <tag k='tunnel' v='yes' />
   </way>
-  <way id='9200004004' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200004007' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100004007' />
     <nd ref='9100004009' />
     <tag k='designation' v='unclassified_county_road' />
@@ -1427,7 +1457,7 @@
     <tag k='prow_ref' v='PROW REF' />
     <tag k='ford' v='yes' />
   </way>
-  <way id='9200004005' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200004009' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100004009' />
     <nd ref='9100004011' />
     <tag k='designation' v='unclassified_county_road' />
@@ -1436,7 +1466,7 @@
     <tag k='prow_ref' v='PROW REF' />
     <tag k='bridge' v='yes' />
   </way>
-  <way id='9200004006' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200004011' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100004011' />
     <nd ref='9100004013' />
     <tag k='designation' v='unclassified_county_road' />
@@ -1445,7 +1475,7 @@
     <tag k='prow_ref' v='PROW REF' />
     <tag k='embankment' v='yes' />
   </way>
-  <way id='9200004007' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200004013' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100004013' />
     <nd ref='9100004015' />
     <tag k='designation' v='unclassified_county_road' />
@@ -1461,7 +1491,7 @@
     <tag k='name' v='BOAT' />
     <tag k='prow_ref' v='PROW REF' />
   </way>
-  <way id='9200005002' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200005003' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100005003' />
     <nd ref='9100005005' />
     <tag k='designation' v='byway_open_to_all_traffic' />
@@ -1469,7 +1499,7 @@
     <tag k='name' v='Narrow BOAT' />
     <tag k='prow_ref' v='PROW REF' />
   </way>
-  <way id='9200005003' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200005005' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100005005' />
     <nd ref='9100005007' />
     <tag k='designation' v='byway_open_to_all_traffic' />
@@ -1478,7 +1508,7 @@
     <tag k='prow_ref' v='PROW REF' />
     <tag k='tunnel' v='yes' />
   </way>
-  <way id='9200005004' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200005007' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100005007' />
     <nd ref='9100005009' />
     <tag k='designation' v='byway_open_to_all_traffic' />
@@ -1487,7 +1517,7 @@
     <tag k='prow_ref' v='PROW REF' />
     <tag k='ford' v='yes' />
   </way>
-  <way id='9200005005' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200005009' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100005009' />
     <nd ref='9100005011' />
     <tag k='designation' v='byway_open_to_all_traffic' />
@@ -1496,7 +1526,7 @@
     <tag k='prow_ref' v='PROW REF' />
     <tag k='bridge' v='yes' />
   </way>
-  <way id='9200005006' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200005011' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100005011' />
     <nd ref='9100005013' />
     <tag k='designation' v='byway_open_to_all_traffic' />
@@ -1505,7 +1535,7 @@
     <tag k='prow_ref' v='PROW REF' />
     <tag k='embankment' v='yes' />
   </way>
-  <way id='9200005007' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200005013' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100005013' />
     <nd ref='9100005015' />
     <tag k='designation' v='byway_open_to_all_traffic' />
@@ -1520,7 +1550,7 @@
     <tag k='highway' v='track' />
     <tag k='name' v='Restricted Byway on track' />
   </way>
-  <way id='9200006002' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200006003' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100006003' />
     <nd ref='9100006005' />
     <tag k='designation' v='restricted_byway' />
@@ -1528,7 +1558,7 @@
     <tag k='name' v='Narrow Restricted Byway' />
     <tag k='prow_ref' v='PROW REF' />
   </way>
-  <way id='9200006003' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200006005' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100006005' />
     <nd ref='9100006007' />
     <tag k='designation' v='restricted_byway' />
@@ -1537,7 +1567,7 @@
     <tag k='prow_ref' v='PROW REF' />
     <tag k='tunnel' v='yes' />
   </way>
-  <way id='9200006004' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200006007' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100006007' />
     <nd ref='9100006009' />
     <tag k='designation' v='restricted_byway' />
@@ -1546,7 +1576,7 @@
     <tag k='prow_ref' v='PROW REF' />
     <tag k='ford' v='yes' />
   </way>
-  <way id='9200006005' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200006009' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100006009' />
     <nd ref='9100006011' />
     <tag k='designation' v='restricted_byway' />
@@ -1555,7 +1585,7 @@
     <tag k='prow_ref' v='PROW REF' />
     <tag k='bridge' v='yes' />
   </way>
-  <way id='9200006006' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200006011' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100006011' />
     <nd ref='9100006013' />
     <tag k='designation' v='restricted_byway' />
@@ -1564,7 +1594,7 @@
     <tag k='prow_ref' v='PROW REF' />
     <tag k='embankment' v='yes' />
   </way>
-  <way id='9200006007' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200006013' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100006013' />
     <nd ref='9100006015' />
     <tag k='designation' v='restricted_byway' />
@@ -1574,20 +1604,36 @@
   </way>
   <way id='9200007001' timestamp='2017-04-30T10:43:54Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101464'>
     <nd ref='9100007001' />
-    <nd ref='9100007003' />
+    <nd ref='9100007002' />
     <tag k='designation' v='public_bridleway' />
     <tag k='highway' v='track' />
     <tag k='name' v='Public Bridleway on track' />
   </way>
-  <way id='9200007002' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200007002' timestamp='2017-04-30T10:43:54Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101464'>
+    <nd ref='9100007002' />
     <nd ref='9100007003' />
-    <nd ref='9100007005' />
+    <tag k='designation' v='public_bridleway' />
+    <tag k='highway' v='track' />
+    <tag k='name' v='Less visible' />
+    <tag k='trail_visibility' v='intermediate' />
+  </way>
+  <way id='9200007003' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+    <nd ref='9100007003' />
+    <nd ref='9100007004' />
     <tag k='designation' v='public_bridleway' />
     <tag k='highway' v='bridleway' />
     <tag k='name' v='Public Bridleway' />
     <tag k='prow_ref' v='PROW REF' />
   </way>
-  <way id='9200007003' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200007004' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+    <nd ref='9100007004' />
+    <nd ref='9100007005' />
+    <tag k='designation' v='public_bridleway' />
+    <tag k='highway' v='bridleway' />
+    <tag k='name' v='Less visible' />
+    <tag k='trail_visibility' v='intermediate' />
+  </way>
+  <way id='9200007005' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100007005' />
     <nd ref='9100007007' />
     <tag k='designation' v='public_bridleway' />
@@ -1596,7 +1642,7 @@
     <tag k='prow_ref' v='PROW REF' />
     <tag k='tunnel' v='yes' />
   </way>
-  <way id='9200007004' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200007007' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100007007' />
     <nd ref='9100007009' />
     <tag k='designation' v='public_bridleway' />
@@ -1605,7 +1651,7 @@
     <tag k='prow_ref' v='PROW REF' />
     <tag k='ford' v='yes' />
   </way>
-  <way id='9200007005' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200007009' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100007009' />
     <nd ref='9100007011' />
     <tag k='designation' v='public_bridleway' />
@@ -1614,7 +1660,7 @@
     <tag k='prow_ref' v='PROW REF' />
     <tag k='bridge' v='yes' />
   </way>
-  <way id='9200007006' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200007011' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100007011' />
     <nd ref='9100007013' />
     <tag k='designation' v='public_bridleway' />
@@ -1623,7 +1669,7 @@
     <tag k='prow_ref' v='PROW REF' />
     <tag k='embankment' v='yes' />
   </way>
-  <way id='9200007007' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200007013' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100007013' />
     <nd ref='9100007015' />
     <tag k='designation' v='public_bridleway' />
@@ -1632,20 +1678,36 @@
   </way>
   <way id='9200008001' timestamp='2017-04-30T10:43:54Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101464'>
     <nd ref='9100008001' />
-    <nd ref='9100008003' />
+    <nd ref='9100008002' />
     <tag k='designation' v='public_footpath' />
     <tag k='highway' v='track' />
     <tag k='name' v='Public Footpath on track' />
   </way>
-  <way id='9200008002' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200008002' timestamp='2017-04-30T10:43:54Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101464'>
+    <nd ref='9100008002' />
     <nd ref='9100008003' />
-    <nd ref='9100008005' />
+    <tag k='designation' v='public_footpath' />
+    <tag k='highway' v='track' />
+    <tag k='name' v='Less visible' />
+    <tag k='trail_visibility' v='intermediate' />
+  </way>
+  <way id='9200008003' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+    <nd ref='9100008003' />
+    <nd ref='9100008004' />
     <tag k='designation' v='public_footpath' />
     <tag k='highway' v='footway' />
     <tag k='name' v='Public Footpath' />
     <tag k='prow_ref' v='PROW REF' />
   </way>
-  <way id='9200008003' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200008004' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+    <nd ref='9100008004' />
+    <nd ref='9100008005' />
+    <tag k='designation' v='public_footpath' />
+    <tag k='highway' v='footway' />
+    <tag k='name' v='Less visible' />
+    <tag k='trail_visibility' v='intermediate' />
+  </way>
+  <way id='9200008005' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100008005' />
     <nd ref='9100008007' />
     <tag k='designation' v='public_footpath' />
@@ -1654,7 +1716,7 @@
     <tag k='prow_ref' v='PROW REF' />
     <tag k='tunnel' v='yes' />
   </way>
-  <way id='9200008004' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200008007' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100008007' />
     <nd ref='9100008009' />
     <tag k='designation' v='public_footpath' />
@@ -1663,7 +1725,7 @@
     <tag k='prow_ref' v='PROW REF' />
     <tag k='ford' v='yes' />
   </way>
-  <way id='9200008005' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200008009' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100008009' />
     <nd ref='9100008011' />
     <tag k='designation' v='public_footpath' />
@@ -1672,7 +1734,7 @@
     <tag k='prow_ref' v='PROW REF' />
     <tag k='bridge' v='yes' />
   </way>
-  <way id='9200008006' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200008011' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100008011' />
     <nd ref='9100008013' />
     <tag k='designation' v='public_footpath' />
@@ -1681,7 +1743,7 @@
     <tag k='prow_ref' v='PROW REF' />
     <tag k='embankment' v='yes' />
   </way>
-  <way id='9200008007' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+  <way id='9200008013' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='9100008013' />
     <nd ref='9100008015' />
     <tag k='designation' v='public_footpath' />
@@ -1695,40 +1757,40 @@
     <tag k='highway' v='footway' />
     <tag k='name' v='Footpath' />
   </way>
-  <way id='9200009002' timestamp='2017-04-30T10:43:54Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101464'>
+  <way id='9200009003' timestamp='2017-04-30T10:43:54Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101464'>
     <nd ref='9100009003' />
     <nd ref='9100009005' />
     <tag k='designation' v='public_bridleway' />
     <tag k='highway' v='bridleway' />
     <tag k='name' v='Bridleway' />
   </way>
-  <way id='9200009003' timestamp='2017-04-30T10:43:54Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101464'>
+  <way id='9200009005' timestamp='2017-04-30T10:43:54Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101464'>
     <nd ref='9100009005' />
     <nd ref='9100009007' />
     <tag k='designation' v='byway_open_to_all_traffic' />
     <tag k='highway' v='track' />
     <tag k='name' v='BOAT' />
   </way>
-  <way id='9200009004' timestamp='2017-04-30T10:43:54Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101464'>
+  <way id='9200009007' timestamp='2017-04-30T10:43:54Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101464'>
     <nd ref='9100009007' />
     <nd ref='9100009009' />
     <tag k='highway' v='service' />
     <tag k='name' v='Service Road' />
   </way>
-  <way id='9200009005' timestamp='2017-04-30T10:43:54Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101464'>
+  <way id='9200009009' timestamp='2017-04-30T10:43:54Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101464'>
     <nd ref='9100009009' />
     <nd ref='9100009011' />
     <tag k='designation' v='public_bridleway' />
     <tag k='highway' v='track' />
     <tag k='name' v='Bridleway' />
   </way>
-  <way id='9200009006' timestamp='2017-04-30T10:43:54Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101464'>
+  <way id='9200009011' timestamp='2017-04-30T10:43:54Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101464'>
     <nd ref='9100009011' />
     <nd ref='9100009013' />
     <tag k='highway' v='unclassified' />
     <tag k='name' v='Unclassified' />
   </way>
-  <way id='9200009007' timestamp='2017-04-30T10:43:54Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101464'>
+  <way id='9200009013' timestamp='2017-04-30T10:43:54Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101464'>
     <nd ref='9100009013' />
     <nd ref='9100009015' />
     <tag k='designation' v='public_bridleway' />

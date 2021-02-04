@@ -1685,6 +1685,12 @@ public class generate_legend_01
 				 "name", "Name" );
 
 	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Pay Bike Parking", 
+				 "amenity", "bicycle_parking", 
+				 "fee", "yes", 
+				 "name", "Name" );
+
+	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Bike Rental", 
 				 "amenity", "bicycle_rental", 
 				 "name", "Name" );

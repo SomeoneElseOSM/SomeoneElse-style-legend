@@ -827,6 +827,15 @@
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Weather Monitoring Station"/>
   </node>
+  <node id="9200000016" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.995" lon="135.18599999999998">
+    <tag k="man_made" v="monitoring_station"/>
+    <tag k="monitoring:seismic_activity" v="yes"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="9201000016" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9948" lon="135.18599999999998">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Seismic Monitoring"/>
+  </node>
   <node id="9210000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.171">
     <tag k="playground" v="swing"/>
     <tag k="name" v="Name"/>

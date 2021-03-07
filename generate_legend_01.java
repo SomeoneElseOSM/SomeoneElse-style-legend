@@ -982,15 +982,21 @@ public class generate_legend_01
 				 "name", "Name" );
 
 	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Rainfall Monitoring", 
+				 "man_made", "monitoring_station", 
+				 "monitoring:rainfall", "yes", 
+				 "name", "Name" );
+
+	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Seismic Monitoring", 
 				 "man_made", "monitoring_station", 
 				 "monitoring:seismic_activity", "yes", 
 				 "name", "Name" );
 
 	currentCol += 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Rainfall Monitoring", 
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Sky Brightness Monitoring", 
 				 "man_made", "monitoring_station", 
-				 "monitoring:rainfall", "yes", 
+				 "monitoring:sky_brightness", "yes", 
 				 "name", "Name" );
 
 	// Row 11 - Playground Equipment

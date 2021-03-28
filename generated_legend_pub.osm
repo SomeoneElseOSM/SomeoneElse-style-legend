@@ -1238,6 +1238,16 @@
     <tag k="religion" v="taoist"/>
     <tag k="name" v="Taoist"/>
   </node>
+  <node id="9250000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0" lon="135.17899999999997">
+    <tag k="place_of_worship" v="holy_well"/>
+    <tag k="man_made" v="water_well"/>
+    <tag k="name" v="Holy Well"/>
+  </node>
+  <node id="9250000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0" lon="135.17999999999998">
+    <tag k="place_of_worship" v="holy_well"/>
+    <tag k="natural" v="spring"/>
+    <tag k="name" v="Holy Spring"/>
+  </node>
   <node id="9260000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.000999999999998" lon="135.171">
     <tag k="amenity" v="post_office"/>
     <tag k="name" v="Name"/>

@@ -1333,6 +1333,18 @@ public class generate_legend_01
 			 "religion", "taoist", 
 			 "name", "Taoist" );
 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "place_of_worship", "holy_well", 
+			 "man_made", "water_well", 
+			 "name", "Holy Well" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "place_of_worship", "holy_well", 
+			 "natural", "spring", 
+			 "name", "Holy Spring" );
+
 	// Row 16 - government
 	currentRow += 1;
 	currentCol = 1;

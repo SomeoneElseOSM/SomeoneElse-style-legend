@@ -1544,10 +1544,18 @@
     <tag k="name" v="Rune Stone"/>
   </node>
   <node id="9300000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.005" lon="135.176">
-    <tag k="historic" v="ruins"/>
+    <tag k="place_of_worship" v="mass_rock"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="9301000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0048" lon="135.176">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Mass Rock"/>
+  </node>
+  <node id="9300000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.005" lon="135.177">
+    <tag k="historic" v="ruins"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="9301000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0048" lon="135.177">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Other Historic"/>
   </node>

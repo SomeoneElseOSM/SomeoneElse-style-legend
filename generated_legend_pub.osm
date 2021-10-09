@@ -255,10 +255,14 @@
     <tag k="name" v="Alcohol"/>
   </node>
   <node id="9140000014" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.989" lon="135.184">
+    <tag k="shop" v="coffee"/>
+    <tag k="name" v="Coffee, Tea, etc."/>
+  </node>
+  <node id="9140000015" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.989" lon="135.18499999999997">
     <tag k="shop" v="confectionery"/>
     <tag k="name" v="Confectionery"/>
   </node>
-  <node id="9140000015" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.989" lon="135.18499999999997">
+  <node id="9140000016" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.989" lon="135.18599999999998">
     <tag k="shop" v="variety_store"/>
     <tag k="name" v="Variety, Discount"/>
   </node>

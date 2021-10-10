@@ -14,7 +14,7 @@ public class generate_legend_01
     final static String osmHeader = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<osm version=\"0.6\" generator=\"OpenStreetMap server\" copyright=\"OpenStreetMap and contributors\" attribution=\"http://www.openstreetmap.org/copyright\" license=\"http://opendatacommons.org/licenses/odbl/1-0/\">\n<bounds minlat=\"-24.98769\" minlon=\"135.03282\" maxlat=\"-24.98601\" maxlon=\"135.03509\"/>";
     final static String osmTrailer = "</osm>";
 
-    static long   startNode = 9100000000L;
+    static long   startNode = 29100000000L;
     static double startLat  = -24.9850;
     static double startLon  = 135.170;
     static double incLat   = -00.0010;

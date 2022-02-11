@@ -5,11 +5,12 @@
 #
 # The local user account we are using
 #
-local_user=renderaccount
+local_filesystem_user=renderaccount
+local_renderd_user=renderaccount
 #
 # First things first - is another copy of the script already running?
 #
-cd /home/${local_user}/data
+cd /home/${local_filesystem_user}/data
 if test -e update_legend.running
 then
     echo update_legend.running exists; exiting
@@ -23,17 +24,17 @@ fi
 #
 # A legend change may still depend on style changes, but this needs to be done manually now.
 #
-# cd /home/${local_user}/src/SomeoneElse-style
+# cd /home/${local_filesystem_user}/src/SomeoneElse-style
 # pwd
-# sudo -u ${local_user} git pull
+# sudo -u ${local_filesystem_user} git pull
 #
-# cd /home/${local_user}/src/SomeoneElse-style-legend
+# cd /home/${local_filesystem_user}/src/SomeoneElse-style-legend
 # pwd
-# sudo -u ${local_user} git pull
+# sudo -u ${local_filesystem_user} git pull
 #
-cd /home/${local_user}/src/openstreetmap-carto-AJT
+cd /home/${local_filesystem_user}/src/openstreetmap-carto-AJT
 pwd
-# sudo -u ${local_user} git pull
+# sudo -u ${local_filesystem_user} git pull
 carto project.mml > mapnik.xml
 #
 # How much disk space are we currently using?
@@ -42,18 +43,19 @@ df
 #
 # When was the target file last modified?
 #
-cd /home/${local_user}/src/SomeoneElse-style-legend
+cd /home/${local_filesystem_user}/src/SomeoneElse-style-legend
 rm generated_legend_pub.osm
 javac generate_legend_01.java
 java generate_legend_01
 #
-cd /home/${local_user}/data
+cd /home/${local_filesystem_user}/data
 #
 # Run osm2pgsql
 #
-sudo -u ${local_user} osm2pgsql --append --slim -d gis -C 250 --number-processes 2 -S /home/${local_user}/src/openstreetmap-carto-AJT/openstreetmap-carto.style --multi-geometry --tag-transform-script /home/${local_user}/src/SomeoneElse-style/style.lua /home/${local_user}/src/SomeoneElse-style-legend/legend_roads.osm
+sudo -u ${local_renderd_user} osm2pgsql --append --slim -d gis -C 250 --number-processes 2 -S /home/${local_filesystem_user}/src/openstreetmap-carto-AJT/openstreetmap-carto.style --multi-geometry --tag-transform-script /home/${local_filesystem_user}/src/SomeoneElse-style/style.lua /home/${local_filesystem_user}/src/SomeoneElse-style-legend/legend_roads.osm
 #
-sudo -u ${local_user} osm2pgsql --append --slim -d gis -C 250 --number-processes 2 -S /home/${local_user}/src/openstreetmap-carto-AJT/openstreetmap-carto.style --multi-geometry --tag-transform-script /home/${local_user}/src/SomeoneElse-style/style.lua /home/${local_user}/src/SomeoneElse-style-legend/generated_legend_pub.osm
+sudo -u ${local_filesystem_user} osmium sort -o /home/${local_filesystem_user}/src/SomeoneElse-style-legend/generated_legend_pubs.osm /home/${local_filesystem_user}/src/SomeoneElse-style-legend/generated_legend_pub.osm
+sudo -u ${local_renderd_user} osm2pgsql --append --slim -d gis -C 250 --number-processes 2 -S /home/${local_filesystem_user}/src/openstreetmap-carto-AJT/openstreetmap-carto.style --multi-geometry --tag-transform-script /home/${local_filesystem_user}/src/SomeoneElse-style/style.lua /home/${local_filesystem_user}/src/SomeoneElse-style-legend/generated_legend_pubs.osm
 #
 # Restart renderd so that we see new tiles
 #
@@ -67,6 +69,6 @@ sudo -u ${local_user} osm2pgsql --append --slim -d gis -C 250 --number-processes
 # 
 # And final tidying up
 #
-#date | mail -s "Legend reload complete on `hostname`" ${local_user}
+#date | mail -s "Legend reload complete on `hostname`" ${local_filesystem_user}
 rm update_legend.running
 #

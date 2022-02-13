@@ -499,6 +499,12 @@ public class generate_legend_01
 
 	currentCol += 1;
 	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "shop", "greengrocer", 
+			 "zero_waste", "only", 
+			 "name", "Zero Waste Greengrocer" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "shop", "farm", 
 			 "name", "Farm Shop" );
 

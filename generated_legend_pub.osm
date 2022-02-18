@@ -185,14 +185,24 @@
     <tag k="name" v="Cafe with rooms"/>
   </node>
   <node id="29130000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.177">
+    <tag k="amenity" v="cafe"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="name" v="with wheelchair access"/>
+  </node>
+  <node id="29130000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.178">
+    <tag k="amenity" v="cafe"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="name" v="with outdoor seating"/>
+  </node>
+  <node id="29130000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.17899999999997">
     <tag k="amenity" v="restaurant"/>
     <tag k="name" v="Restaurant"/>
   </node>
-  <node id="29130000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.178">
+  <node id="29130000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.17999999999998">
     <tag k="amenity" v="restaccomm"/>
     <tag k="name" v="with rooms"/>
   </node>
-  <node id="29130000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.17899999999997">
+  <node id="29130000011" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.18099999999998">
     <tag k="amenity" v="biergarten"/>
     <tag k="name" v="Biergarten"/>
   </node>

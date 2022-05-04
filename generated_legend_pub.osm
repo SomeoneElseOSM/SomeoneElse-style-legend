@@ -562,6 +562,14 @@
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Craft Brewery"/>
   </node>
+  <node id="29180000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.993" lon="135.17399999999998">
+    <tag k="craft" v="cider"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29181000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9928" lon="135.17399999999998">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Craft Cider"/>
+  </node>
   <node id="29190000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.994" lon="135.171">
     <tag k="amenity" v="hospital"/>
     <tag k="name" v="Name"/>

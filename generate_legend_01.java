@@ -841,6 +841,11 @@ public class generate_legend_01
 				 "craft", "brewery", 
 				 "name", "Name" );
 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Craft Cider", 
+				 "craft", "cider", 
+				 "name", "Name" );
+
 	// Row 9 - medical
 	currentRow += 1;
 	currentCol = 1;

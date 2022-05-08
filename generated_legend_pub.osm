@@ -969,6 +969,14 @@
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Sky Brightness Monitoring"/>
   </node>
+  <node id="29220000019" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.997" lon="135.189">
+    <tag k="man_made" v="pipeline_marker"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29221000019" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9968" lon="135.189">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Pipeline Marker"/>
+  </node>
   <node id="29230000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.998" lon="135.171">
     <tag k="playground" v="swing"/>
     <tag k="name" v="Name"/>

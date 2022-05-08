@@ -1126,6 +1126,11 @@ public class generate_legend_01
 				 "monitoring:sky_brightness", "yes", 
 				 "name", "Name" );
 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Pipeline Marker", 
+				 "man_made", "pipeline_marker", 
+				 "name", "Name" );
+
 	// Row 13 - Playground Equipment
 	currentRow += 1;
 	currentCol = 1;

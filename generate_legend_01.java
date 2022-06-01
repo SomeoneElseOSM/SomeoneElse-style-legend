@@ -1343,6 +1343,11 @@ public class generate_legend_01
 			 "barrier", "ticket_barrier", 
 			 "name", "Ticket Barrier" );
 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Main Entrance", 
+			 "entrance", "main", 
+			 "name", "Name" );
+
 	// Row 16 - Tourist Information
 	currentRow += 1;
 	currentCol = 1;

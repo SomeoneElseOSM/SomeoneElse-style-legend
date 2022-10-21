@@ -5,8 +5,8 @@
 #
 # The local user account we are using
 #
-local_filesystem_user=renderaccount
-local_renderd_user=renderaccount
+local_filesystem_user=ajtown
+local_renderd_user=_renderd
 #
 # First things first - is another copy of the script already running?
 #

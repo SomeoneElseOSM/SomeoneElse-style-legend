@@ -1642,51 +1642,59 @@
     <tag k="name" v="Archaeology"/>
   </node>
   <node id="29320000002" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.006999999999998" lon="135.172">
-    <tag k="historic" v="stone"/>
+    <tag k="geological" v="palaeontological_site"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29321000002" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0068" lon="135.172">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Stone"/>
+    <tag k="name" v="Palaeontology"/>
   </node>
   <node id="29320000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.006999999999998" lon="135.17299999999997">
-    <tag k="historic" v="standing_stone"/>
+    <tag k="historic" v="stone"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29321000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0068" lon="135.17299999999997">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Standing Stone"/>
+    <tag k="name" v="Stone"/>
   </node>
   <node id="29320000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.006999999999998" lon="135.17399999999998">
-    <tag k="historic" v="stone"/>
-    <tag k="stone_type" v="ogham_stone"/>
+    <tag k="historic" v="standing_stone"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29321000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0068" lon="135.17399999999998">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Ogham Stone"/>
+    <tag k="name" v="Standing Stone"/>
   </node>
   <node id="29320000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.006999999999998" lon="135.17499999999998">
-    <tag k="historic" v="rune_stone"/>
+    <tag k="historic" v="stone"/>
+    <tag k="stone_type" v="ogham_stone"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29321000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0068" lon="135.17499999999998">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Rune Stone"/>
+    <tag k="name" v="Ogham Stone"/>
   </node>
   <node id="29320000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.006999999999998" lon="135.176">
-    <tag k="place_of_worship" v="mass_rock"/>
+    <tag k="historic" v="rune_stone"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29321000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0068" lon="135.176">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Mass Rock"/>
+    <tag k="name" v="Rune Stone"/>
   </node>
   <node id="29320000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.006999999999998" lon="135.177">
-    <tag k="historic" v="ruins"/>
+    <tag k="place_of_worship" v="mass_rock"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29321000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0068" lon="135.177">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Mass Rock"/>
+  </node>
+  <node id="29320000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.006999999999998" lon="135.178">
+    <tag k="historic" v="ruins"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29321000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0068" lon="135.178">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Other Historic"/>
   </node>

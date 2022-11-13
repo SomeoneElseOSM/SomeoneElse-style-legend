@@ -141,6 +141,27 @@ public class generate_legend_01
 			 tag07, value07 );
     }
 
+    // 4 pairs of tags
+    private static void writeNodeRowCol( PrintStream passedOutputOsmStream, long passedNodeNumber, int passedRow, int passedCol, 
+					 String tag01, String value01, String tag02, String value02, String tag03, String value03, String tag04, String value04 )
+    {
+	String tag05   = "";
+	String value05 = "";
+	String tag06   = "";
+	String value06 = "";
+	String tag07   = "";
+	String value07 = "";
+
+	writeNodeRowCol( myOutputOsmStream, startNode, passedRow, passedCol, 
+			 tag01, value01, 
+			 tag02, value02, 
+			 tag03, value03, 
+			 tag04, value04, 
+			 tag05, value05, 
+			 tag06, value06, 
+			 tag07, value07 );
+    }
+
     // all 7 pairs of tags
     private static void writeLabelledNodeRowCol( PrintStream passedOutputOsmStream, long passedNodeNumber, int passedRow, int passedCol, String labelName, 
 					 String tag01, String value01, String tag02, String value02, String tag03, String value03, String tag04, String value04, String tag05, String value05, String tag06, String value06, String tag07, String value07 )
@@ -1360,6 +1381,19 @@ public class generate_legend_01
 			 "tourism", "information", 
 			 "information", "board", 
 			 "name", "Board" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "tourism", "information", 
+			 "information", "sign", 
+			 "name", "Sign" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "tourism", "information", 
+			 "information", "sign", 
+			 "operator:type", "military", 
+			 "name", "Military" );
 
 	currentCol += 1;
 	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 

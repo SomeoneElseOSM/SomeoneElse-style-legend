@@ -20,21 +20,23 @@ else
 fi
 #
 # Next get the latest versions of each part of the map style
-# Commented out here as "git pull" will need credentials to be supplied.
+# A legend change may still depend on style changes.
 #
-# A legend change may still depend on style changes, but this needs to be done manually now.
+# This is run from sudo without a connection to an authentication agent, 
+# so it makes sense for the git config url to be "https" and the pushurl "git".  
+# See https://stackoverflow.com/a/73836045/8145448
 #
-# cd /home/${local_filesystem_user}/src/SomeoneElse-style
-# pwd
-# sudo -u ${local_filesystem_user} git pull
+cd /home/${local_filesystem_user}/src/SomeoneElse-style
+pwd
+sudo -u ${local_filesystem_user} git pull
 #
-# cd /home/${local_filesystem_user}/src/SomeoneElse-style-legend
-# pwd
-# sudo -u ${local_filesystem_user} git pull
+cd /home/${local_filesystem_user}/src/SomeoneElse-style-legend
+pwd
+sudo -u ${local_filesystem_user} git pull
 #
 cd /home/${local_filesystem_user}/src/openstreetmap-carto-AJT
 pwd
-# sudo -u ${local_filesystem_user} git pull
+sudo -u ${local_filesystem_user} git pull
 carto project.mml > mapnik.xml
 #
 # How much disk space are we currently using?

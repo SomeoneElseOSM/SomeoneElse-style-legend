@@ -866,27 +866,27 @@
     <nd ref='29100000081' />
     <nd ref='29100000082' />
     <tag k='highway' v='living_street' />
-    <tag k='name' v='Living Street' />
+    <tag k='name' v='Living Street / Quiet Lane, sidewalk' />
     <tag k='sidewalk' v='both' />
   </way>
   <way id='9200000082' timestamp='2017-04-30T10:53:10Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101464'>
     <nd ref='29100000082' />
     <nd ref='29100000083' />
     <tag k='highway' v='living_street' />
-    <tag k='name' v='Living Street' />
+    <tag k='name' v='Living Street, verge' />
     <tag k='verge' v='both' />
   </way>
   <way id='9200000083' timestamp='2017-04-30T10:53:10Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101464'>
     <nd ref='29100000083' />
     <nd ref='29100000084' />
     <tag k='highway' v='living_street' />
-    <tag k='name' v='Living Street' />
+    <tag k='name' v='Living Street, no sidewalk or verge' />
   </way>
   <way id='9200000084' timestamp='2017-04-30T10:53:10Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101464'>
     <nd ref='29100000084' />
     <nd ref='29100000085' />
     <tag k='highway' v='living_street' />
-    <tag k='name' v='Living Street' />
+    <tag k='name' v='Living Street, unpaved' />
     <tag k='surface' v='gravel' />
   </way>
   <way id='9200000085' timestamp='2017-04-30T10:53:10Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101464'>

@@ -4,8 +4,8 @@
 #
 # The local user account we are using
 #
-local_filesystem_user=renderaccount
-local_renderd_user=renderaccount
+local_filesystem_user=ajtown
+local_renderd_user=_renderd
 #
 PATH=/home/${local_filesystem_user}/bin:/home/${local_filesystem_user}/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 #

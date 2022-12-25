@@ -1800,8 +1800,9 @@
   <way id='9200010001' timestamp='2017-04-30T10:43:54Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101464'>
     <nd ref='29100010001' />
     <nd ref='29100010002' />
-    <tag k='highway' v='footway' />
-    <tag k='name' v='Path' />
+    <tag k='leisure' v='track' />
+    <tag k='sport' v='horse_racing' />
+    <tag k='name' v='Gallop' />
   </way>
   <way id='9200010002' timestamp='2017-04-30T10:43:54Z' uid='112' user='SomeoneElse' visible='true' version='2' changeset='101464'>
     <nd ref='29100010002' />

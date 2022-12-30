@@ -227,6 +227,27 @@ public class generate_legend_01
 			 tag07, value07 );
     }
 
+    // 4 pairs of tags
+    private static void writeLabelledNodeRowCol( PrintStream passedOutputOsmStream, long passedNodeNumber, int passedRow, int passedCol, String labelName, 
+					 String tag01, String value01, String tag02, String value02, String tag03, String value03, String tag04, String value04 )
+    {
+	String tag05   = "";
+	String value05 = "";
+	String tag06   = "";
+	String value06 = "";
+	String tag07   = "";
+	String value07 = "";
+
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, passedRow, passedCol, labelName, 
+			 tag01, value01, 
+			 tag02, value02, 
+			 tag03, value03, 
+			 tag04, value04, 
+			 tag05, value05, 
+			 tag06, value06, 
+			 tag07, value07 );
+    }
+
     public static void main(String[] args) throws Exception 
     {
 	// No argument processing (yet)
@@ -811,6 +832,25 @@ public class generate_legend_01
 				 "name", "Name" );
 
 	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Petrol / Electric", 
+				 "amenity", "fuel", 
+				 "fuel:diesel", "yes", 
+				 "fuel:electricity", "yes", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "LPG", 
+				 "amenity", "fuel", 
+				 "fuel:lpg", "yes", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Hydrogen", 
+				 "amenity", "fuel", 
+				 "fuel:LH2", "yes", 
+				 "name", "Name" );
+
+	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Charging Station", 
 				 "amenity", "charging_station", 
 				 "name", "Operator" );
@@ -1090,6 +1130,11 @@ public class generate_legend_01
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Marina", 
 				 "leisure", "marina", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Waterway fuel", 
+				 "waterway", "fuel", 
 				 "name", "Name" );
 
 	currentCol += 1;

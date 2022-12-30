@@ -480,30 +480,46 @@
     <tag k="name" v="Name"/>
   </node>
   <node id="29170000002" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.992" lon="135.172">
-    <tag k="amenity" v="charging_station"/>
-    <tag k="name" v="Operator"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="fuel:diesel" v="yes"/>
+    <tag k="fuel:electricity" v="yes"/>
+    <tag k="name" v="Name"/>
   </node>
   <node id="29170000003" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.992" lon="135.173">
-    <tag k="shop" v="car"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="fuel:lpg" v="yes"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29170000004" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.992" lon="135.174">
-    <tag k="shop" v="car_repair"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="fuel:LH2" v="yes"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29170000005" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.992" lon="135.175">
-    <tag k="shop" v="car_parts"/>
-    <tag k="name" v="Name"/>
+    <tag k="amenity" v="charging_station"/>
+    <tag k="name" v="Operator"/>
   </node>
   <node id="29170000006" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.992" lon="135.176">
-    <tag k="amenity" v="car_wash"/>
+    <tag k="shop" v="car"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29170000007" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.992" lon="135.177">
-    <tag k="amenity" v="compressed_air"/>
+    <tag k="shop" v="car_repair"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29170000008" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.992" lon="135.178">
+    <tag k="shop" v="car_parts"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29170000009" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.992" lon="135.179">
+    <tag k="amenity" v="car_wash"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29170000010" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.992" lon="135.18">
+    <tag k="amenity" v="compressed_air"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29170000011" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.992" lon="135.181">
     <tag k="amenity" v="car_rental"/>
     <tag k="name" v="Name"/>
   </node>
@@ -513,29 +529,41 @@
   </node>
   <node id="29171000002" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9918" lon="135.172">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Charging Station"/>
+    <tag k="name" v="Petrol / Electric"/>
   </node>
   <node id="29171000003" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9918" lon="135.173">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Car Sales"/>
+    <tag k="name" v="LPG"/>
   </node>
   <node id="29171000004" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9918" lon="135.174">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Car Repair"/>
+    <tag k="name" v="Hydrogen"/>
   </node>
   <node id="29171000005" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9918" lon="135.175">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Car Parts"/>
+    <tag k="name" v="Charging Station"/>
   </node>
   <node id="29171000006" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9918" lon="135.176">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Car Wash"/>
+    <tag k="name" v="Car Sales"/>
   </node>
   <node id="29171000007" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9918" lon="135.177">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Compressed Air"/>
+    <tag k="name" v="Car Repair"/>
   </node>
   <node id="29171000008" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9918" lon="135.178">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Car Parts"/>
+  </node>
+  <node id="29171000009" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9918" lon="135.179">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Car Wash"/>
+  </node>
+  <node id="29171000010" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9918" lon="135.18">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Compressed Air"/>
+  </node>
+  <node id="29171000011" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9918" lon="135.181">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Other Car (rental etc.)"/>
   </node>
@@ -857,55 +885,59 @@
     <tag k="name" v="Name"/>
   </node>
   <node id="29220000008" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.997" lon="135.178">
-    <tag k="leisure" v="bird_hide"/>
+    <tag k="waterway" v="fuel"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29220000009" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.997" lon="135.179">
-    <tag k="man_made" v="survey_point"/>
+    <tag k="leisure" v="bird_hide"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29220000010" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.997" lon="135.18">
-    <tag k="man_made" v="boundary_stone"/>
+    <tag k="man_made" v="survey_point"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29220000011" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.997" lon="135.181">
-    <tag k="man_made" v="cairn"/>
+    <tag k="man_made" v="boundary_stone"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29220000012" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.997" lon="135.182">
-    <tag k="man_made" v="water_well"/>
+    <tag k="man_made" v="cairn"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29220000013" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.997" lon="135.183">
-    <tag k="man_made" v="mounting_block"/>
+    <tag k="man_made" v="water_well"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29220000014" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.997" lon="135.184">
-    <tag k="man_made" v="monitoring_station"/>
-    <tag k="monitoring:water_level" v="yes"/>
+    <tag k="man_made" v="mounting_block"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29220000015" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.997" lon="135.185">
     <tag k="man_made" v="monitoring_station"/>
-    <tag k="monitoring:weather" v="yes"/>
+    <tag k="monitoring:water_level" v="yes"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29220000016" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.997" lon="135.186">
     <tag k="man_made" v="monitoring_station"/>
-    <tag k="monitoring:rainfall" v="yes"/>
+    <tag k="monitoring:weather" v="yes"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29220000017" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.997" lon="135.187">
     <tag k="man_made" v="monitoring_station"/>
-    <tag k="monitoring:seismic_activity" v="yes"/>
+    <tag k="monitoring:rainfall" v="yes"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29220000018" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.997" lon="135.188">
     <tag k="man_made" v="monitoring_station"/>
-    <tag k="monitoring:sky_brightness" v="yes"/>
+    <tag k="monitoring:seismic_activity" v="yes"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29220000019" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.997" lon="135.189">
+    <tag k="man_made" v="monitoring_station"/>
+    <tag k="monitoring:sky_brightness" v="yes"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29220000020" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.997" lon="135.19">
     <tag k="man_made" v="pipeline_marker"/>
     <tag k="name" v="Name"/>
   </node>
@@ -939,49 +971,53 @@
   </node>
   <node id="29221000008" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9968" lon="135.178">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Bird Hide"/>
+    <tag k="name" v="Waterway fuel"/>
   </node>
   <node id="29221000009" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9968" lon="135.179">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Trig Point"/>
+    <tag k="name" v="Bird Hide"/>
   </node>
   <node id="29221000010" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9968" lon="135.18">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Boundary Stone"/>
+    <tag k="name" v="Trig Point"/>
   </node>
   <node id="29221000011" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9968" lon="135.181">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Cairn"/>
+    <tag k="name" v="Boundary Stone"/>
   </node>
   <node id="29221000012" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9968" lon="135.182">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Well"/>
+    <tag k="name" v="Cairn"/>
   </node>
   <node id="29221000013" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9968" lon="135.183">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Mounting Block"/>
+    <tag k="name" v="Well"/>
   </node>
   <node id="29221000014" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9968" lon="135.184">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Water Monitoring Station"/>
+    <tag k="name" v="Mounting Block"/>
   </node>
   <node id="29221000015" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9968" lon="135.185">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Weather Monitoring Station"/>
+    <tag k="name" v="Water Monitoring Station"/>
   </node>
   <node id="29221000016" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9968" lon="135.186">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Rainfall Monitoring"/>
+    <tag k="name" v="Weather Monitoring Station"/>
   </node>
   <node id="29221000017" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9968" lon="135.187">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Seismic Monitoring"/>
+    <tag k="name" v="Rainfall Monitoring"/>
   </node>
   <node id="29221000018" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9968" lon="135.188">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Sky Brightness Monitoring"/>
+    <tag k="name" v="Seismic Monitoring"/>
   </node>
   <node id="29221000019" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9968" lon="135.189">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Sky Brightness Monitoring"/>
+  </node>
+  <node id="29221000020" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9968" lon="135.19">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Pipeline Marker"/>
   </node>

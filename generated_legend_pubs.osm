@@ -1116,16 +1116,20 @@
     <tag k="name" v="Name"/>
   </node>
   <node id="29240000007" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.999" lon="135.177">
-    <tag k="leisure" v="pitch"/>
-    <tag k="sport" v="rugby"/>
+    <tag k="natural" v="climbing"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29240000008" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.999" lon="135.178">
     <tag k="leisure" v="pitch"/>
-    <tag k="sport" v="chess"/>
+    <tag k="sport" v="rugby"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29240000009" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.999" lon="135.179">
+    <tag k="leisure" v="pitch"/>
+    <tag k="sport" v="chess"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29240000010" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.999" lon="135.18">
     <tag k="leisure" v="pitch"/>
     <tag k="sport" v="tennis"/>
     <tag k="name" v="Name"/>
@@ -1156,13 +1160,17 @@
   </node>
   <node id="29241000007" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9988" lon="135.177">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Rugby Pitch"/>
+    <tag k="name" v="Climbing Boulder"/>
   </node>
   <node id="29241000008" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9988" lon="135.178">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Chess Board"/>
+    <tag k="name" v="Rugby Pitch"/>
   </node>
   <node id="29241000009" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9988" lon="135.179">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Chess Board"/>
+  </node>
+  <node id="29241000010" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9988" lon="135.18">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Tennis Court"/>
   </node>
@@ -2361,11 +2369,11 @@
     <tag k="name" v="Name"/>
   </node>
   <node id="29390000006" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.014" lon="135.176">
-    <tag k="natural" v="climbing"/>
+    <tag k="amenity" v="fountain"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29390000007" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.014" lon="135.177">
-    <tag k="amenity" v="fountain"/>
+    <tag k="natural" v="rock"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29390000008" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.014" lon="135.178">
@@ -2414,11 +2422,11 @@
   </node>
   <node id="29391000006" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0138" lon="135.176">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Climbing Boulder"/>
+    <tag k="name" v="Fountain"/>
   </node>
   <node id="29391000007" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0138" lon="135.177">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Fountain"/>
+    <tag k="name" v="Rock"/>
   </node>
   <node id="29391000008" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0138" lon="135.178">
     <tag k="place" v="legend_text"/>

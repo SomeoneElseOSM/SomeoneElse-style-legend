@@ -2302,6 +2302,11 @@ public class generate_legend_01
 				 "natural", "tree", 
 				 "name", "Name" );
 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Shrub", 
+				 "natural", "shrub", 
+				 "name", "Name" );
+
 	myOutputOsmStream.println( osmTrailer );
     }
 }

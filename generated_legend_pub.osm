@@ -2436,4 +2436,12 @@
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Tree"/>
   </node>
+  <node id="29390000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.014" lon="135.183">
+    <tag k="natural" v="shrub"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29391000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0138" lon="135.183">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Shrub"/>
+  </node>
 </osm>

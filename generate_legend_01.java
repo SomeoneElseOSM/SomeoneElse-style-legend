@@ -1835,8 +1835,15 @@ public class generate_legend_01
 				 "name", "Name" );
 
 	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Stone Circle", 
+				 "historic", "archaeological_site", 
+				 "archaeological_site", "megalith", 
+				 "megalith_type", "stone_circle", 
+				 "name", "Name" );
+
+	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Ogham Stone", 
-				 "historic", "stone", 
+				 "historic", "ogham_stone", 
 				 "stone_type", "ogham_stone", 
 				 "name", "Name" );
 

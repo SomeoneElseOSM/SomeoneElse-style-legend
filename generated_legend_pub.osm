@@ -1822,35 +1822,45 @@
     <tag k="name" v="Megalithic Tomb"/>
   </node>
   <node id="29330000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.008" lon="135.177">
-    <tag k="historic" v="ogham_stone"/>
-    <tag k="stone_type" v="ogham_stone"/>
+    <tag k="historic" v="archaeological_site"/>
+    <tag k="archaeological_site" v="megalith"/>
+    <tag k="megalith_type" v="stone_row"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29331000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0078" lon="135.177">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Ogham Stone"/>
+    <tag k="name" v="Stone Row"/>
   </node>
   <node id="29330000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.008" lon="135.178">
-    <tag k="historic" v="rune_stone"/>
+    <tag k="historic" v="ogham_stone"/>
+    <tag k="stone_type" v="ogham_stone"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29331000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0078" lon="135.178">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Rune Stone"/>
+    <tag k="name" v="Ogham Stone"/>
   </node>
   <node id="29330000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.008" lon="135.17899999999997">
-    <tag k="place_of_worship" v="mass_rock"/>
+    <tag k="historic" v="rune_stone"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29331000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0078" lon="135.17899999999997">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Mass Rock"/>
+    <tag k="name" v="Rune Stone"/>
   </node>
   <node id="29330000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.008" lon="135.17999999999998">
-    <tag k="historic" v="ruins"/>
+    <tag k="place_of_worship" v="mass_rock"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29331000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0078" lon="135.17999999999998">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Mass Rock"/>
+  </node>
+  <node id="29330000011" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.008" lon="135.18099999999998">
+    <tag k="historic" v="ruins"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29331000011" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0078" lon="135.18099999999998">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Other Historic"/>
   </node>

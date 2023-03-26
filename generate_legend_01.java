@@ -1811,7 +1811,7 @@ public class generate_legend_01
 				 "amenity", "drinking_water", 
 				 "name", "Name" );
 
-	// Row 23 - Historic
+	// Row 23 - Historic and archaeological
 	currentRow += 1;
 	currentCol = 1;
 	
@@ -1922,6 +1922,11 @@ public class generate_legend_01
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Mass Rock", 
 				 "place_of_worship", "mass_rock", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Mineshaft", 
+				 "historic", "mineshaft", 
 				 "name", "Name" );
 
 	currentCol += 1;

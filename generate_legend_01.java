@@ -1866,6 +1866,12 @@ public class generate_legend_01
 				 "name", "Name" );
 
 	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Crannog", 
+				 "historic", "archaeological_site", 
+				 "archaeological_site", "crannog", 
+				 "name", "Name" );
+
+	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Tumulus", 
 				 "historic", "archaeological_site", 
 				 "archaeological_site", "tumulus", 

@@ -1796,49 +1796,61 @@
   </node>
   <node id="29330000006" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.176">
     <tag k="historic" v="archaeological_site"/>
-    <tag k="archaeological_site" v="tumulus"/>
+    <tag k="archaeological_site" v="fortification"/>
+    <tag k="fortification_type" v="motte"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29330000007" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.177">
-    <tag k="historic" v="stone"/>
+    <tag k="historic" v="archaeological_site"/>
+    <tag k="archaeological_site" v="fortification"/>
+    <tag k="fortification_type" v="castle"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29330000008" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.178">
-    <tag k="historic" v="standing_stone"/>
+    <tag k="historic" v="archaeological_site"/>
+    <tag k="archaeological_site" v="tumulus"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29330000009" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.179">
-    <tag k="historic" v="archaeological_site"/>
-    <tag k="archaeological_site" v="megalith"/>
-    <tag k="megalith_type" v="stone_circle"/>
+    <tag k="historic" v="stone"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29330000010" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.18">
-    <tag k="historic" v="archaeological_site"/>
-    <tag k="archaeological_site" v="megalith"/>
-    <tag k="megalith_type" v="dolmen"/>
+    <tag k="historic" v="standing_stone"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29330000011" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.181">
     <tag k="historic" v="archaeological_site"/>
     <tag k="archaeological_site" v="megalith"/>
-    <tag k="megalith_type" v="stone_row"/>
+    <tag k="megalith_type" v="stone_circle"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29330000012" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.182">
+    <tag k="historic" v="archaeological_site"/>
+    <tag k="archaeological_site" v="megalith"/>
+    <tag k="megalith_type" v="dolmen"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29330000013" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.183">
+    <tag k="historic" v="archaeological_site"/>
+    <tag k="archaeological_site" v="megalith"/>
+    <tag k="megalith_type" v="stone_row"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29330000014" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.184">
     <tag k="historic" v="ogham_stone"/>
     <tag k="stone_type" v="ogham_stone"/>
     <tag k="name" v="Name"/>
   </node>
-  <node id="29330000013" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.183">
+  <node id="29330000015" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.185">
     <tag k="historic" v="rune_stone"/>
     <tag k="name" v="Name"/>
   </node>
-  <node id="29330000014" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.184">
+  <node id="29330000016" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.186">
     <tag k="place_of_worship" v="mass_rock"/>
     <tag k="name" v="Name"/>
   </node>
-  <node id="29330000015" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.185">
+  <node id="29330000017" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.187">
     <tag k="historic" v="ruins"/>
     <tag k="name" v="Name"/>
   </node>
@@ -1864,41 +1876,49 @@
   </node>
   <node id="29331000006" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.176">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Tumulus"/>
+    <tag k="name" v="Motte"/>
   </node>
   <node id="29331000007" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.177">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Stone"/>
+    <tag k="name" v="Archaeological Castle"/>
   </node>
   <node id="29331000008" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.178">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Standing Stone"/>
+    <tag k="name" v="Tumulus"/>
   </node>
   <node id="29331000009" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.179">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Stone Circle"/>
+    <tag k="name" v="Stone"/>
   </node>
   <node id="29331000010" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.18">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Megalithic Tomb"/>
+    <tag k="name" v="Standing Stone"/>
   </node>
   <node id="29331000011" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.181">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Stone Row"/>
+    <tag k="name" v="Stone Circle"/>
   </node>
   <node id="29331000012" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.182">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Ogham Stone"/>
+    <tag k="name" v="Megalithic Tomb"/>
   </node>
   <node id="29331000013" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.183">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Rune Stone"/>
+    <tag k="name" v="Stone Row"/>
   </node>
   <node id="29331000014" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.184">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Mass Rock"/>
+    <tag k="name" v="Ogham Stone"/>
   </node>
   <node id="29331000015" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.185">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Rune Stone"/>
+  </node>
+  <node id="29331000016" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.186">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Mass Rock"/>
+  </node>
+  <node id="29331000017" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.187">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Other Historic"/>
   </node>

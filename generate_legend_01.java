@@ -1940,6 +1940,35 @@ public class generate_legend_01
 				 "name", "Name" );
 
 	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Round Tower", 
+				 "historic", "tower", 
+				 "tower:type", "round_tower", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Historic Defensive Tower", 
+				 "historic", "tower", 
+				 "tower:type", "defensive", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Historic Observation Tower", 
+				 "historic", "tower", 
+				 "tower:type", "observation", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Historic Bell Tower", 
+				 "historic", "tower", 
+				 "tower:type", "bell_tower", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Other Historic Tower", 
+				 "historic", "tower", 
+				 "name", "Name" );
+
+	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Other Historic", 
 				 "historic", "ruins", 
 				 "name", "Name" );

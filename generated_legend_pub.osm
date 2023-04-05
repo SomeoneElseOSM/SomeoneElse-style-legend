@@ -1939,7 +1939,7 @@
   </node>
   <node id="29331000019" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0078" lon="135.189">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Mineshaft"/>
+    <tag k="name" v="Historic Mineshaft"/>
   </node>
   <node id="29330000020" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.008" lon="135.19">
     <tag k="historic" v="castle"/>

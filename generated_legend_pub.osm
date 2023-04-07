@@ -1966,54 +1966,62 @@
     <tag k="name" v="Monastery"/>
   </node>
   <node id="29330000023" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.008" lon="135.19299999999998">
-    <tag k="historic" v="tower"/>
-    <tag k="tower:type" v="round_tower"/>
+    <tag k="historic" v="city_gate"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29331000023" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0078" lon="135.19299999999998">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Round Tower"/>
+    <tag k="name" v="City Gate"/>
   </node>
   <node id="29330000024" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.008" lon="135.194">
     <tag k="historic" v="tower"/>
-    <tag k="tower:type" v="defensive"/>
+    <tag k="tower:type" v="round_tower"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29331000024" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0078" lon="135.194">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Historic Defensive Tower"/>
+    <tag k="name" v="Round Tower"/>
   </node>
   <node id="29330000025" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.008" lon="135.195">
     <tag k="historic" v="tower"/>
-    <tag k="tower:type" v="observation"/>
+    <tag k="tower:type" v="defensive"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29331000025" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0078" lon="135.195">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Historic Observation Tower"/>
+    <tag k="name" v="Historic Defensive Tower"/>
   </node>
   <node id="29330000026" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.008" lon="135.196">
     <tag k="historic" v="tower"/>
-    <tag k="tower:type" v="bell_tower"/>
+    <tag k="tower:type" v="observation"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29331000026" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0078" lon="135.196">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Historic Bell Tower"/>
+    <tag k="name" v="Historic Observation Tower"/>
   </node>
   <node id="29330000027" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.008" lon="135.19699999999997">
     <tag k="historic" v="tower"/>
+    <tag k="tower:type" v="bell_tower"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29331000027" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0078" lon="135.19699999999997">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Other Historic Tower"/>
+    <tag k="name" v="Historic Bell Tower"/>
   </node>
   <node id="29330000028" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.008" lon="135.19799999999998">
-    <tag k="historic" v="ruins"/>
+    <tag k="historic" v="tower"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29331000028" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0078" lon="135.19799999999998">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Other Historic Tower"/>
+  </node>
+  <node id="29330000029" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.008" lon="135.19899999999998">
+    <tag k="historic" v="ruins"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29331000029" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0078" lon="135.19899999999998">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Other Historic"/>
   </node>

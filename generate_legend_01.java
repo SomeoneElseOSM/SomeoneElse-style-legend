@@ -1945,6 +1945,11 @@ public class generate_legend_01
 				 "name", "Name" );
 
 	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "City Gate", 
+				 "historic", "city_gate", 
+				 "name", "Name" );
+
+	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Round Tower", 
 				 "historic", "tower", 
 				 "tower:type", "round_tower", 

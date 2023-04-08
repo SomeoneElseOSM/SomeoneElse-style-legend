@@ -1593,7 +1593,7 @@ public class generate_legend_01
 	// Row 18 - religious
 	currentRow += 1;
 	currentCol = 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Places of Worship", 
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Places of Worship etc.", 
 				 "amenity", "place_of_worship", 
 				 "religion", "christian", 
 				 "name", "Christian" );
@@ -1651,6 +1651,11 @@ public class generate_legend_01
 			 "place_of_worship", "holy_well", 
 			 "natural", "spring", 
 			 "name", "Holy Spring" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+				 "amenity", "monastery", 
+				 "name", "Monastery" );
 
 	// Row 19 - government
 	currentRow += 1;
@@ -1940,7 +1945,7 @@ public class generate_legend_01
 				 "name", "Name" );
 
 	currentCol += 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Monastery", 
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Historic Monastery", 
 				 "historic", "monastery", 
 				 "name", "Name" );
 

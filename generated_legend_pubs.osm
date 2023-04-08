@@ -1524,9 +1524,13 @@
     <tag k="natural" v="spring"/>
     <tag k="name" v="Holy Spring"/>
   </node>
+  <node id="29280000011" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.003" lon="135.181">
+    <tag k="amenity" v="monastery"/>
+    <tag k="name" v="Monastery"/>
+  </node>
   <node id="29281000001" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0028" lon="135.171">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Places of Worship"/>
+    <tag k="name" v="Places of Worship etc."/>
   </node>
   <node id="29290000001" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.004" lon="135.171">
     <tag k="amenity" v="post_office"/>
@@ -2015,7 +2019,7 @@
   </node>
   <node id="29331000022" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.192">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Monastery"/>
+    <tag k="name" v="Historic Monastery"/>
   </node>
   <node id="29331000023" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.193">
     <tag k="place" v="legend_text"/>

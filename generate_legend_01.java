@@ -2014,6 +2014,11 @@ public class generate_legend_01
 				 "name", "Name" );
 
 	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Historic Military Bunker", 
+				 "historic", "bunker", 
+				 "name", "Name" );
+
+	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Other Historic", 
 				 "historic", "ruins", 
 				 "name", "Name" );

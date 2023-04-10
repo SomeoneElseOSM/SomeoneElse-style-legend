@@ -2070,10 +2070,18 @@
     <tag k="name" v="Other Historic Tower"/>
   </node>
   <node id="29330000035" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.008" lon="135.20499999999998">
-    <tag k="historic" v="ruins"/>
+    <tag k="historic" v="bunker"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29331000035" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0078" lon="135.20499999999998">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Historic Military Bunker"/>
+  </node>
+  <node id="29330000036" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.008" lon="135.206">
+    <tag k="historic" v="ruins"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29331000036" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0078" lon="135.206">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Other Historic"/>
   </node>

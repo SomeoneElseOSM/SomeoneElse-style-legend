@@ -2591,6 +2591,14 @@
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Vent Shaft"/>
   </node>
+  <node id="29380000022" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.012999999999998" lon="135.19199999999998">
+    <tag k="military" v="bunker"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29381000022" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0128" lon="135.19199999999998">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Military Bunker"/>
+  </node>
   <node id="29390000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.014" lon="135.171">
     <tag k="natural" v="peak"/>
     <tag k="name" v="Name / ele"/>

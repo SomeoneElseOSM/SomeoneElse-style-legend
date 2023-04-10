@@ -2507,6 +2507,10 @@
     <tag k="man_made" v="ventilation_shaft"/>
     <tag k="name" v="Name"/>
   </node>
+  <node id="29380000022" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.013" lon="135.192">
+    <tag k="military" v="bunker"/>
+    <tag k="name" v="Name"/>
+  </node>
   <node id="29381000001" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0128" lon="135.171">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Mast"/>
@@ -2590,6 +2594,10 @@
   <node id="29381000021" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0128" lon="135.191">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Vent Shaft"/>
+  </node>
+  <node id="29381000022" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0128" lon="135.192">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Military Bunker"/>
   </node>
   <node id="29390000001" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.014" lon="135.171">
     <tag k="natural" v="peak"/>

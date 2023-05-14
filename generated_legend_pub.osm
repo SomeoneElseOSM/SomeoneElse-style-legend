@@ -2086,10 +2086,18 @@
     <tag k="name" v="Historic Military Bunker"/>
   </node>
   <node id="29330000037" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.008" lon="135.207">
-    <tag k="historic" v="ruins"/>
+    <tag k="historic" v="wreck"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29331000037" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0078" lon="135.207">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Wreck"/>
+  </node>
+  <node id="29330000038" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.008" lon="135.208">
+    <tag k="historic" v="ruins"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29331000038" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0078" lon="135.208">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Other Historic"/>
   </node>

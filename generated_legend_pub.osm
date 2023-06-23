@@ -1326,6 +1326,14 @@
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Fishing"/>
   </node>
+  <node id="29250000020" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0" lon="135.19">
+    <tag k="leisure" v="bandstand"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29251000020" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9998" lon="135.19">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Bandstand"/>
+  </node>
   <node id="29260000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.000999999999998" lon="135.171">
     <tag k="barrier" v="gate"/>
     <tag k="name" v="Gate"/>
@@ -1531,6 +1539,10 @@
   <node id="29280000011" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.003" lon="135.18099999999998">
     <tag k="amenity" v="monastery"/>
     <tag k="name" v="Monastery"/>
+  </node>
+  <node id="29280000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.003" lon="135.182">
+    <tag k="man_made" v="cross"/>
+    <tag k="name" v="Cross"/>
   </node>
   <node id="29290000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.003999999999998" lon="135.171">
     <tag k="amenity" v="post_office"/>

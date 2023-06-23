@@ -1421,6 +1421,11 @@ public class generate_legend_01
 				 "leisure", "fishing", 
 				 "name", "Name" );
 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Bandstand", 
+				 "leisure", "bandstand", 
+				 "name", "Name" );
+
 	// Row 16 - Barriers
 	currentRow += 1;
 	currentCol = 1;
@@ -1656,6 +1661,11 @@ public class generate_legend_01
 	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 				 "amenity", "monastery", 
 				 "name", "Monastery" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+				 "man_made", "cross", 
+				 "name", "Cross" );
 
 	// Row 19 - government
 	currentRow += 1;

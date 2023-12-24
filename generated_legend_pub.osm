@@ -856,6 +856,50 @@
     <tag k="place" v="legend_text"/>
     <tag k="name" v="(pay)"/>
   </node>
+  <node id="29210000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.183">
+    <tag k="amenity" v="toilets"/>
+    <tag k="male" v="yes"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29211000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9958" lon="135.183">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="(male)"/>
+  </node>
+  <node id="29210000014" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.184">
+    <tag k="amenity" v="shower"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29211000014" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9958" lon="135.184">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Shower"/>
+  </node>
+  <node id="29210000015" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.18499999999997">
+    <tag k="amenity" v="shower"/>
+    <tag k="access" v="customers"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29211000015" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9958" lon="135.18499999999997">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="(customers)"/>
+  </node>
+  <node id="29210000016" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.18599999999998">
+    <tag k="amenity" v="shower"/>
+    <tag k="fee" v="yes"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29211000016" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9958" lon="135.18599999999998">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="(pay)"/>
+  </node>
+  <node id="29210000017" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.18699999999998">
+    <tag k="amenity" v="shower"/>
+    <tag k="female" v="yes"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29211000017" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9958" lon="135.18699999999998">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="(female)"/>
+  </node>
   <node id="29220000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.997" lon="135.171">
     <tag k="tourism" v="picnic_site"/>
     <tag k="name" v="Name"/>

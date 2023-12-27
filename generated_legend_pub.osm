@@ -2206,18 +2206,26 @@
     <tag k="name" v="Wreck"/>
   </node>
   <node id="29330000043" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.008" lon="135.213">
-    <tag k="historic" v="aircraft_wreck"/>
+    <tag k="historic" v="aircraft"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29331000043" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0078" lon="135.213">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Aircraft Wreck"/>
+    <tag k="name" v="Aircraft"/>
   </node>
   <node id="29330000044" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.008" lon="135.214">
-    <tag k="historic" v="ruins"/>
+    <tag k="historic" v="aircraft_wreck"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29331000044" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0078" lon="135.214">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Aircraft Wreck"/>
+  </node>
+  <node id="29330000045" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.008" lon="135.21499999999997">
+    <tag k="historic" v="ruins"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29331000045" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0078" lon="135.21499999999997">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Other Historic"/>
   </node>

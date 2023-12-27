@@ -2198,64 +2198,68 @@
     <tag k="name" v="Monument"/>
   </node>
   <node id="29340000002" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.172">
+    <tag k="historic" v="tomb"/>
+    <tag k="name" v="Tomb"/>
+  </node>
+  <node id="29340000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.17299999999997">
     <tag k="historic" v="memorial"/>
     <tag k="memorial" v="war_memorial"/>
     <tag k="name" v="War"/>
   </node>
-  <node id="29341000002" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0088" lon="135.172">
+  <node id="29341000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0088" lon="135.17299999999997">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Memorials"/>
   </node>
-  <node id="29340000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.17299999999997">
+  <node id="29340000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.17399999999998">
     <tag k="man_made" v="obelisk"/>
     <tag k="name" v="Obelisk"/>
   </node>
-  <node id="29340000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.17399999999998">
+  <node id="29340000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.17499999999998">
     <tag k="historic" v="memorial"/>
     <tag k="memorial" v="plaque"/>
     <tag k="name" v="Plaque"/>
   </node>
-  <node id="29340000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.17499999999998">
+  <node id="29340000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.176">
     <tag k="historic" v="memorial"/>
     <tag k="memorial" v="pavement plaque"/>
     <tag k="name" v="Pavement Plaque"/>
   </node>
-  <node id="29340000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.176">
+  <node id="29340000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.177">
     <tag k="historic" v="memorial"/>
     <tag k="memorial" v="statue"/>
     <tag k="name" v="Statue"/>
   </node>
-  <node id="29340000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.177">
+  <node id="29340000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.178">
     <tag k="historic" v="memorial"/>
     <tag k="memorial" v="sculpture"/>
     <tag k="name" v="Sculpture"/>
   </node>
-  <node id="29340000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.178">
+  <node id="29340000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.17899999999997">
     <tag k="historic" v="memorial"/>
     <tag k="memorial" v="cross"/>
     <tag k="name" v="Cross"/>
   </node>
-  <node id="29340000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.17899999999997">
+  <node id="29340000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.17999999999998">
     <tag k="historic" v="memorial"/>
     <tag k="memorial" v="stone"/>
     <tag k="name" v="Stone"/>
   </node>
-  <node id="29340000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.17999999999998">
+  <node id="29340000011" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.18099999999998">
     <tag k="historic" v="memorial"/>
     <tag k="memorial" v="plate"/>
     <tag k="name" v="Plate"/>
   </node>
-  <node id="29340000011" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.18099999999998">
+  <node id="29340000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.182">
     <tag k="historic" v="memorial"/>
     <tag k="memorial" v="bench"/>
     <tag k="name" v="Bench"/>
   </node>
-  <node id="29340000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.182">
+  <node id="29340000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.183">
     <tag k="historic" v="memorial"/>
     <tag k="memorial" v="grave"/>
     <tag k="name" v="Grave"/>
   </node>
-  <node id="29340000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.183">
+  <node id="29340000014" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.184">
     <tag k="historic" v="memorial"/>
     <tag k="name" v="Other"/>
   </node>

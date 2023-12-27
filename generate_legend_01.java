@@ -2101,6 +2101,11 @@ public class generate_legend_01
 				 "name", "Monument" );
 
 	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "historic", "tomb", 
+			 "name", "Tomb" );
+
+	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Memorials", 
 				 "historic", "memorial", 
 				 "memorial", "war_memorial", 

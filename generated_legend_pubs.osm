@@ -2030,14 +2030,18 @@
     <tag k="name" v="Name"/>
   </node>
   <node id="29330000041" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.211">
-    <tag k="historic" v="wreck"/>
+    <tag k="historic" v="ship"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29330000042" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.212">
-    <tag k="historic" v="aircraft_wreck"/>
+    <tag k="historic" v="wreck"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29330000043" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.213">
+    <tag k="historic" v="aircraft_wreck"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29330000044" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.214">
     <tag k="historic" v="ruins"/>
     <tag k="name" v="Name"/>
   </node>
@@ -2203,13 +2207,17 @@
   </node>
   <node id="29331000041" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.211">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Wreck"/>
+    <tag k="name" v="Ship"/>
   </node>
   <node id="29331000042" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.212">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Aircraft Wreck"/>
+    <tag k="name" v="Wreck"/>
   </node>
   <node id="29331000043" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.213">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Aircraft Wreck"/>
+  </node>
+  <node id="29331000044" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.214">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Other Historic"/>
   </node>

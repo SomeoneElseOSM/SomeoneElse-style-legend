@@ -1994,78 +1994,82 @@
     <tag k="name" v="Name"/>
   </node>
   <node id="29330000033" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.203">
-    <tag k="historic" v="pinfold"/>
+    <tag k="historic" v="ice_house"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29330000034" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.204">
-    <tag k="historic" v="water_pump"/>
+    <tag k="historic" v="pinfold"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29330000035" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.205">
-    <tag k="historic" v="church"/>
+    <tag k="historic" v="water_pump"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29330000036" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.206">
-    <tag k="historic" v="tower"/>
-    <tag k="tower:type" v="round_tower"/>
+    <tag k="historic" v="church"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29330000037" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.207">
     <tag k="historic" v="tower"/>
-    <tag k="tower:type" v="defensive"/>
+    <tag k="tower:type" v="round_tower"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29330000038" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.208">
     <tag k="historic" v="tower"/>
-    <tag k="tower:type" v="observation"/>
+    <tag k="tower:type" v="defensive"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29330000039" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.209">
     <tag k="historic" v="tower"/>
-    <tag k="tower:type" v="bell_tower"/>
+    <tag k="tower:type" v="observation"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29330000040" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.21">
     <tag k="historic" v="tower"/>
+    <tag k="tower:type" v="bell_tower"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29330000041" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.211">
-    <tag k="historic" v="bunker"/>
+    <tag k="historic" v="tower"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29330000042" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.212">
-    <tag k="historic" v="windmill"/>
+    <tag k="historic" v="bunker"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29330000043" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.213">
-    <tag k="historic" v="watermill"/>
+    <tag k="historic" v="windmill"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29330000044" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.214">
-    <tag k="historic" v="mill"/>
+    <tag k="historic" v="watermill"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29330000045" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.215">
-    <tag k="historic" v="tank"/>
+    <tag k="historic" v="mill"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29330000046" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.216">
-    <tag k="historic" v="ship"/>
+    <tag k="historic" v="tank"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29330000047" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.217">
-    <tag k="historic" v="wreck"/>
+    <tag k="historic" v="ship"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29330000048" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.218">
-    <tag k="historic" v="aircraft"/>
+    <tag k="historic" v="wreck"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29330000049" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.219">
-    <tag k="historic" v="aircraft_wreck"/>
+    <tag k="historic" v="aircraft"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29330000050" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.22">
+    <tag k="historic" v="aircraft_wreck"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29330000051" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.008" lon="135.221">
     <tag k="historic" v="ruins"/>
     <tag k="name" v="Name"/>
   </node>
@@ -2199,73 +2203,77 @@
   </node>
   <node id="29331000033" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.203">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Pinfold"/>
+    <tag k="name" v="Ice House"/>
   </node>
   <node id="29331000034" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.204">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Water Pump"/>
+    <tag k="name" v="Pinfold"/>
   </node>
   <node id="29331000035" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.205">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Historic Church"/>
+    <tag k="name" v="Water Pump"/>
   </node>
   <node id="29331000036" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.206">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Round Tower"/>
+    <tag k="name" v="Historic Church"/>
   </node>
   <node id="29331000037" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.207">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Historic Defensive Tower"/>
+    <tag k="name" v="Round Tower"/>
   </node>
   <node id="29331000038" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.208">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Historic Observation Tower"/>
+    <tag k="name" v="Historic Defensive Tower"/>
   </node>
   <node id="29331000039" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.209">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Historic Bell Tower"/>
+    <tag k="name" v="Historic Observation Tower"/>
   </node>
   <node id="29331000040" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.21">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Other Historic Tower"/>
+    <tag k="name" v="Historic Bell Tower"/>
   </node>
   <node id="29331000041" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.211">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Historic Military Bunker"/>
+    <tag k="name" v="Other Historic Tower"/>
   </node>
   <node id="29331000042" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.212">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Historic Windmill"/>
+    <tag k="name" v="Historic Military Bunker"/>
   </node>
   <node id="29331000043" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.213">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Watermill"/>
+    <tag k="name" v="Historic Windmill"/>
   </node>
   <node id="29331000044" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.214">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Mill"/>
+    <tag k="name" v="Watermill"/>
   </node>
   <node id="29331000045" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.215">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Tank"/>
+    <tag k="name" v="Mill"/>
   </node>
   <node id="29331000046" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.216">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Ship"/>
+    <tag k="name" v="Tank"/>
   </node>
   <node id="29331000047" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.217">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Wreck"/>
+    <tag k="name" v="Ship"/>
   </node>
   <node id="29331000048" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.218">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Aircraft"/>
+    <tag k="name" v="Wreck"/>
   </node>
   <node id="29331000049" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.219">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Aircraft Wreck"/>
+    <tag k="name" v="Aircraft"/>
   </node>
   <node id="29331000050" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.22">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Aircraft Wreck"/>
+  </node>
+  <node id="29331000051" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0078" lon="135.221">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Other Historic"/>
   </node>

@@ -1147,7 +1147,7 @@
   </node>
   <node id="29240000001" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.999" lon="135.171">
     <tag k="leisure" v="pitch"/>
-    <tag k="sport" v="table_tennis"/>
+    <tag k="sport" v="tennis"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29240000002" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.999" lon="135.172">
@@ -1157,26 +1157,27 @@
   </node>
   <node id="29240000003" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.999" lon="135.173">
     <tag k="leisure" v="pitch"/>
-    <tag k="sport" v="basketball"/>
+    <tag k="sport" v="equestrian"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29240000004" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.999" lon="135.174">
     <tag k="leisure" v="pitch"/>
-    <tag k="sport" v="cricket"/>
+    <tag k="sport" v="bowls"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29240000005" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.999" lon="135.175">
     <tag k="leisure" v="pitch"/>
-    <tag k="sport" v="skateboard"/>
+    <tag k="sport" v="cricket"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29240000006" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.999" lon="135.176">
     <tag k="leisure" v="pitch"/>
-    <tag k="sport" v="climbing"/>
+    <tag k="sport" v="basketball"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29240000007" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.999" lon="135.177">
-    <tag k="natural" v="climbing"/>
+    <tag k="leisure" v="pitch"/>
+    <tag k="sport" v="multi"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29240000008" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.999" lon="135.178">
@@ -1186,17 +1187,71 @@
   </node>
   <node id="29240000009" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.999" lon="135.179">
     <tag k="leisure" v="pitch"/>
-    <tag k="sport" v="chess"/>
+    <tag k="sport" v="gaelic_games"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29240000010" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.999" lon="135.18">
     <tag k="leisure" v="pitch"/>
-    <tag k="sport" v="tennis"/>
+    <tag k="sport" v="skateboard"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29240000011" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.999" lon="135.181">
+    <tag k="leisure" v="pitch"/>
+    <tag k="sport" v="athletics"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29240000012" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.999" lon="135.182">
+    <tag k="leisure" v="pitch"/>
+    <tag k="sport" v="netball"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29240000013" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.999" lon="135.183">
+    <tag k="leisure" v="pitch"/>
+    <tag k="sport" v="climbing"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29240000014" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.999" lon="135.184">
+    <tag k="natural" v="climbing"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29240000015" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.999" lon="135.185">
+    <tag k="leisure" v="pitch"/>
+    <tag k="sport" v="cycling"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29240000016" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.999" lon="135.186">
+    <tag k="leisure" v="pitch"/>
+    <tag k="sport" v="table_tennis"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29240000017" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.999" lon="135.187">
+    <tag k="leisure" v="pitch"/>
+    <tag k="sport" v="hockey"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29240000018" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.999" lon="135.188">
+    <tag k="leisure" v="pitch"/>
+    <tag k="sport" v="shooting"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29240000019" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.999" lon="135.189">
+    <tag k="leisure" v="pitch"/>
+    <tag k="sport" v="boules"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29240000020" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.999" lon="135.19">
+    <tag k="leisure" v="pitch"/>
+    <tag k="sport" v="polo"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29240000021" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.999" lon="135.191">
+    <tag k="leisure" v="pitch"/>
+    <tag k="sport" v="chess"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29241000001" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9988" lon="135.171">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Table Tennis Table"/>
+    <tag k="name" v="Tennis Court"/>
   </node>
   <node id="29241000002" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9988" lon="135.172">
     <tag k="place" v="legend_text"/>
@@ -1204,23 +1259,23 @@
   </node>
   <node id="29241000003" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9988" lon="135.173">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Basketball Court"/>
+    <tag k="name" v="Equestrian Area"/>
   </node>
   <node id="29241000004" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9988" lon="135.174">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Cricket Pitch"/>
+    <tag k="name" v="Bowling Green"/>
   </node>
   <node id="29241000005" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9988" lon="135.175">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Skateboard Park"/>
+    <tag k="name" v="Cricket Pitch"/>
   </node>
   <node id="29241000006" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9988" lon="135.176">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Climbing"/>
+    <tag k="name" v="Basketball Court"/>
   </node>
   <node id="29241000007" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9988" lon="135.177">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Climbing Boulder"/>
+    <tag k="name" v="Multi-use Area"/>
   </node>
   <node id="29241000008" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9988" lon="135.178">
     <tag k="place" v="legend_text"/>
@@ -1228,11 +1283,55 @@
   </node>
   <node id="29241000009" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9988" lon="135.179">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Chess Board"/>
+    <tag k="name" v="Gaelic Games"/>
   </node>
   <node id="29241000010" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9988" lon="135.18">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Tennis Court"/>
+    <tag k="name" v="Skateboard Park"/>
+  </node>
+  <node id="29241000011" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9988" lon="135.181">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Athletics"/>
+  </node>
+  <node id="29241000012" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9988" lon="135.182">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Netball Court"/>
+  </node>
+  <node id="29241000013" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9988" lon="135.183">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Climbing"/>
+  </node>
+  <node id="29241000014" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9988" lon="135.184">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Climbing Boulder"/>
+  </node>
+  <node id="29241000015" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9988" lon="135.185">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Cycling Area"/>
+  </node>
+  <node id="29241000016" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9988" lon="135.186">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Table Tennis Table"/>
+  </node>
+  <node id="29241000017" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9988" lon="135.187">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Hockey Pitch"/>
+  </node>
+  <node id="29241000018" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9988" lon="135.188">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Shooting Ground"/>
+  </node>
+  <node id="29241000019" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9988" lon="135.189">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Boules Court"/>
+  </node>
+  <node id="29241000020" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9988" lon="135.19">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Polo Pitch"/>
+  </node>
+  <node id="29241000021" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9988" lon="135.191">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Chess Board"/>
   </node>
   <node id="29250000001" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25" lon="135.171">
     <tag k="leisure" v="sports_centre"/>

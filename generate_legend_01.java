@@ -1305,9 +1305,9 @@ public class generate_legend_01
 	// Row 14 - Pitches
 	currentRow += 1;
 	currentCol = 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Table Tennis Table",
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Tennis Court",
 			 "leisure", "pitch", 
-			 "sport", "table_tennis", 
+			 "sport", "tennis", 
 			 "name", "Name" );
 
 	currentCol += 1;
@@ -1317,9 +1317,15 @@ public class generate_legend_01
 			 "name", "Name" );
 
 	currentCol += 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Basketball Court",
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Equestrian Area",
 			 "leisure", "pitch", 
-			 "sport", "basketball", 
+			 "sport", "equestrian", 
+			 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Bowling Green",
+			 "leisure", "pitch", 
+			 "sport", "bowls", 
 			 "name", "Name" );
 
 	currentCol += 1;
@@ -1329,9 +1335,45 @@ public class generate_legend_01
 			 "name", "Name" );
 
 	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Basketball Court",
+			 "leisure", "pitch", 
+			 "sport", "basketball", 
+			 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Multi-use Area",
+			 "leisure", "pitch", 
+			 "sport", "multi", 
+			 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Rugby Pitch",
+			 "leisure", "pitch", 
+			 "sport", "rugby", 
+			 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Gaelic Games",
+			 "leisure", "pitch", 
+			 "sport", "gaelic_games", 
+			 "name", "Name" );
+
+	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Skateboard Park",
 			 "leisure", "pitch", 
 			 "sport", "skateboard", 
+			 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Athletics",
+			 "leisure", "pitch", 
+			 "sport", "athletics", 
+			 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Netball Court",
+			 "leisure", "pitch", 
+			 "sport", "netball", 
 			 "name", "Name" );
 
 	currentCol += 1;
@@ -1346,21 +1388,45 @@ public class generate_legend_01
 			 "name", "Name" );
 
 	currentCol += 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Rugby Pitch",
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Cycling Area",
 			 "leisure", "pitch", 
-			 "sport", "rugby", 
+			 "sport", "cycling", 
+			 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Table Tennis Table",
+			 "leisure", "pitch", 
+			 "sport", "table_tennis", 
+			 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Hockey Pitch",
+			 "leisure", "pitch", 
+			 "sport", "hockey", 
+			 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Shooting Ground",
+			 "leisure", "pitch", 
+			 "sport", "shooting", 
+			 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Boules Court",
+			 "leisure", "pitch", 
+			 "sport", "boules", 
+			 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Polo Pitch",
+			 "leisure", "pitch", 
+			 "sport", "polo", 
 			 "name", "Name" );
 
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Chess Board",
 			 "leisure", "pitch", 
 			 "sport", "chess", 
-			 "name", "Name" );
-
-	currentCol += 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Tennis Court",
-			 "leisure", "pitch", 
-			 "sport", "tennis", 
 			 "name", "Name" );
 
 	// Row 15 - Leisure

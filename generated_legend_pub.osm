@@ -1897,59 +1897,77 @@
     <tag k="name" v="Vending Machine"/>
   </node>
   <node id="29320000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.006999999999998" lon="135.182">
-    <tag k="amenity" v="musical_instrument"/>
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="excrement_bags"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29321000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0068" lon="135.182">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Musical Instrument"/>
+    <tag k="name" v="Poo bags"/>
   </node>
   <node id="29320000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.006999999999998" lon="135.183">
-    <tag k="amenity" v="recycling"/>
-    <tag k="recycling_type" v="centre"/>
+    <tag k="amenity" v="vending_machine"/>
+    <tag k="vending" v="bottle_return"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29321000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0068" lon="135.183">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Recycling Centre"/>
+    <tag k="name" v="Bottle Return"/>
   </node>
   <node id="29320000014" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.006999999999998" lon="135.184">
-    <tag k="amenity" v="recycling"/>
+    <tag k="amenity" v="musical_instrument"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29321000014" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0068" lon="135.184">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Recycling bin"/>
+    <tag k="name" v="Musical Instrument"/>
   </node>
   <node id="29320000015" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.006999999999998" lon="135.18499999999997">
-    <tag k="amenity" v="waste_basket"/>
+    <tag k="amenity" v="recycling"/>
+    <tag k="recycling_type" v="centre"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29321000015" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0068" lon="135.18499999999997">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Waste bin"/>
+    <tag k="name" v="Recycling Centre"/>
   </node>
   <node id="29320000016" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.006999999999998" lon="135.18599999999998">
-    <tag k="amenity" v="grit_bin"/>
+    <tag k="amenity" v="recycling"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29321000016" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0068" lon="135.18599999999998">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Grit bin"/>
+    <tag k="name" v="Recycling bin"/>
   </node>
   <node id="29320000017" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.006999999999998" lon="135.18699999999998">
-    <tag k="amenity" v="bench"/>
+    <tag k="amenity" v="waste_basket"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29321000017" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0068" lon="135.18699999999998">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Bench"/>
+    <tag k="name" v="Waste bin"/>
   </node>
   <node id="29320000018" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.006999999999998" lon="135.188">
-    <tag k="amenity" v="drinking_water"/>
+    <tag k="amenity" v="grit_bin"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29321000018" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0068" lon="135.188">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Grit bin"/>
+  </node>
+  <node id="29320000019" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.006999999999998" lon="135.189">
+    <tag k="amenity" v="bench"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29321000019" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0068" lon="135.189">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Bench"/>
+  </node>
+  <node id="29320000020" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.006999999999998" lon="135.19">
+    <tag k="amenity" v="drinking_water"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29321000020" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0068" lon="135.19">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Water"/>
   </node>

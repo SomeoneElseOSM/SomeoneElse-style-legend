@@ -2834,18 +2834,22 @@
     <tag k="name" v="Name"/>
   </node>
   <node id="29380000019" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.013" lon="135.189">
-    <tag k="man_made" v="power_wind"/>
+    <tag k="man_made" v="watermill"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29380000020" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.013" lon="135.19">
-    <tag k="man_made" v="windmill"/>
+    <tag k="man_made" v="power_wind"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29380000021" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.013" lon="135.191">
-    <tag k="man_made" v="ventilation_shaft"/>
+    <tag k="man_made" v="windmill"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29380000022" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.013" lon="135.192">
+    <tag k="man_made" v="ventilation_shaft"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29380000023" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.013" lon="135.193">
     <tag k="military" v="bunker"/>
     <tag k="name" v="Name"/>
   </node>
@@ -2923,17 +2927,21 @@
   </node>
   <node id="29381000019" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0128" lon="135.189">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Wind Turbine"/>
+    <tag k="name" v="Watermill"/>
   </node>
   <node id="29381000020" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0128" lon="135.19">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Windmill"/>
+    <tag k="name" v="Wind Turbine"/>
   </node>
   <node id="29381000021" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0128" lon="135.191">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Vent Shaft"/>
+    <tag k="name" v="Windmill"/>
   </node>
   <node id="29381000022" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0128" lon="135.192">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Vent Shaft"/>
+  </node>
+  <node id="29381000023" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0128" lon="135.193">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Military Bunker"/>
   </node>

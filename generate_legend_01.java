@@ -2411,7 +2411,22 @@ public class generate_legend_01
 
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Bus Stop", 
-				 "highway", "bus_stop", 
+				 "highway", "bus_stop_pole", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "(with timetable)", 
+				 "highway", "bus_stop_timetable", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "(realtime)", 
+				 "highway", "bus_stop_realtime", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "(no pole)", 
+				 "highway", "bus_stop_nothing", 
 				 "name", "Name" );
 
 	currentCol += 1;

@@ -1516,50 +1516,54 @@
     <tag k="name" v="Stile"/>
   </node>
   <node id="29260000004" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.001" lon="135.174">
+    <tag k="barrier" v="dog_gate_stile"/>
+    <tag k="name" v="(with dog gate)"/>
+  </node>
+  <node id="29260000005" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.001" lon="135.175">
     <tag k="barrier" v="bollard"/>
     <tag k="name" v="Bollard"/>
   </node>
-  <node id="29260000005" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.001" lon="135.175">
+  <node id="29260000006" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.001" lon="135.176">
     <tag k="barrier" v="kissing_gate"/>
     <tag k="name" v="Kissing Gate"/>
   </node>
-  <node id="29260000006" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.001" lon="135.176">
+  <node id="29260000007" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.001" lon="135.177">
     <tag k="barrier" v="cycle_barrier"/>
     <tag k="name" v="Cycle Barrier"/>
   </node>
-  <node id="29260000007" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.001" lon="135.177">
+  <node id="29260000008" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.001" lon="135.178">
     <tag k="barrier" v="cattle_grid"/>
     <tag k="name" v="Cattle Grid"/>
   </node>
-  <node id="29260000008" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.001" lon="135.178">
+  <node id="29260000009" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.001" lon="135.179">
     <tag k="barrier" v="lift_gate"/>
     <tag k="name" v="Lift Gate"/>
   </node>
-  <node id="29260000009" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.001" lon="135.179">
+  <node id="29260000010" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.001" lon="135.18">
     <tag k="barrier" v="door"/>
     <tag k="name" v="Door"/>
   </node>
-  <node id="29260000010" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.001" lon="135.18">
+  <node id="29260000011" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.001" lon="135.181">
     <tag k="barrier" v="toll_booth"/>
     <tag k="name" v="Toll Booth"/>
   </node>
-  <node id="29260000011" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.001" lon="135.181">
+  <node id="29260000012" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.001" lon="135.182">
     <tag k="barrier" v="horse_stile"/>
     <tag k="name" v="Horse Stile"/>
   </node>
-  <node id="29260000012" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.001" lon="135.182">
+  <node id="29260000013" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.001" lon="135.183">
     <tag k="barrier" v="border_control"/>
     <tag k="name" v="Border Control"/>
   </node>
-  <node id="29260000013" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.001" lon="135.183">
+  <node id="29260000014" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.001" lon="135.184">
     <tag k="barrier" v="bus_trap"/>
     <tag k="name" v="Bus Trap"/>
   </node>
-  <node id="29260000014" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.001" lon="135.184">
+  <node id="29260000015" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.001" lon="135.185">
     <tag k="barrier" v="ticket_barrier"/>
     <tag k="name" v="Ticket Barrier"/>
   </node>
-  <node id="29260000015" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.001" lon="135.185">
+  <node id="29260000016" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.001" lon="135.186">
     <tag k="entrance" v="main"/>
     <tag k="name" v="Name"/>
   </node>
@@ -1567,7 +1571,7 @@
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Barriers"/>
   </node>
-  <node id="29261000015" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0008" lon="135.185">
+  <node id="29261000016" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0008" lon="135.186">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Main Entrance"/>
   </node>

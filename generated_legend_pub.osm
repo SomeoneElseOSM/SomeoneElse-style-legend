@@ -1335,10 +1335,19 @@
   </node>
   <node id="29240000022" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.999" lon="135.19199999999998">
     <tag k="leisure" v="pitch"/>
-    <tag k="sport" v="chess"/>
+    <tag k="sport" v="baseball"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29241000022" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9988" lon="135.19199999999998">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Baseball Pitch"/>
+  </node>
+  <node id="29240000023" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.999" lon="135.19299999999998">
+    <tag k="leisure" v="pitch"/>
+    <tag k="sport" v="chess"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29241000023" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9988" lon="135.19299999999998">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Chess Board"/>
   </node>

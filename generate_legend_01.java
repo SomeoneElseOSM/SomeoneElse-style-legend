@@ -267,6 +267,25 @@ public class generate_legend_01
 			 tag07, value07 );
     }
 
+    // 5 pairs of tags
+    private static void writeLabelledNodeRowCol( PrintStream passedOutputOsmStream, long passedNodeNumber, int passedRow, int passedCol, String labelName, 
+					 String tag01, String value01, String tag02, String value02, String tag03, String value03, String tag04, String value04, String tag05, String value05 )
+    {
+	String tag06   = "";
+	String value06 = "";
+	String tag07   = "";
+	String value07 = "";
+
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, passedRow, passedCol, labelName, 
+			 tag01, value01, 
+			 tag02, value02, 
+			 tag03, value03, 
+			 tag04, value04, 
+			 tag05, value05, 
+			 tag06, value06, 
+			 tag07, value07 );
+    }
+
     public static void main(String[] args) throws Exception 
     {
 	// No argument processing (yet)
@@ -2418,37 +2437,58 @@ public class generate_legend_01
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Bus Station", 
 				 "amenity", "bus_station", 
-				 "name", "Name" );
+				 "name",    "Name",
+				 "website", "Website" );
 
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Bus Stop", 
-				 "highway", "bus_stop_pole", 
-				 "name", "Name" );
+				 "highway", "bus_stop", 
+				 "name",    "Name",
+				 "website", "Website" );
 
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "(with timetable)", 
-				 "highway", "bus_stop_timetable", 
-				 "name", "Name" );
+				 "highway",          "bus_stop", 
+				 "name",             "Name",
+				 "website",          "Website",
+				 "departures_board", "timetable" );
 
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "(+speech)", 
-				 "highway", "bus_stop_speech_timetable", 
-				 "name", "Name" );
+				 "highway",                        "bus_stop", 
+				 "name",                           "Name",
+				 "website",                        "Website",
+				 "departures_board",               "timetable",
+				 "departures_board:speech_output", "yes" );
 
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "(realtime)", 
-				 "highway", "bus_stop_realtime", 
-				 "name", "Name" );
+				 "highway",          "bus_stop", 
+				 "name",             "Name",
+				 "website",          "Website",
+				 "departures_board", "realtime" );
 
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "(+speech)", 
-				 "highway", "bus_stop_speech_realtime", 
-				 "name", "Name" );
+				 "highway",                        "bus_stop", 
+				 "name",                           "Name",
+				 "website",                        "Website",
+				 "departures_board",               "realtime",
+				 "departures_board:speech_output", "yes" );
 
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "(no pole)", 
-				 "highway", "bus_stop_nothing", 
-				 "name", "Name" );
+				 "highway",            "bus_stop", 
+				 "name",               "Name",
+				 "website",            "Website",
+				 "physically_present", "no" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "(disused with pole)", 
+				 "disused:highway",    "bus_stop", 
+				 "name",               "Name",
+				 "website",            "Website",
+				 "physically_present", "yes" );
 
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Taxi Stand", 

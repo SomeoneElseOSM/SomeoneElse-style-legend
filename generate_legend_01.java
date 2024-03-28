@@ -2496,6 +2496,12 @@ public class generate_legend_01
 				 "physically_present", "yes" );
 
 	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Standalone departures board", 
+				 "departures_board",   "realtime", 
+				 "name",               "Name",
+				 "website",            "Website" );
+
+	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Taxi Stand", 
 				 "amenity", "taxi", 
 				 "name", "Name" );

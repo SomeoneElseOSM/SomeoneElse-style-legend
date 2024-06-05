@@ -2004,7 +2004,15 @@
   </node>
   <node id="29321000020" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0068" lon="135.19">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Water"/>
+    <tag k="name" v="Drinking water"/>
+  </node>
+  <node id="29320000021" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.006999999999998" lon="135.19099999999997">
+    <tag k="amenity" v="nondrinking_water"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29321000021" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0068" lon="135.19099999999997">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Non-drinking water"/>
   </node>
   <node id="29330000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.008" lon="135.171">
     <tag k="historic" v="archaeological_site"/>

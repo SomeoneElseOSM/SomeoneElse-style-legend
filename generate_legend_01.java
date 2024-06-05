@@ -1992,8 +1992,13 @@ public class generate_legend_01
 				 "name", "Name" );
 
 	currentCol += 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Water", 
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Drinking water", 
 				 "amenity", "drinking_water", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Non-drinking water", 
+				 "amenity", "nondrinking_water", 
 				 "name", "Name" );
 
 	// Row 23 - Historic and archaeological

@@ -671,36 +671,44 @@
     <tag k="name" v="Mountain Rescue"/>
   </node>
   <node id="29190000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.994" lon="135.17999999999998">
-    <tag k="emergency" v="defibrillator"/>
+    <tag k="emergency" v="rescue_box"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29191000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9938" lon="135.17999999999998">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Defibrillator"/>
+    <tag k="name" v="Mountain Rescue Supplies"/>
   </node>
   <node id="29190000011" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.994" lon="135.18099999999998">
-    <tag k="emergency" v="life_ring"/>
+    <tag k="emergency" v="defibrillator"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29191000011" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9938" lon="135.18099999999998">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Life Ring"/>
+    <tag k="name" v="Defibrillator"/>
   </node>
   <node id="29190000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.994" lon="135.182">
-    <tag k="emergency" v="fire_extinguisher"/>
+    <tag k="emergency" v="life_ring"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29191000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9938" lon="135.182">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Fire Extinguisher"/>
+    <tag k="name" v="Life Ring"/>
   </node>
   <node id="29190000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.994" lon="135.183">
-    <tag k="emergency" v="mountain_rescue_box"/>
+    <tag k="emergency" v="fire_extinguisher"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29191000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9938" lon="135.183">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Mountain Rescue Supplies"/>
+    <tag k="name" v="Fire Extinguisher"/>
+  </node>
+  <node id="29190000014" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.994" lon="135.184">
+    <tag k="emergency" v="fire_hydrant"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29191000014" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9938" lon="135.184">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Fire Hydrant"/>
   </node>
   <node id="29200000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.995" lon="135.171">
     <tag k="tourism" v="hotel"/>

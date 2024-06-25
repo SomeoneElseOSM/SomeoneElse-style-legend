@@ -831,10 +831,18 @@
     <tag k="name" v="Camp Site"/>
   </node>
   <node id="29200000016" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.995" lon="135.18599999999998">
-    <tag k="leisure" v="firepit"/>
+    <tag k="tourism" v="camp_pitch"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29201000016" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9948" lon="135.18599999999998">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Camp Pitch"/>
+  </node>
+  <node id="29200000017" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.995" lon="135.18699999999998">
+    <tag k="leisure" v="firepit"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29201000017" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9948" lon="135.18699999999998">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Firepit"/>
   </node>

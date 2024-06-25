@@ -775,26 +775,66 @@
     <tag k="name" v="Hostel"/>
   </node>
   <node id="29200000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.995" lon="135.17899999999997">
-    <tag k="tourism" v="caravan_site"/>
+    <tag k="tourism" v="apartment"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29201000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9948" lon="135.17899999999997">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Caravan Site"/>
+    <tag k="name" v="Apartment"/>
   </node>
   <node id="29200000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.995" lon="135.17999999999998">
-    <tag k="tourism" v="camp_site"/>
+    <tag k="tourism" v="apartments"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29201000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9948" lon="135.17999999999998">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Camp Site"/>
+    <tag k="name" v="Apartment Hotel"/>
   </node>
   <node id="29200000011" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.995" lon="135.18099999999998">
-    <tag k="leisure" v="firepit"/>
+    <tag k="tourism" v="holiday_park"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29201000011" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9948" lon="135.18099999999998">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Holiday Park"/>
+  </node>
+  <node id="29200000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.995" lon="135.182">
+    <tag k="tourism" v="self_catering"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29201000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9948" lon="135.182">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Self Catering"/>
+  </node>
+  <node id="29200000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.995" lon="135.183">
+    <tag k="tourism" v="holiday_cottage"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29201000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9948" lon="135.183">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Holiday Cottage"/>
+  </node>
+  <node id="29200000014" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.995" lon="135.184">
+    <tag k="tourism" v="caravan_site"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29201000014" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9948" lon="135.184">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Caravan Site"/>
+  </node>
+  <node id="29200000015" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.995" lon="135.18499999999997">
+    <tag k="tourism" v="camp_site"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29201000015" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9948" lon="135.18499999999997">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Camp Site"/>
+  </node>
+  <node id="29200000016" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.995" lon="135.18599999999998">
+    <tag k="leisure" v="firepit"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29201000016" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9948" lon="135.18599999999998">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Firepit"/>
   </node>

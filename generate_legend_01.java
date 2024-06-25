@@ -1060,6 +1060,31 @@ public class generate_legend_01
 			 "name", "Name" );
 
 	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Apartment",
+			 "tourism", "apartment", 
+			 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Apartment Hotel",
+			 "tourism", "apartments", 
+			 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Holiday Park",
+			 "tourism", "holiday_park", 
+			 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Self Catering",
+			 "tourism", "self_catering", 
+			 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Holiday Cottage",
+			 "tourism", "holiday_cottage", 
+			 "name", "Name" );
+
+	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Caravan Site",
 			 "tourism", "caravan_site", 
 			 "name", "Name" );

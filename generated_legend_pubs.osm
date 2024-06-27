@@ -405,25 +405,29 @@
   </node>
   <node id="29150000029" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.99" lon="135.199">
     <tag k="shop" v="pet"/>
-    <tag k="name" v="Pet and pet related"/>
+    <tag k="name" v="Pet"/>
   </node>
   <node id="29150000030" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.99" lon="135.2">
+    <tag k="shop" v="pet_food"/>
+    <tag k="name" v="Pet Food"/>
+  </node>
+  <node id="29150000031" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.99" lon="135.201">
     <tag k="shop" v="books"/>
     <tag k="name" v="Books"/>
   </node>
-  <node id="29150000031" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.99" lon="135.201">
+  <node id="29150000032" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.99" lon="135.202">
     <tag k="shop" v="stationery"/>
     <tag k="name" v="Stationery"/>
   </node>
-  <node id="29150000032" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.99" lon="135.202">
+  <node id="29150000033" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.99" lon="135.203">
     <tag k="shop" v="music"/>
     <tag k="name" v="Music"/>
   </node>
-  <node id="29150000033" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.99" lon="135.203">
+  <node id="29150000034" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.99" lon="135.204">
     <tag k="shop" v="musical_instrument"/>
     <tag k="name" v="Musical Instrument"/>
   </node>
-  <node id="29150000034" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.99" lon="135.204">
+  <node id="29150000035" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.99" lon="135.205">
     <tag k="shop" v="motorcycle"/>
     <tag k="name" v="Motorcycle"/>
   </node>
@@ -470,6 +474,22 @@
   <node id="29160000010" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.991" lon="135.18">
     <tag k="shop" v="copyshop"/>
     <tag k="name" v="Copyshop, Printers"/>
+  </node>
+  <node id="29160000011" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.991" lon="135.181">
+    <tag k="shop" v="pet_grooming"/>
+    <tag k="name" v="Pet Grooming"/>
+  </node>
+  <node id="29160000012" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.991" lon="135.182">
+    <tag k="amenity" v="veterinary"/>
+    <tag k="name" v="Vet"/>
+  </node>
+  <node id="29160000013" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.991" lon="135.183">
+    <tag k="amenity" v="animal_boarding"/>
+    <tag k="name" v="Animal Boarding"/>
+  </node>
+  <node id="29160000014" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.991" lon="135.184">
+    <tag k="amenity" v="animal_shelter"/>
+    <tag k="name" v="Animal Shelter"/>
   </node>
   <node id="29161000001" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9908" lon="135.171">
     <tag k="place" v="legend_text"/>
@@ -565,7 +585,7 @@
   </node>
   <node id="29171000011" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9918" lon="135.181">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Other similar (caravan shops etc.)"/>
+    <tag k="name" v="Caravan, Boat, etc.)"/>
   </node>
   <node id="29180000001" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.993" lon="135.171">
     <tag k="shop" v="vacant"/>
@@ -1971,18 +1991,22 @@
     <tag k="name" v="Name"/>
   </node>
   <node id="29320000018" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.007" lon="135.188">
-    <tag k="amenity" v="grit_bin"/>
+    <tag k="amenity" v="waste_disposal"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29320000019" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.007" lon="135.189">
-    <tag k="amenity" v="bench"/>
+    <tag k="amenity" v="grit_bin"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29320000020" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.007" lon="135.19">
-    <tag k="amenity" v="drinking_water"/>
+    <tag k="amenity" v="bench"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29320000021" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.007" lon="135.191">
+    <tag k="amenity" v="drinking_water"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29320000022" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.007" lon="135.192">
     <tag k="amenity" v="nondrinking_water"/>
     <tag k="name" v="Name"/>
   </node>
@@ -2056,17 +2080,21 @@
   </node>
   <node id="29321000018" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0068" lon="135.188">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Grit bin"/>
+    <tag k="name" v="Large waste bin"/>
   </node>
   <node id="29321000019" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0068" lon="135.189">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Bench"/>
+    <tag k="name" v="Grit bin"/>
   </node>
   <node id="29321000020" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0068" lon="135.19">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Drinking water"/>
+    <tag k="name" v="Bench"/>
   </node>
   <node id="29321000021" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0068" lon="135.191">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Drinking water"/>
+  </node>
+  <node id="29321000022" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0068" lon="135.192">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Non-drinking water"/>
   </node>

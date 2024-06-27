@@ -782,7 +782,12 @@ public class generate_legend_01
 	currentCol += 1;
 	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "shop", "pet", 
-			 "name", "Pet and pet related" );
+			 "name", "Pet" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "shop", "pet_food", 
+			 "name", "Pet Food" );
 
 	currentCol += 1;
 	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
@@ -860,6 +865,26 @@ public class generate_legend_01
 	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "shop", "copyshop", 
 			 "name", "Copyshop, Printers" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "shop", "pet_grooming", 
+			 "name", "Pet Grooming" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "amenity", "veterinary", 
+			 "name", "Vet" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "amenity", "animal_boarding", 
+			 "name", "Animal Boarding" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "amenity", "animal_shelter", 
+			 "name", "Animal Shelter" );
 
 
 	// Row 7 - cars

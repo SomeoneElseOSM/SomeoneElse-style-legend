@@ -1548,6 +1548,10 @@
     <tag k="leisure" v="bandstand"/>
     <tag k="name" v="Name"/>
   </node>
+  <node id="29260000021" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.001" lon="135.191">
+    <tag k="leisure" v="bleachers"/>
+    <tag k="name" v="Name"/>
+  </node>
   <node id="29261000001" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0008" lon="135.171">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Sports Centre"/>
@@ -1627,6 +1631,10 @@
   <node id="29261000020" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0008" lon="135.19">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Bandstand"/>
+  </node>
+  <node id="29261000021" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.0008" lon="135.191">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Bleachers"/>
   </node>
   <node id="29270000001" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-25.002" lon="135.171">
     <tag k="barrier" v="gate"/>

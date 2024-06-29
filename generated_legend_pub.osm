@@ -961,10 +961,14 @@
     <tag k="name" v="Aquarium"/>
   </node>
   <node id="29210000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.178">
+    <tag k="amenity" v="zooaviary"/>
+    <tag k="name" v="Aviary"/>
+  </node>
+  <node id="29210000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.17899999999997">
     <tag k="tourism" v="theme_park"/>
     <tag k="name" v="Theme Park"/>
   </node>
-  <node id="29210000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.17899999999997">
+  <node id="29210000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.17999999999998">
     <tag k="tourism" v="attraction"/>
     <tag k="name" v="Attraction"/>
   </node>

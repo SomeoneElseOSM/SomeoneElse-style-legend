@@ -2596,10 +2596,18 @@
     <tag k="name" v="Aircraft Wreck"/>
   </node>
   <node id="29340000051" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.22099999999998">
-    <tag k="historic" v="ruins"/>
+    <tag k="historic" v="milk_churn_stand"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29341000051" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0088" lon="135.22099999999998">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Milk Churn Stand"/>
+  </node>
+  <node id="29340000052" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.22199999999998">
+    <tag k="historic" v="ruins"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29341000052" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0088" lon="135.22199999999998">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Other Historic"/>
   </node>

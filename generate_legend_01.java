@@ -1088,6 +1088,11 @@ public class generate_legend_01
 				 "emergency", "fire_hydrant", 
 				 "name", "Name" );
 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Emergency Access Point", 
+				 "emergency", "access_point", 
+				 "name", "Name" );
+
 	// Row 10 - accommodation
 	currentRow += 1;
 	currentCol = 1;

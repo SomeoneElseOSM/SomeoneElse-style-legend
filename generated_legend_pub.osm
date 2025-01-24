@@ -800,6 +800,14 @@
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Fire Hydrant"/>
   </node>
+  <node id="29190000016" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.994" lon="135.18599999999998">
+    <tag k="emergency" v="access_point"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29191000016" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9938" lon="135.18599999999998">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Emergency Access Point"/>
+  </node>
   <node id="29200000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.995" lon="135.171">
     <tag k="tourism" v="hotel"/>
     <tag k="name" v="Name"/>

@@ -2892,6 +2892,11 @@ public class generate_legend_01
 				 "man_made", "ventilation_shaft", 
 				 "name", "Name" );
 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Crane", 
+				 "man_made", "crane", 
+				 "name", "Name" );
+
 	// Row 30 - Natural
 	currentRow += 1;
 	currentCol = 1;

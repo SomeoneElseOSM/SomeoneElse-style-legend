@@ -3262,6 +3262,14 @@
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Vent Shaft"/>
   </node>
+  <node id="29390000023" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.014" lon="135.19299999999998">
+    <tag k="man_made" v="crane"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29391000023" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0138" lon="135.19299999999998">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Crane"/>
+  </node>
   <node id="29400000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.015" lon="135.171">
     <tag k="natural" v="peak"/>
     <tag k="name" v="Name / ele"/>

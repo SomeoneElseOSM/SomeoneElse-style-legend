@@ -1003,6 +1003,11 @@ public class generate_legend_01
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Pipeline Marker", 
 				 "man_made", "pipeline_marker", 
+				 "Ref", "Ref" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Military Marker", 
+				 "military", "range_marker", 
 				 "name", "Name" );
 
 	currentCol += 1;

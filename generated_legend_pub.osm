@@ -665,17 +665,25 @@
   </node>
   <node id="29180000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.993" lon="135.17999999999998">
     <tag k="man_made" v="pipeline_marker"/>
-    <tag k="name" v="Name"/>
+    <tag k="Ref" v="Ref"/>
   </node>
   <node id="29181000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9928" lon="135.17999999999998">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Pipeline Marker"/>
   </node>
   <node id="29180000011" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.993" lon="135.18099999999998">
-    <tag k="military" v="bunker"/>
+    <tag k="military" v="range_marker"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29181000011" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9928" lon="135.18099999999998">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Military Marker"/>
+  </node>
+  <node id="29180000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.993" lon="135.182">
+    <tag k="military" v="bunker"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29181000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9928" lon="135.182">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Military Bunker"/>
   </node>

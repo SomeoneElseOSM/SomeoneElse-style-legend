@@ -1841,6 +1841,18 @@ public class generate_legend_01
 	currentCol += 1;
 	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "tourism", "information", 
+			 "information", "artwork", 
+			 "name", "Artwork" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "tourism", "information", 
+			 "information", "stele", 
+			 "name", "Stele" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "tourism", "information", 
 			 "operator", "Peak and Northern Footpaths Society",
 			 "ref", "Ref",
 			 "name", "PNFS Signpost",

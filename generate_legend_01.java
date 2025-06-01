@@ -474,7 +474,25 @@ public class generate_legend_01
 			 "name", "Sandwich", 
 			 "cuisine", "sandwich" );
 
-	// Row 3 - other eating and drinking
+	// Row 3 - restaurants
+	currentRow += 1;
+	currentCol = 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Restaurants", 
+			 "amenity", "restaurant", 
+			 "name", "Restaurant" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "amenity", "restaccomm", 
+			 "name", "with rooms" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "amenity", "restaurant", 
+			 "cuisine", "indian", 
+			 "name", "Indian" );
+
+	// Row 4 - other eating and drinking
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Other Eating and Drinking", 
@@ -534,20 +552,10 @@ public class generate_legend_01
 
 	currentCol += 1;
 	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
-			 "amenity", "restaurant", 
-			 "name", "Restaurant" );
-
-	currentCol += 1;
-	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
-			 "amenity", "restaccomm", 
-			 "name", "with rooms" );
-
-	currentCol += 1;
-	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "biergarten", 
 			 "name", "Biergarten" );
 
-	// Row 4 - food shops
+	// Row 5 - food shops
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Food Shops", 
@@ -637,7 +645,7 @@ public class generate_legend_01
 			 "shop", "variety_store", 
 			 "name", "Variety, Discount" );
 
-	// Row 5 - other shops
+	// Row 6 - other shops
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Other Shops", 
@@ -814,7 +822,7 @@ public class generate_legend_01
 			 "shop", "motorcycle", 
 			 "name", "Motorcycle" );
 
-	// Row 6 - services (shops providing a service)
+	// Row 7 - services (shops providing a service)
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Services", 
@@ -887,7 +895,7 @@ public class generate_legend_01
 			 "name", "Animal Shelter" );
 
 
-	// Row 7 - cars and car related
+	// Row 8 - cars and car related
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Petrol / Diesel", 
@@ -948,7 +956,7 @@ public class generate_legend_01
 				 "shop", "caravan", 
 				 "name", "Name" );
 
-	// Row 8 - generic offices, breweries and other 
+	// Row 9 - generic offices, breweries and other 
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Vacant", 
@@ -1015,7 +1023,7 @@ public class generate_legend_01
 				 "military", "bunker", 
 				 "name", "Name" );
 
-	// Row 9 - medical
+	// Row 10 - medical
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Hospital", 
@@ -1098,7 +1106,7 @@ public class generate_legend_01
 				 "emergency", "access_point", 
 				 "name", "Name" );
 
-	// Row 10 - accommodation
+	// Row 11 - accommodation
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Hotel", 
@@ -1180,7 +1188,7 @@ public class generate_legend_01
 			 "tourism", "camp_pitch", 
 			 "name", "Name" );
 
-	// Row 11 - big places you might want to visit
+	// Row 12 - big places you might want to visit
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Other Tourism", 
@@ -1237,7 +1245,7 @@ public class generate_legend_01
 			 "tourism", "attraction", 
 			 "name", "Attraction" );
 
-	// Row 12 - toilets and showers
+	// Row 13 - toilets and showers
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Toilets", 
@@ -1285,7 +1293,7 @@ public class generate_legend_01
 				 "female", "yes", 
 				 "name", "Name" );
 
-	// Row 13 - places you might want to visit outside
+	// Row 14 - places you might want to visit outside
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Picnic Site", 
@@ -1382,7 +1390,7 @@ public class generate_legend_01
 				 "amenity", "watering_place", 
 				 "name", "Name" );
 
-	// Row 14 - Playground Equipment
+	// Row 15 - Playground Equipment
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Playground Swing", 
@@ -1424,7 +1432,7 @@ public class generate_legend_01
 				 "playground", "seesaw", 
 				 "name", "Name" );
 
-	// Row 15 - Pitches
+	// Row 16 - Pitches
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Tennis Court",
@@ -1563,7 +1571,7 @@ public class generate_legend_01
 			 "sport", "chess", 
 			 "name", "Name" );
 
-	// Row 16 - Leisure
+	// Row 17 - Leisure
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Sports Centre",
@@ -1675,7 +1683,7 @@ public class generate_legend_01
 				 "leisure", "bleachers", 
 				 "name", "Name" );
 
-	// Row 17 - Barriers
+	// Row 18 - Barriers
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Barriers", 
@@ -1773,7 +1781,7 @@ public class generate_legend_01
 				 "waterway", "lock_gate", 
 				 "name", "Name" );
 
-	// Row 18 - Tourist Information
+	// Row 19 - Tourist Information
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Tourist Information", 
@@ -1890,7 +1898,7 @@ public class generate_legend_01
 			 "ncn_milepost", "yes", 
 			 "sustrans_ref", "Unknown" );
 
-	// Row 19 - religious
+	// Row 20 - religious
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Places of Worship etc.", 
@@ -1962,7 +1970,7 @@ public class generate_legend_01
 				 "man_made", "cross", 
 				 "name", "Cross" );
 
-	// Row 20 - government
+	// Row 21 - government
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Post Office", 
@@ -1999,7 +2007,7 @@ public class generate_legend_01
 			 "office", "government", 
 			 "name", "Name" );
 
-	// Row 21 - financial
+	// Row 22 - financial
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Bank / Building Society", 
@@ -2011,7 +2019,7 @@ public class generate_legend_01
 				 "amenity", "atm", 
 				 "operator", "Operator" );
 
-	// Row 22 - education
+	// Row 23 - education
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "University", 
@@ -2028,7 +2036,7 @@ public class generate_legend_01
 				 "amenity", "kindergarten", 
 				 "name", "Name" );
 
-	// Row 23 - smaller amenities
+	// Row 24 - smaller amenities
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Viewpoint", 
@@ -2158,7 +2166,7 @@ public class generate_legend_01
 				 "man_made", "outfall", 
 				 "name", "Name" );
 
-	// Row 24 - Historic and archaeological
+	// Row 25 - Historic and archaeological
 	currentRow += 1;
 	currentCol = 1;
 	
@@ -2450,7 +2458,7 @@ public class generate_legend_01
 				 "historic", "ruins", 
 				 "name", "Name" );
 
-	// Row 25 - Monuments and memorials
+	// Row 26 - Monuments and memorials
 	currentRow += 1;
 	currentCol = 1;
 
@@ -2533,7 +2541,7 @@ public class generate_legend_01
 			 "historic", "memorial", 
 			 "name", "Other" );
 
-	// Row 26 - Former phoneboxes
+	// Row 27 - Former phoneboxes
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Telephone box containing:", 
@@ -2583,7 +2591,7 @@ public class generate_legend_01
 			 "disused:amenity", "telephone", 
 			 "name", "Disused" );
 
-	// Row 27 - Travel infrastructure
+	// Row 28 - Travel infrastructure
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Car Park", 
@@ -2771,7 +2779,7 @@ public class generate_legend_01
 				 "aeroway", "gate", 
 				 "ref", "Ref" );
 
-	// Row 28 - Smaller travel infrastructure
+	// Row 29 - Smaller travel infrastructure
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Traf. Lights", 
@@ -2809,7 +2817,7 @@ public class generate_legend_01
 				 "emergency", "phone", 
 				 "name", "Name" );
 
-	// Row 29 - Masts and towers
+	// Row 30 - Masts and towers
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Mast", 
@@ -2936,7 +2944,7 @@ public class generate_legend_01
 				 "man_made", "crane", 
 				 "name", "Name" );
 
-	// Row 30 - Natural
+	// Row 31 - Natural
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Peak", 

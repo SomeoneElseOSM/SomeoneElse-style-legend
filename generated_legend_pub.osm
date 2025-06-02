@@ -171,6 +171,36 @@
     <tag k="cuisine" v="indian"/>
     <tag k="name" v="Indian"/>
   </node>
+  <node id="29130000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.17399999999998">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="chinese"/>
+    <tag k="name" v="Chinese"/>
+  </node>
+  <node id="29130000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.17499999999998">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="italian"/>
+    <tag k="name" v="Italian"/>
+  </node>
+  <node id="29130000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.176">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="fish_and_chips"/>
+    <tag k="name" v="Fish and Chips"/>
+  </node>
+  <node id="29130000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.177">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="burger"/>
+    <tag k="name" v="Burger"/>
+  </node>
+  <node id="29130000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.178">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="coffee"/>
+    <tag k="name" v="Coffee"/>
+  </node>
+  <node id="29130000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.17899999999997">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="sandwich"/>
+    <tag k="name" v="Sandwich"/>
+  </node>
   <node id="29140000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.989" lon="135.171">
     <tag k="amenity" v="bar"/>
     <tag k="name" v="Bar"/>

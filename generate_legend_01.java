@@ -540,6 +540,12 @@ public class generate_legend_01
 			 "cuisine", "kebab", 
 			 "name", "Kebab" );
 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "amenity", "restaurant", 
+			 "cuisine", "british", 
+			 "name", "British" );
+
 	// Row 4 - other eating and drinking
 	currentRow += 1;
 	currentCol = 1;

@@ -211,6 +211,11 @@
     <tag k="cuisine" v="kebab"/>
     <tag k="name" v="Kebab"/>
   </node>
+  <node id="29130000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.182">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="british"/>
+    <tag k="name" v="British"/>
+  </node>
   <node id="29140000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.989" lon="135.171">
     <tag k="amenity" v="bar"/>
     <tag k="name" v="Bar"/>

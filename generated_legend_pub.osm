@@ -174,6 +174,11 @@
     <tag k="name" v="Greek"/>
     <tag k="cuisine" v="greek"/>
   </node>
+  <node id="29120000017" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.987" lon="135.18699999999998">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="name" v="French"/>
+    <tag k="cuisine" v="french"/>
+  </node>
   <node id="29130000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.171">
     <tag k="amenity" v="restaurant"/>
     <tag k="name" v="Restaurant"/>
@@ -250,6 +255,11 @@
     <tag k="amenity" v="restaurant"/>
     <tag k="cuisine" v="greek"/>
     <tag k="name" v="Greek"/>
+  </node>
+  <node id="29130000016" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.18599999999998">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="french"/>
+    <tag k="name" v="French"/>
   </node>
   <node id="29140000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.989" lon="135.171">
     <tag k="amenity" v="bar"/>

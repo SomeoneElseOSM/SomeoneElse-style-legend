@@ -492,6 +492,12 @@ public class generate_legend_01
 			 "name", "Mexican", 
 			 "cuisine", "mexican" );
 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "amenity", "fast_food", 
+			 "name", "Greek", 
+			 "cuisine", "greek" );
+
 	// Row 3 - restaurants
 	currentRow += 1;
 	currentCol = 1;
@@ -575,6 +581,12 @@ public class generate_legend_01
 			 "amenity", "restaurant", 
 			 "cuisine", "mexican", 
 			 "name", "Mexican" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "amenity", "restaurant", 
+			 "cuisine", "greek", 
+			 "name", "Greek" );
 
 	// Row 4 - other eating and drinking
 	currentRow += 1;

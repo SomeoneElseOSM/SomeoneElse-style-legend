@@ -271,6 +271,11 @@
     <tag k="cuisine" v="seafood"/>
     <tag k="name" v="Seafood rather than fish or fish and chips"/>
   </node>
+  <node id="29130000018" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.188">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="ice_cream"/>
+    <tag k="name" v="Ice Cream restaurant"/>
+  </node>
   <node id="29140000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.989" lon="135.171">
     <tag k="amenity" v="bar"/>
     <tag k="name" v="Bar"/>

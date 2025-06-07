@@ -175,6 +175,11 @@
     <tag k="name" v="French"/>
     <tag k="cuisine" v="french"/>
   </node>
+  <node id="29120000018" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.987" lon="135.188">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="name" v="Seafood rather than fish or fish and chips"/>
+    <tag k="cuisine" v="seafood"/>
+  </node>
   <node id="29121000001" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9868" lon="135.171">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Fast Food"/>
@@ -256,6 +261,11 @@
     <tag k="amenity" v="restaurant"/>
     <tag k="cuisine" v="french"/>
     <tag k="name" v="French"/>
+  </node>
+  <node id="29130000017" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.988" lon="135.187">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="seafood"/>
+    <tag k="name" v="Seafood rather than fish or fish and chips"/>
   </node>
   <node id="29131000001" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9878" lon="135.171">
     <tag k="place" v="legend_text"/>

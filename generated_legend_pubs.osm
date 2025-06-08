@@ -195,6 +195,11 @@
     <tag k="name" v="Desserts"/>
     <tag k="cuisine" v="dessert"/>
   </node>
+  <node id="29120000022" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.987" lon="135.192">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="name" v="Spanish or tapas"/>
+    <tag k="cuisine" v="spanish"/>
+  </node>
   <node id="29121000001" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9868" lon="135.171">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Fast Food"/>
@@ -301,6 +306,11 @@
     <tag k="amenity" v="restaurant"/>
     <tag k="cuisine" v="dessert"/>
     <tag k="name" v="Desserts"/>
+  </node>
+  <node id="29130000022" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.988" lon="135.192">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="spanish"/>
+    <tag k="name" v="Spanish or tapas"/>
   </node>
   <node id="29131000001" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9878" lon="135.171">
     <tag k="place" v="legend_text"/>

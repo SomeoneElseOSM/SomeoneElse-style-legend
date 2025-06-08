@@ -194,6 +194,11 @@
     <tag k="name" v="Lebanese or similar"/>
     <tag k="cuisine" v="lebanese"/>
   </node>
+  <node id="29120000021" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.987" lon="135.19099999999997">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="name" v="Desserts"/>
+    <tag k="cuisine" v="dessert"/>
+  </node>
   <node id="29130000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.171">
     <tag k="amenity" v="restaurant"/>
     <tag k="name" v="Restaurant"/>
@@ -295,6 +300,11 @@
     <tag k="amenity" v="restaurant"/>
     <tag k="cuisine" v="lebanese"/>
     <tag k="name" v="Lebanese or similar"/>
+  </node>
+  <node id="29130000021" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.988" lon="135.19099999999997">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="dessert"/>
+    <tag k="name" v="Desserts"/>
   </node>
   <node id="29140000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.989" lon="135.171">
     <tag k="amenity" v="bar"/>

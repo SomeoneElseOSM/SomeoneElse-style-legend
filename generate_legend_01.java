@@ -3184,13 +3184,31 @@ public class generate_legend_01
 				 "name", "Name" );
 
 	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Shrub", 
+				 "natural", "shrub", 
+				 "name", "Name" );
+
+	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Tree", 
 				 "natural", "tree", 
 				 "name", "Name" );
 
 	currentCol += 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Shrub", 
-				 "natural", "shrub", 
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "10m crown", 
+				 "natural", "tree", 
+				 "diameter_crown", "10", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "20m crown", 
+				 "natural", "tree", 
+				 "diameter_crown", "20", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "30m crown", 
+				 "natural", "tree", 
+				 "diameter_crown", "30", 
 				 "name", "Name" );
 
 	myOutputOsmStream.println( osmTrailer );

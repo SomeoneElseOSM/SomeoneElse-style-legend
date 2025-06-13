@@ -3556,19 +3556,46 @@
     <tag k="name" v="Spring"/>
   </node>
   <node id="29410000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.016" lon="135.17999999999998">
-    <tag k="natural" v="tree"/>
+    <tag k="natural" v="shrub"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29411000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0158" lon="135.17999999999998">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Tree"/>
+    <tag k="name" v="Shrub"/>
   </node>
   <node id="29410000011" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.016" lon="135.18099999999998">
-    <tag k="natural" v="shrub"/>
+    <tag k="natural" v="tree"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29411000011" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0158" lon="135.18099999999998">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Shrub"/>
+    <tag k="name" v="Tree"/>
+  </node>
+  <node id="29410000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.016" lon="135.182">
+    <tag k="natural" v="tree"/>
+    <tag k="diameter_crown" v="10"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29411000012" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0158" lon="135.182">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="10m crown"/>
+  </node>
+  <node id="29410000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.016" lon="135.183">
+    <tag k="natural" v="tree"/>
+    <tag k="diameter_crown" v="20"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29411000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0158" lon="135.183">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="20m crown"/>
+  </node>
+  <node id="29410000014" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.016" lon="135.184">
+    <tag k="natural" v="tree"/>
+    <tag k="diameter_crown" v="30"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29411000014" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0158" lon="135.184">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="30m crown"/>
   </node>
 </osm>

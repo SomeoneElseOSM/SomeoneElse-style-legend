@@ -411,56 +411,14 @@ public class generate_legend_01
 	currentCol += 1;
 	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "fast_food", 
-			 "name", "American, Burger", 
-			 "cuisine", "burger" );
-
-	currentCol += 1;
-	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
-			 "amenity", "fast_food", 
-			 "name", "Chicken", 
-			 "cuisine", "chicken" );
-
-	currentCol += 1;
-	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
-			 "amenity", "fast_food", 
-			 "name", "Chinese, Japanese, etc.", 
-			 "cuisine", "chinese" );
-
-	currentCol += 1;
-	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
-			 "amenity", "fast_food", 
-			 "name", "Coffee", 
-			 "cuisine", "coffee" );
-
-	currentCol += 1;
-	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
-			 "amenity", "fast_food", 
 			 "name", "Fish and Chips", 
 			 "cuisine", "fish_and_chips" );
 
 	currentCol += 1;
 	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "fast_food", 
-			 "name", "Ice Cream", 
-			 "cuisine", "ice_cream" );
-
-	currentCol += 1;
-	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
-			 "amenity", "fast_food", 
-			 "name", "Indian", 
-			 "cuisine", "indian" );
-
-	currentCol += 1;
-	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
-			 "amenity", "fast_food", 
-			 "name", "Kebab, Turkish", 
-			 "cuisine", "kebab" );
-
-	currentCol += 1;
-	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
-			 "amenity", "fast_food", 
-			 "name", "Pies, Pasties", 
-			 "cuisine", "pie" );
+			 "name", "Chinese, Japanese, etc.", 
+			 "cuisine", "chinese" );
 
 	currentCol += 1;
 	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
@@ -473,6 +431,36 @@ public class generate_legend_01
 			 "amenity", "fast_food", 
 			 "name", "Sandwich", 
 			 "cuisine", "sandwich" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "amenity", "fast_food", 
+			 "name", "American, Burger", 
+			 "cuisine", "burger" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "amenity", "fast_food", 
+			 "name", "Chicken", 
+			 "cuisine", "chicken" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "amenity", "fast_food", 
+			 "name", "Indian", 
+			 "cuisine", "indian" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "amenity", "fast_food", 
+			 "name", "Coffee", 
+			 "cuisine", "coffee" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "amenity", "fast_food", 
+			 "name", "Kebab, Turkish", 
+			 "cuisine", "kebab" );
 
 	currentCol += 1;
 	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
@@ -513,6 +501,12 @@ public class generate_legend_01
 	currentCol += 1;
 	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "fast_food", 
+			 "name", "Ice Cream", 
+			 "cuisine", "ice_cream" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "amenity", "fast_food", 
 			 "name", "Caribbean or similar", 
 			 "cuisine", "caribbean" );
 
@@ -531,20 +525,26 @@ public class generate_legend_01
 	currentCol += 1;
 	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "fast_food", 
-			 "name", "Spanish or tapas", 
-			 "cuisine", "spanish" );
-
-	currentCol += 1;
-	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
-			 "amenity", "fast_food", 
 			 "name", "Donut", 
 			 "cuisine", "donut" );
 
 	currentCol += 1;
 	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "amenity", "fast_food", 
+			 "name", "Spanish or tapas", 
+			 "cuisine", "spanish" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "amenity", "fast_food", 
 			 "name", "African", 
 			 "cuisine", "african" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "amenity", "fast_food", 
+			 "name", "Pies, Pasties", 
+			 "cuisine", "pie" );
 
 	// Row 3 - restaurants
 	currentRow += 1;

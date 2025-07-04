@@ -1284,6 +1284,24 @@ public class generate_legend_01
 				 "name", "Name" );
 
 	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+				 "amenity", "pharmacy",
+				 "wheelchair", "yes", 
+				 "name", "wheelchair access" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+				 "amenity", "pharmacy", 
+				 "wheelchair", "limited", 
+				 "name", "limited wheelchair access" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+				 "amenity", "pharmacy", 
+				 "wheelchair", "no", 
+				 "name", "no wheelchair access" );
+
+	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Ambulance Station",
 				 "amenity", "ambulance_station", 
 				 "name", "Name" );

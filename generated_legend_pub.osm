@@ -2195,10 +2195,25 @@
     <tag k="name" v="Bank / Building Society"/>
   </node>
   <node id="29320000002" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.006999999999998" lon="135.172">
+    <tag k="amenity" v="bank"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="name" v="wheelchair access"/>
+  </node>
+  <node id="29320000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.006999999999998" lon="135.17299999999997">
+    <tag k="amenity" v="bank"/>
+    <tag k="wheelchair" v="limited"/>
+    <tag k="name" v="limited wheelchair access"/>
+  </node>
+  <node id="29320000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.006999999999998" lon="135.17399999999998">
+    <tag k="amenity" v="bank"/>
+    <tag k="wheelchair" v="no"/>
+    <tag k="name" v="no wheelchair access"/>
+  </node>
+  <node id="29320000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.006999999999998" lon="135.17499999999998">
     <tag k="amenity" v="atm"/>
     <tag k="operator" v="Operator"/>
   </node>
-  <node id="29321000002" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0068" lon="135.172">
+  <node id="29321000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0068" lon="135.17499999999998">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="ATM"/>
   </node>

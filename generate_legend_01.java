@@ -885,6 +885,12 @@ public class generate_legend_01
 			 "shop", "variety_store", 
 			 "name", "Variety, Discount" );
 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "shop", "variety_store", 
+			 "zero_waste", "only", 
+			 "name", "Zero waste discount" );
+
 	// Row 6 - other shops
 	currentRow += 1;
 	currentCol = 1;
@@ -914,6 +920,12 @@ public class generate_legend_01
 
 	currentCol += 1;
 	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "shop", "gift", 
+			 "zero_waste", "only", 
+			 "name", "Zero waste gift" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "shop", "toys", 
 			 "name", "Toys" );
 
@@ -936,6 +948,12 @@ public class generate_legend_01
 	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "shop", "doityourself", 
 			 "name", "Do-It-Yourself, Hardware" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "shop", "doityourself", 
+			 "zero_waste", "only", 
+			 "name", "Zero waste hardware" );
 
 	currentCol += 1;
 	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
@@ -1034,6 +1052,12 @@ public class generate_legend_01
 
 	currentCol += 1;
 	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "shop", "pet", 
+			 "zero_waste", "only", 
+			 "name", "Zero waste pet" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "shop", "pet_food", 
 			 "name", "Pet Food" );
 
@@ -1073,6 +1097,12 @@ public class generate_legend_01
 	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "shop", "beauty", 
 			 "name", "Beauty" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "shop", "beauty", 
+			 "zero_waste", "only", 
+			 "name", "Zero waste beauty" );
 
 	currentCol += 1;
 	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 

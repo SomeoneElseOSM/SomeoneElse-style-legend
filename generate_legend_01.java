@@ -1260,9 +1260,21 @@ public class generate_legend_01
 				 "name", "Name" );
 
 	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Water Quality", 
+				 "man_made", "monitoring_station", 
+				 "monitoring:bathing_water", "yes", 
+				 "name", "Name" );
+
+	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Weather Monitoring Station", 
 				 "man_made", "monitoring_station", 
 				 "monitoring:weather", "yes", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Wind Monitoring Station", 
+				 "man_made", "monitoring_station", 
+				 "monitoring:wind_direction", "yes", 
 				 "name", "Name" );
 
 	currentCol += 1;

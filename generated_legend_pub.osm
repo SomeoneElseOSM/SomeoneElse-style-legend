@@ -2494,18 +2494,26 @@
     <tag k="name" v="Non-drinking water"/>
   </node>
   <node id="29340000024" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.194">
-    <tag k="man_made" v="water_well"/>
+    <tag k="amenity" v="sanitary_dump_station"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29341000024" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0088" lon="135.194">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Well"/>
+    <tag k="name" v="Sanitary Dump Station"/>
   </node>
   <node id="29340000025" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.195">
-    <tag k="man_made" v="outfall"/>
+    <tag k="man_made" v="water_well"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29341000025" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0088" lon="135.195">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Well"/>
+  </node>
+  <node id="29340000026" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.009" lon="135.196">
+    <tag k="man_made" v="outfall"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29341000026" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0088" lon="135.196">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Outfall"/>
   </node>

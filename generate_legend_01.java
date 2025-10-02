@@ -2485,6 +2485,11 @@ public class generate_legend_01
 				 "name", "Name" );
 
 	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Sanitary Dump Station", 
+				 "amenity", "sanitary_dump_station", 
+				 "name", "Name" );
+
+	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Well", 
 				 "man_made", "water_well", 
 				 "name", "Name" );

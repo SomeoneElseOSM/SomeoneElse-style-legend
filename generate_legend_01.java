@@ -1192,6 +1192,11 @@ public class generate_legend_01
 				 "name", "Name" );
 
 	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Fuel Pump", 
+				 "man_made", "fuel_pump", 
+				 "name", "Name" );
+
+	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Charging Station", 
 				 "amenity", "charging_station", 
 				 "name", "Operator" );
@@ -3150,7 +3155,7 @@ public class generate_legend_01
 				 "emergency", "phone", 
 				 "name", "Name" );
 
-	// Row 30 - Masts and towers
+	// Row 30 - Masts and towers and other man_made
 	currentRow += 1;
 	currentCol = 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Mast", 
@@ -3205,9 +3210,14 @@ public class generate_legend_01
 				 "name", "Name" );
 
 	currentCol += 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Radar", 
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Radar Tower", 
 				 "man_made", "tower", 
 				 "tower:type", "radar", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Satellite Dish", 
+				 "man_made", "satellite_dish", 
 				 "name", "Name" );
 
 	currentCol += 1;
@@ -3281,6 +3291,21 @@ public class generate_legend_01
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Crane", 
 				 "man_made", "crane", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "El Substation", 
+				 "power", "substation", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Hydro Power", 
+				 "power", "generator", 
+				 "generator:source", "hydro" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Sewage", 
+				 "man_made", "wastewater_plant", 
 				 "name", "Name" );
 
 	// Row 31 - Natural

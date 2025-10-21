@@ -1955,6 +1955,14 @@
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Bleachers"/>
   </node>
+  <node id="29270000023" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.002" lon="135.19299999999998">
+    <tag k="leisure" v="outdoor_seating"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29271000023" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0018" lon="135.19299999999998">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Outdoor Seating"/>
+  </node>
   <node id="29280000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.003" lon="135.171">
     <tag k="barrier" v="gate"/>
     <tag k="name" v="Gate"/>

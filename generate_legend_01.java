@@ -2003,6 +2003,11 @@ public class generate_legend_01
 				 "leisure", "bleachers", 
 				 "name", "Name" );
 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Outdoor Seating", 
+				 "leisure", "outdoor_seating", 
+				 "name", "Name" );
+
 	// Row 18 - Barriers
 	currentRow += 1;
 	currentCol = 1;

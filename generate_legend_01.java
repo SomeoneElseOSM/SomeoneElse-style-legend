@@ -1306,11 +1306,6 @@ public class generate_legend_01
 				 "name", "Name" );
 
 	currentCol += 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Manhole", 
-				 "man_made", "manhole", 
-				 "Ref", "Ref" );
-
-	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Pipeline Marker", 
 				 "man_made", "pipeline_marker", 
 				 "Ref", "Ref" );
@@ -3302,6 +3297,11 @@ public class generate_legend_01
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Vent Shaft", 
 				 "man_made", "ventilation_shaft", 
 				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Manhole", 
+				 "man_made", "manhole", 
+				 "Ref", "Ref" );
 
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Crane", 

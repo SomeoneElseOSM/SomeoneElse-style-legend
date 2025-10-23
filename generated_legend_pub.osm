@@ -940,26 +940,34 @@
     <tag k="name" v="Sky Brightness Monitoring"/>
   </node>
   <node id="29190000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.994" lon="135.183">
-    <tag k="man_made" v="pipeline_marker"/>
+    <tag k="man_made" v="manhole"/>
     <tag k="Ref" v="Ref"/>
   </node>
   <node id="29191000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9938" lon="135.183">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Pipeline Marker"/>
+    <tag k="name" v="Manhole"/>
   </node>
   <node id="29190000014" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.994" lon="135.184">
-    <tag k="military" v="range_marker"/>
-    <tag k="name" v="Name"/>
+    <tag k="man_made" v="pipeline_marker"/>
+    <tag k="Ref" v="Ref"/>
   </node>
   <node id="29191000014" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9938" lon="135.184">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Military Marker"/>
+    <tag k="name" v="Pipeline Marker"/>
   </node>
   <node id="29190000015" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.994" lon="135.18499999999997">
-    <tag k="military" v="bunker"/>
+    <tag k="military" v="range_marker"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29191000015" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9938" lon="135.18499999999997">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Military Marker"/>
+  </node>
+  <node id="29190000016" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.994" lon="135.18599999999998">
+    <tag k="military" v="bunker"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29191000016" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9938" lon="135.18599999999998">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Military Bunker"/>
   </node>

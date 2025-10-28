@@ -2295,6 +2295,11 @@ public class generate_legend_01
 				 "man_made", "cross", 
 				 "name", "Cross" );
 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Dovecote", 
+				 "man_made", "dovecote", 
+				 "name", "Name" );
+
 	// Row 21 - government
 	currentRow += 1;
 	currentCol = 1;

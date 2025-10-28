@@ -2219,6 +2219,14 @@
     <tag k="man_made" v="cross"/>
     <tag k="name" v="Cross"/>
   </node>
+  <node id="29300000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.005" lon="135.183">
+    <tag k="man_made" v="dovecote"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29301000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0048" lon="135.183">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Dovecote"/>
+  </node>
   <node id="29310000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.006" lon="135.171">
     <tag k="amenity" v="post_office"/>
     <tag k="name" v="Name"/>

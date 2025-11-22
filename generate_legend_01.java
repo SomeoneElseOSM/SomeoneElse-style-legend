@@ -2058,6 +2058,11 @@ public class generate_legend_01
 
 	currentCol += 1;
 	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "barrier", "height_restrictor", 
+			 "name", "Height Restrictor" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "barrier", "door", 
 			 "name", "Door" );
 

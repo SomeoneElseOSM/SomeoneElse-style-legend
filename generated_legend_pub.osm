@@ -3670,42 +3670,50 @@
     <tag k="name" v="Vent Shaft"/>
   </node>
   <node id="29400000025" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.015" lon="135.195">
-    <tag k="man_made" v="manhole"/>
-    <tag k="Ref" v="Ref"/>
+    <tag k="amenity" v="weighbridge"/>
+    <tag k="name" v="Name"/>
   </node>
   <node id="29401000025" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0148" lon="135.195">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Manhole"/>
+    <tag k="name" v="Weighbridge"/>
   </node>
   <node id="29400000026" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.015" lon="135.196">
-    <tag k="man_made" v="crane"/>
-    <tag k="name" v="Name"/>
+    <tag k="man_made" v="manhole"/>
+    <tag k="Ref" v="Ref"/>
   </node>
   <node id="29401000026" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0148" lon="135.196">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Crane"/>
+    <tag k="name" v="Manhole"/>
   </node>
   <node id="29400000027" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.015" lon="135.19699999999997">
-    <tag k="power" v="substation"/>
+    <tag k="man_made" v="crane"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29401000027" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0148" lon="135.19699999999997">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="El Substation"/>
+    <tag k="name" v="Crane"/>
   </node>
   <node id="29400000028" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.015" lon="135.19799999999998">
-    <tag k="power" v="generator"/>
-    <tag k="generator:source" v="hydro"/>
+    <tag k="power" v="substation"/>
+    <tag k="name" v="Name"/>
   </node>
   <node id="29401000028" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0148" lon="135.19799999999998">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Hydro Power"/>
+    <tag k="name" v="El Substation"/>
   </node>
   <node id="29400000029" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.015" lon="135.19899999999998">
+    <tag k="power" v="generator"/>
+    <tag k="generator:source" v="hydro"/>
+  </node>
+  <node id="29401000029" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0148" lon="135.19899999999998">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Hydro Power"/>
+  </node>
+  <node id="29400000030" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.015" lon="135.2">
     <tag k="man_made" v="wastewater_plant"/>
     <tag k="name" v="Name"/>
   </node>
-  <node id="29401000029" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0148" lon="135.19899999999998">
+  <node id="29401000030" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0148" lon="135.2">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Sewage"/>
   </node>

@@ -2037,30 +2037,38 @@
     <tag k="name" v="Bus Trap"/>
   </node>
   <node id="29280000018" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.003" lon="135.188">
+    <tag k="man_made" v="footwear_decontamination"/>
+    <tag k="name" v="Footwear Decontamination"/>
+  </node>
+  <node id="29280000019" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.003" lon="135.189">
+    <tag k="highway" v="wheelwash"/>
+    <tag k="name" v="Wheel Wash"/>
+  </node>
+  <node id="29280000020" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.003" lon="135.19">
     <tag k="barrier" v="ticket_barrier"/>
     <tag k="name" v="Ticket Barrier"/>
   </node>
-  <node id="29280000019" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.003" lon="135.189">
+  <node id="29280000021" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.003" lon="135.19099999999997">
     <tag k="entrance" v="main"/>
     <tag k="name" v="Name"/>
   </node>
-  <node id="29281000019" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0028" lon="135.189">
+  <node id="29281000021" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0028" lon="135.19099999999997">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Main Entrance"/>
   </node>
-  <node id="29280000020" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.003" lon="135.19">
+  <node id="29280000022" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.003" lon="135.19199999999998">
     <tag k="waterway" v="sluice_gate"/>
     <tag k="name" v="Name"/>
   </node>
-  <node id="29281000020" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0028" lon="135.19">
+  <node id="29281000022" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0028" lon="135.19199999999998">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Sluice"/>
   </node>
-  <node id="29280000021" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.003" lon="135.19099999999997">
+  <node id="29280000023" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.003" lon="135.19299999999998">
     <tag k="waterway" v="lock_gate"/>
     <tag k="name" v="Name"/>
   </node>
-  <node id="29281000021" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0028" lon="135.19099999999997">
+  <node id="29281000023" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0028" lon="135.19299999999998">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Lock Gate"/>
   </node>

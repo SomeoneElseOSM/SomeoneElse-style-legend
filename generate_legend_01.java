@@ -1503,16 +1503,6 @@ public class generate_legend_01
 			 "tourism", "camp_pitch", 
 			 "name", "Name" );
 
-	currentCol += 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Marina",
-			 "leisure", "marina", 
-			 "name", "Name" );
-
-	currentCol += 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Boat Storage",
-			 "amenity", "boat_storage", 
-			 "name", "Name" );
-
 	// Row 12 - big places you might want to visit
 	currentRow += 1;
 	currentCol = 1;
@@ -1674,6 +1664,11 @@ public class generate_legend_01
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Waterway fuel", 
 				 "waterway", "fuel", 
 				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Boat Storage",
+			 "amenity", "boat_storage", 
+			 "name", "Name" );
 
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Bird Hide", 

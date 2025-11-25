@@ -1503,6 +1503,11 @@ public class generate_legend_01
 			 "tourism", "camp_pitch", 
 			 "name", "Name" );
 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Marina",
+			 "leisure", "marina", 
+			 "name", "Name" );
+
 	// Row 12 - big places you might want to visit
 	currentRow += 1;
 	currentCol = 1;

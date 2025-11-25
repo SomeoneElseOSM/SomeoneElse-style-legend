@@ -1235,6 +1235,14 @@
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Camp Pitch"/>
   </node>
+  <node id="29210000017" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.18699999999998">
+    <tag k="leisure" v="marina"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29211000017" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9958" lon="135.18699999999998">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Marina"/>
+  </node>
   <node id="29220000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.997" lon="135.171">
     <tag k="amenity" v="cinema"/>
     <tag k="name" v="Cinema"/>

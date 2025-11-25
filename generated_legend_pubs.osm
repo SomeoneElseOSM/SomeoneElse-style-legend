@@ -1171,6 +1171,10 @@
     <tag k="tourism" v="camp_pitch"/>
     <tag k="name" v="Name"/>
   </node>
+  <node id="29210000017" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.996" lon="135.187">
+    <tag k="leisure" v="marina"/>
+    <tag k="name" v="Name"/>
+  </node>
   <node id="29211000001" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9958" lon="135.171">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Hotel"/>
@@ -1234,6 +1238,10 @@
   <node id="29211000016" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9958" lon="135.186">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Camp Pitch"/>
+  </node>
+  <node id="29211000017" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9958" lon="135.187">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Marina"/>
   </node>
   <node id="29220000001" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.997" lon="135.171">
     <tag k="amenity" v="cinema"/>

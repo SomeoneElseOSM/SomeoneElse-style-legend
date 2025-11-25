@@ -1508,6 +1508,11 @@ public class generate_legend_01
 			 "leisure", "marina", 
 			 "name", "Name" );
 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Boat Storage",
+			 "amenity", "boat_storage", 
+			 "name", "Name" );
+
 	// Row 12 - big places you might want to visit
 	currentRow += 1;
 	currentCol = 1;

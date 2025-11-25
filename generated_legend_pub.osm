@@ -1243,6 +1243,14 @@
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Marina"/>
   </node>
+  <node id="29210000018" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.996" lon="135.188">
+    <tag k="amenity" v="boat_storage"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29211000018" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9958" lon="135.188">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Boat Storage"/>
+  </node>
   <node id="29220000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.997" lon="135.171">
     <tag k="amenity" v="cinema"/>
     <tag k="name" v="Cinema"/>

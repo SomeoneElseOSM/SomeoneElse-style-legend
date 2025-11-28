@@ -1641,18 +1641,23 @@ public class generate_legend_01
 				 "name", "Name" );
 
 	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Canoe Put In", 
+				 "whitewater", "put_in", 
+				 "name", "Name" );
+
+	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Slipway", 
 				 "leisure", "slipway", 
 				 "name", "Name" );
 
 	currentCol += 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Winding hole", 
-				 "waterway", "turning_point", 
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Waterway Junction", 
+				 "waterway", "junction", 
 				 "name", "Name" );
 
 	currentCol += 1;
-	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Canoe Put In", 
-				 "whitewater", "put_in", 
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Winding hole", 
+				 "waterway", "turning_point", 
 				 "name", "Name" );
 
 	currentCol += 1;

@@ -1402,6 +1402,11 @@ public class generate_legend_01
 				 "name", "Name" );
 
 	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Bleed Control Kit", 
+				 "emergency", "bleed_control_kit", 
+				 "name", "Name" );
+
+	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Life Ring", 
 				 "emergency", "life_ring", 
 				 "name", "Name" );

@@ -1028,18 +1028,22 @@
     <tag k="name" v="Name"/>
   </node>
   <node id="29200000016" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.995" lon="135.186">
-    <tag k="emergency" v="life_ring"/>
+    <tag k="emergency" v="bleed_control_kit"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29200000017" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.995" lon="135.187">
-    <tag k="emergency" v="fire_extinguisher"/>
+    <tag k="emergency" v="life_ring"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29200000018" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.995" lon="135.188">
-    <tag k="emergency" v="fire_hydrant"/>
+    <tag k="emergency" v="fire_extinguisher"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29200000019" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.995" lon="135.189">
+    <tag k="emergency" v="fire_hydrant"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29200000020" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.995" lon="135.19">
     <tag k="emergency" v="access_point"/>
     <tag k="name" v="Name"/>
   </node>
@@ -1093,17 +1097,21 @@
   </node>
   <node id="29201000016" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9948" lon="135.186">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Life Ring"/>
+    <tag k="name" v="Bleed Control Kit"/>
   </node>
   <node id="29201000017" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9948" lon="135.187">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Fire Extinguisher"/>
+    <tag k="name" v="Life Ring"/>
   </node>
   <node id="29201000018" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9948" lon="135.188">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Fire Hydrant"/>
+    <tag k="name" v="Fire Extinguisher"/>
   </node>
   <node id="29201000019" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9948" lon="135.189">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Fire Hydrant"/>
+  </node>
+  <node id="29201000020" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9948" lon="135.19">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Emergency Access Point"/>
   </node>

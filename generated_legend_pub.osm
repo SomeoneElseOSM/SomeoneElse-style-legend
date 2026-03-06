@@ -3174,10 +3174,15 @@
   </node>
   <node id="29360000013" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.011" lon="135.183">
     <tag k="historic" v="memorial"/>
+    <tag k="memorial" v="ghost_bike"/>
+    <tag k="name" v="Ghost bike"/>
+  </node>
+  <node id="29360000014" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.011" lon="135.184">
+    <tag k="historic" v="memorial"/>
     <tag k="memorial" v="grave"/>
     <tag k="name" v="Grave"/>
   </node>
-  <node id="29360000014" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.011" lon="135.184">
+  <node id="29360000015" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.011" lon="135.18499999999997">
     <tag k="historic" v="memorial"/>
     <tag k="name" v="Other"/>
   </node>

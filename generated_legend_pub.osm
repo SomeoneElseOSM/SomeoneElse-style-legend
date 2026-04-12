@@ -3527,6 +3527,7 @@
   </node>
   <node id="29390000002" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.014" lon="135.172">
     <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="yes"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29391000002" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0138" lon="135.172">
@@ -3534,43 +3535,83 @@
     <tag k="name" v="Crossing"/>
   </node>
   <node id="29390000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.014" lon="135.17299999999997">
-    <tag k="highway" v="milestone"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29391000003" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0138" lon="135.17299999999997">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Milestone"/>
+    <tag k="name" v="Signalised"/>
   </node>
   <node id="29390000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.014" lon="135.17399999999998">
-    <tag k="highway" v="mini_roundabout"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="traffic_signals:sound" v="yes"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29391000004" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0138" lon="135.17399999999998">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Mini Rndbt"/>
+    <tag k="name" v="Sound"/>
   </node>
   <node id="29390000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.014" lon="135.17499999999998">
-    <tag k="highway" v="street_lamp"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="traffic_signals:vibration" v="yes"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29391000005" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0138" lon="135.17499999999998">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Streetlamp"/>
+    <tag k="name" v="Vibration"/>
   </node>
   <node id="29390000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.014" lon="135.176">
-    <tag k="highway" v="street_lamp"/>
-    <tag k="lamp_type" v="gaslight"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="traffic_signals:sound" v="yes"/>
+    <tag k="traffic_signals:vibration" v="yes"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29391000006" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0138" lon="135.176">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Gaslight"/>
+    <tag k="name" v="Sound and vibration"/>
   </node>
   <node id="29390000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.014" lon="135.177">
-    <tag k="emergency" v="phone"/>
+    <tag k="highway" v="milestone"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29391000007" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0138" lon="135.177">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Milestone"/>
+  </node>
+  <node id="29390000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.014" lon="135.178">
+    <tag k="highway" v="mini_roundabout"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29391000008" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0138" lon="135.178">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Mini Rndbt"/>
+  </node>
+  <node id="29390000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.014" lon="135.17899999999997">
+    <tag k="highway" v="street_lamp"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29391000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0138" lon="135.17899999999997">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Streetlamp"/>
+  </node>
+  <node id="29390000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.014" lon="135.17999999999998">
+    <tag k="highway" v="street_lamp"/>
+    <tag k="lamp_type" v="gaslight"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29391000010" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0138" lon="135.17999999999998">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Gaslight"/>
+  </node>
+  <node id="29390000011" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.014" lon="135.18099999999998">
+    <tag k="emergency" v="phone"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29391000011" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0138" lon="135.18099999999998">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Phone"/>
   </node>

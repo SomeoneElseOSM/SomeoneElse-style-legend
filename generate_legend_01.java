@@ -3236,6 +3236,35 @@ public class generate_legend_01
 	currentCol += 1;
 	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Crossing", 
 				 "highway", "crossing", 
+				 "tactile_paving", "yes", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Signalised", 
+				 "highway", "crossing", 
+				 "crossing", "traffic_signals", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Sound", 
+				 "highway", "crossing", 
+				 "crossing", "traffic_signals", 
+				 "traffic_signals:sound", "yes", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Vibration", 
+				 "highway", "crossing", 
+				 "crossing", "traffic_signals", 
+				 "traffic_signals:vibration", "yes", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Sound and vibration", 
+				 "highway", "crossing", 
+				 "crossing", "traffic_signals", 
+				 "traffic_signals:sound", "yes", 
+				 "traffic_signals:vibration", "yes", 
 				 "name", "Name" );
 
 	currentCol += 1;

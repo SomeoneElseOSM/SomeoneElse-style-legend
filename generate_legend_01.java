@@ -2957,13 +2957,19 @@ public class generate_legend_01
 	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "historic", "memorial", 
 			 "memorial", "plate", 
-			 "name", "Plate" );
+			 "name", "Plate or Tablet" );
 
 	currentCol += 1;
 	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
 			 "historic", "memorial", 
 			 "memorial", "bench", 
 			 "name", "Bench" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "historic", "memorial", 
+			 "memorial", "cairn", 
+			 "name", "Cairn" );
 
 	currentCol += 1;
 	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 

@@ -256,8 +256,9 @@
   <node id='29100001011' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9850' lon='135.145' />
   <node id='29100001015' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9850' lon='135.165' />
   <node id='29100002001' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9870' lon='135.095' />
-  <node id='29100002002' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9870' lon='135.103' />
-  <node id='29100002003' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9870' lon='135.105' />
+  <node id='29100002002' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9870' lon='135.099' />
+  <node id='29100002003' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9870' lon='135.103' />
+  <node id='29100002004' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9870' lon='135.105' />
   <node id='29100002009' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9870' lon='135.109' />
   <node id='29100002010' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9870' lon='135.113' />
   <node id='29100002011' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9870' lon='135.115' />
@@ -1302,17 +1303,24 @@
     <nd ref='29100002001' />
     <nd ref='29100002002' />
     <tag k='highway' v='track' />
-    <tag k='name' v='Undesignated wide path' />
+    <tag k='surface' v='paved' />
+    <tag k='name' v='Undesignated good wide path' />
   </way>
   <way id='9200002002' timestamp='2017-04-30T10:33:53Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101463'>
     <nd ref='29100002002' />
     <nd ref='29100002003' />
     <tag k='highway' v='track' />
+    <tag k='name' v='Undesignated wide path' />
+  </way>
+  <way id='9200002003' timestamp='2017-04-30T10:33:53Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101463'>
+    <nd ref='29100002003' />
+    <nd ref='29100002004' />
+    <tag k='highway' v='track' />
     <tag k='name' v='Less visible' />
     <tag k='trail_visibility' v='intermediate' />
   </way>
-  <way id='9200002003' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
-    <nd ref='29100002003' />
+  <way id='9200002004' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+    <nd ref='29100002004' />
     <nd ref='29100002009' />
     <tag k='highway' v='path' />
     <tag k='surface' v='paved' />

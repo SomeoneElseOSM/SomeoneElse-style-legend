@@ -278,9 +278,9 @@
   <node id='29100003013' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9890' lon='135.155' />
   <node id='29100003015' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9890' lon='135.165' />
   <node id='29100004001' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9910' lon='135.095' />
-  <node id='29100004002' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9910' lon='135.103' />
+  <node id='29100004002' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9910' lon='135.100' />
   <node id='29100004003' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9910' lon='135.105' />
-  <node id='29100004004' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9910' lon='135.113' />
+  <node id='29100004004' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9910' lon='135.110' />
   <node id='29100004005' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9910' lon='135.115' />
   <node id='29100004007' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9910' lon='135.125' />
   <node id='29100004009' timestamp='2017-04-30T10:47:08Z' uid='112' user='SomeoneElse' visible='true' version='3' changeset='101464' lat='-24.9910' lon='135.135' />
@@ -1445,6 +1445,15 @@
   </way>
   <way id='9200004001' timestamp='2017-04-30T10:33:52Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101463'>
     <nd ref='29100004001' />
+    <nd ref='29100004002' />
+    <tag k='designation' v='unclassified_county_road' />
+    <tag k='highway' v='track' />
+    <tag k='surface' v='paved' />
+    <tag k='name' v='Good Unclassified County Road' />
+    <tag k='prow_ref' v='PROW REF' />
+  </way>
+  <way id='9200004002' timestamp='2017-04-30T10:33:52Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101463'>
+    <nd ref='29100004002' />
     <nd ref='29100004003' />
     <tag k='designation' v='unclassified_county_road' />
     <tag k='highway' v='track' />
@@ -1453,6 +1462,15 @@
   </way>
   <way id='9200004003' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
     <nd ref='29100004003' />
+    <nd ref='29100004004' />
+    <tag k='designation' v='unclassified_county_road' />
+    <tag k='highway' v='footway' />
+    <tag k='surface' v='paved' />
+    <tag k='name' v='Good Narrow Unclassified County Road' />
+    <tag k='prow_ref' v='PROW REF' />
+  </way>
+  <way id='9200004004' timestamp='2017-04-30T10:15:20Z' uid='112' user='SomeoneElse' visible='true' version='1' changeset='101460'>
+    <nd ref='29100004004' />
     <nd ref='29100004005' />
     <tag k='designation' v='unclassified_county_road' />
     <tag k='highway' v='footway' />

@@ -1645,6 +1645,14 @@
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Seesaw"/>
   </node>
+  <node id="29250000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.0" lon="135.17899999999997">
+    <tag k="playground" v="balancebeam"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29251000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9998" lon="135.17899999999997">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Balancebeam"/>
+  </node>
   <node id="29260000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.000999999999998" lon="135.171">
     <tag k="leisure" v="pitch"/>
     <tag k="sport" v="tennis"/>

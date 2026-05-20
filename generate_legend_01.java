@@ -1797,6 +1797,11 @@ public class generate_legend_01
 				 "playground", "seesaw", 
 				 "name", "Name" );
 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Balancebeam", 
+				 "playground", "balancebeam", 
+				 "name", "Name" );
+
 	// Row 16 - Pitches
 	currentRow += 1;
 	currentCol = 1;

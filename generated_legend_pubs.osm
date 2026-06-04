@@ -706,22 +706,26 @@
     <tag k="name" v="Travel Agent"/>
   </node>
   <node id="29170000011" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.992" lon="135.181">
+    <tag k="shop" v="ticket"/>
+    <tag k="name" v="Ticket"/>
+  </node>
+  <node id="29170000012" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.992" lon="135.182">
     <tag k="shop" v="copyshop"/>
     <tag k="name" v="Copyshop, Printers"/>
   </node>
-  <node id="29170000012" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.992" lon="135.182">
+  <node id="29170000013" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.992" lon="135.183">
     <tag k="shop" v="pet_grooming"/>
     <tag k="name" v="Pet Grooming"/>
   </node>
-  <node id="29170000013" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.992" lon="135.183">
+  <node id="29170000014" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.992" lon="135.184">
     <tag k="amenity" v="veterinary"/>
     <tag k="name" v="Vet"/>
   </node>
-  <node id="29170000014" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.992" lon="135.184">
+  <node id="29170000015" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.992" lon="135.185">
     <tag k="amenity" v="animal_boarding"/>
     <tag k="name" v="Animal Boarding"/>
   </node>
-  <node id="29170000015" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.992" lon="135.185">
+  <node id="29170000016" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.992" lon="135.186">
     <tag k="amenity" v="animal_shelter"/>
     <tag k="name" v="Animal Shelter"/>
   </node>

@@ -1880,10 +1880,19 @@
   </node>
   <node id="29260000023" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.000999999999998" lon="135.19299999999998">
     <tag k="leisure" v="pitch"/>
-    <tag k="sport" v="chess"/>
+    <tag k="sport" v="archery"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29261000023" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.000799999999998" lon="135.19299999999998">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Archery"/>
+  </node>
+  <node id="29260000024" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.000999999999998" lon="135.194">
+    <tag k="leisure" v="pitch"/>
+    <tag k="sport" v="chess"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29261000024" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-25.000799999999998" lon="135.194">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Chess Board"/>
   </node>

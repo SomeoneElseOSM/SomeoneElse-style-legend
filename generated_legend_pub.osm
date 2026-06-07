@@ -1514,74 +1514,90 @@
     <tag k="name" v="Boat Storage"/>
   </node>
   <node id="29240000015" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.999" lon="135.18499999999997">
-    <tag k="leisure" v="bird_hide"/>
+    <tag k="amenity" v="binoculars_free"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29241000015" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9988" lon="135.18499999999997">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Bird Hide"/>
+    <tag k="name" v="Binoculars"/>
   </node>
   <node id="29240000016" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.999" lon="135.18599999999998">
-    <tag k="leisure" v="hunting_stand"/>
+    <tag k="amenity" v="binoculars_pay"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29241000016" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9988" lon="135.18599999999998">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Hunting Stand"/>
+    <tag k="name" v="(pay)"/>
   </node>
   <node id="29240000017" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.999" lon="135.18699999999998">
-    <tag k="leisure" v="grouse_butt"/>
+    <tag k="leisure" v="bird_hide"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29241000017" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9988" lon="135.18699999999998">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Grouse Butt"/>
+    <tag k="name" v="Bird Hide"/>
   </node>
   <node id="29240000018" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.999" lon="135.188">
-    <tag k="man_made" v="survey_point"/>
+    <tag k="leisure" v="hunting_stand"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29241000018" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9988" lon="135.188">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Trig Point"/>
+    <tag k="name" v="Hunting Stand"/>
   </node>
   <node id="29240000019" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.999" lon="135.189">
-    <tag k="man_made" v="boundary_stone"/>
+    <tag k="leisure" v="grouse_butt"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29241000019" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9988" lon="135.189">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Boundary Stone"/>
+    <tag k="name" v="Grouse Butt"/>
   </node>
   <node id="29240000020" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.999" lon="135.19">
-    <tag k="man_made" v="cairn"/>
+    <tag k="man_made" v="survey_point"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29241000020" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9988" lon="135.19">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Cairn"/>
+    <tag k="name" v="Trig Point"/>
   </node>
   <node id="29240000021" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.999" lon="135.19099999999997">
-    <tag k="man_made" v="mounting_block"/>
+    <tag k="man_made" v="boundary_stone"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29241000021" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9988" lon="135.19099999999997">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Mounting Block"/>
+    <tag k="name" v="Boundary Stone"/>
   </node>
   <node id="29240000022" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.999" lon="135.19199999999998">
-    <tag k="leisure" v="firepit"/>
+    <tag k="man_made" v="cairn"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29241000022" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9988" lon="135.19199999999998">
     <tag k="place" v="legend_text"/>
-    <tag k="name" v="Firepit"/>
+    <tag k="name" v="Cairn"/>
   </node>
   <node id="29240000023" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.999" lon="135.19299999999998">
-    <tag k="amenity" v="watering_place"/>
+    <tag k="man_made" v="mounting_block"/>
     <tag k="name" v="Name"/>
   </node>
   <node id="29241000023" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9988" lon="135.19299999999998">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Mounting Block"/>
+  </node>
+  <node id="29240000024" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.999" lon="135.194">
+    <tag k="leisure" v="firepit"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29241000024" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9988" lon="135.194">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Firepit"/>
+  </node>
+  <node id="29240000025" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.999" lon="135.195">
+    <tag k="amenity" v="watering_place"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29241000025" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9988" lon="135.195">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Watering Place"/>
   </node>

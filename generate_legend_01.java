@@ -896,6 +896,11 @@ public class generate_legend_01
 			 "amenity", "marketplace", 
 			 "name", "Marketplace" );
 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "amenity", "food_court", 
+			 "name", "Food Court" );
+
 	// Row 6 - other shops
 	currentRow += 1;
 	currentCol = 1;

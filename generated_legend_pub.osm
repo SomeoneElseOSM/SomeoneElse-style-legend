@@ -505,6 +505,10 @@
     <tag k="zero_waste" v="only"/>
     <tag k="name" v="Zero waste discount"/>
   </node>
+  <node id="29150000019" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.99" lon="135.189">
+    <tag k="amenity" v="marketplace"/>
+    <tag k="name" v="Marketplace"/>
+  </node>
   <node id="29160000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.991" lon="135.171">
     <tag k="shop" v="yes"/>
     <tag k="name" v="Generic Shop"/>

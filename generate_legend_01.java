@@ -891,6 +891,11 @@ public class generate_legend_01
 			 "zero_waste", "only", 
 			 "name", "Zero waste discount" );
 
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+			 "amenity", "marketplace", 
+			 "name", "Marketplace" );
+
 	// Row 6 - other shops
 	currentRow += 1;
 	currentCol = 1;

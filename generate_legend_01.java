@@ -2478,6 +2478,33 @@ public class generate_legend_01
 				 "amenity", "atm", 
 				 "operator", "Operator" );
 
+	currentCol += 1;
+	writeLabelledNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, "Bank with ATM", 
+				 "amenity", "bank", 
+				 "atm", "yes", 
+				 "name", "Name" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+				 "amenity", "bank",
+				 "atm", "yes", 
+				 "wheelchair", "yes", 
+				 "name", "wheelchair access" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+				 "amenity", "bank", 
+				 "atm", "yes", 
+				 "wheelchair", "limited", 
+				 "name", "limited wheelchair access" );
+
+	currentCol += 1;
+	writeNodeRowCol( myOutputOsmStream, startNode, currentRow, currentCol, 
+				 "amenity", "bank", 
+				 "atm", "yes", 
+				 "wheelchair", "no", 
+				 "name", "no wheelchair access" );
+
 	// Row 23 - education
 	currentRow += 1;
 	currentCol = 1;

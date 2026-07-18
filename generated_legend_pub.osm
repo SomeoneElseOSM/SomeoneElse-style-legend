@@ -1409,6 +1409,14 @@
     <tag k="place" v="legend_text"/>
     <tag k="name" v="(female)"/>
   </node>
+  <node id="29230000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.998" lon="135.17899999999997">
+    <tag k="amenity" v="kitchen"/>
+    <tag k="name" v="Name"/>
+  </node>
+  <node id="29231000009" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.9978" lon="135.17899999999997">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Kitchen"/>
+  </node>
   <node id="29240000001" changeset="101472" timestamp="2017-04-30T13:03:17Z" version="1" visible="true" user="SomeoneElse" uid="112" lat="-24.999" lon="135.171">
     <tag k="tourism" v="picnic_site"/>
     <tag k="name" v="Name"/>

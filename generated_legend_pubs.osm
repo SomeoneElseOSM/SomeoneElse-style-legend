@@ -1377,6 +1377,10 @@
     <tag k="female" v="yes"/>
     <tag k="name" v="Name"/>
   </node>
+  <node id="29230000009" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.998" lon="135.179">
+    <tag k="amenity" v="kitchen"/>
+    <tag k="name" v="Name"/>
+  </node>
   <node id="29231000001" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9978" lon="135.171">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="Toilets"/>
@@ -1408,6 +1412,10 @@
   <node id="29231000008" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9978" lon="135.178">
     <tag k="place" v="legend_text"/>
     <tag k="name" v="(female)"/>
+  </node>
+  <node id="29231000009" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.9978" lon="135.179">
+    <tag k="place" v="legend_text"/>
+    <tag k="name" v="Kitchen"/>
   </node>
   <node id="29240000001" version="1" timestamp="2017-04-30T13:03:17Z" uid="112" user="SomeoneElse" changeset="101472" lat="-24.999" lon="135.171">
     <tag k="tourism" v="picnic_site"/>
